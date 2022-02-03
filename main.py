@@ -1,6 +1,6 @@
 import json
 import time
-
+from read_screen import Reader
 from selenium import webdriver
 
 driver = webdriver.Firefox()
@@ -11,11 +11,16 @@ curr_url = "about:blank"
 
 print("Working...")
 
+reader = Reader()
+print("Reader Created")
+
 while True:
     try:
         time.sleep(1)
         url = driver.current_url
         if url != curr_url:
+            if reader.get_status():
+                reader.change_status(False)
             print("URL Changed: " + url)
             for i in lists['bl']:
                 if i in url:
@@ -30,6 +35,8 @@ while True:
                         break
                 else:
                     print("[WRNG] Not in Lists, monitoring...")
+                    reader.change_status(True)
+                    reader.start()
 
 
         # print(driver.window_handles)
