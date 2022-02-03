@@ -1,38 +1,26 @@
-from selenium import webdriver
-
-driver = webdriver.Firefox()
-executor_url = driver.command_executor._url
-session_id = driver.session_id
-driver.get("http://tarunlalwani.com")
-
-print(session_id)
-print(executor_url)
+import time
+import cv2
+import mss
+import numpy
+import pytesseract
 
 
-def create_driver_session(session_id, executor_url):
-    from selenium.webdriver.remote.webdriver import WebDriver as RemoteWebDriver
+mon = {'top': 0, 'left': 0, 'width': 150, 'height': 150}
 
-    # Save the original function, so we can revert our patch
-    org_command_execute = RemoteWebDriver.execute
+with mss.mss() as sct:
+    while True:
+        im = numpy.asarray(sct.grab(mon))
+        # im = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
 
-    def new_command_execute(self, command, params=None):
-        if command == "newSession":
-            # Mock the response
-            return {'success': 0, 'value': None, 'sessionId': session_id}
-        else:
-            return org_command_execute(self, command, params)
+        text = pytesseract.image_to_string(im)
+        print(text)
 
-    # Patch the function before creating the driver object
-    RemoteWebDriver.execute = new_command_execute
+        cv2.imshow('Image', im)
 
-    new_driver = webdriver.Remote(command_executor=executor_url, desired_capabilities={})
-    new_driver.session_id = session_id
+        # Press "q" to quit
+        if cv2.waitKey(25) & 0xFF == ord('q'):
+            cv2.destroyAllWindows()
+            break
 
-    # Replace the patched function with original function
-    RemoteWebDriver.execute = org_command_execute
-
-    return new_driver
-
-
-driver2 = create_driver_session(session_id, executor_url)
-print(driver2.current_url)
+        # One screenshot per second
+        time.sleep(1)
