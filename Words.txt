@@ -4,4 +4,7 @@ Email
 E-mail
 email
 адрес
-eng
+password
+login
+mail
+field_email

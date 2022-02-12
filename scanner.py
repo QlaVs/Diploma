@@ -8,8 +8,12 @@ import json
 import time
 import logging
 import threading
+
+from selenium.webdriver.common.by import By
+
 from read_screen import Reader
 from selenium import webdriver
+
 
 logging.getLogger().setLevel(logging.INFO)
 # logging.basicConfig(filename="LogFile.log",
@@ -18,9 +22,10 @@ logging.getLogger().setLevel(logging.INFO)
 #                     datefmt='%H:%M:%S',
 #                     level=logging.DEBUG)
 
+tabs = 1
+
 driver = webdriver.Firefox()
 driver.get("http://www.google.com")
-tabs = 1
 
 f = open('Lists.JSON')
 lists = json.load(f)
@@ -28,7 +33,7 @@ curr_url = "about:blank"
 
 logging.info("Program is starting up...")
 
-reader = Reader()
+reader = Reader(driver)
 reader_thread = threading.Thread(target=reader.start, name="RR")
 reader_thread.start()
 
