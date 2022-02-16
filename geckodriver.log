@@ -3420,3 +3420,432 @@ JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
 JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
 JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
 JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1645019027643	geckodriver	INFO	Listening on 127.0.0.1:63671
+1645019030717	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63672" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileve4HJS"
+1645019030900	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileve4HJS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63672/devtools/browser/9315af60-48fb-4ab1-b00f-59e3f410e33b
+1645019032237	Marionette	INFO	Listening on port 63677
+1645019032258	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=0UEMsNAyGDskDHnBlHn_ZUTRhLgHAV4dJvZGUTXosVv0Lapbnn-htnZYuOk0F6-SGd7OKQMYTvf2b1AVMhH88w, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=0UEMsNAyGDskDHnBlHn_ZUTRhLgHAV4dJvZGUTXosVv0Lapbnn-htnZYuOk0F6-SGd7OKQMYTvf2b1AVMhH88w:259:1
+
+JavaScript warning: https://st.vk.com/dist/web/grip.2bb10fa6ebc26aba54f0.js?d462ebb289917abed0b24a7926238bd6, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st.vk.com/dist/web/grip.2bb10fa6ebc26aba54f0.js?d462ebb289917abed0b24a7926238bd6, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st.vk.com/dist/common.94a9426509e781351835.js?28450587254dc64233d9b06, line 2: Script terminated by timeout at:
+C@https://st.vk.com/dist/common.94a9426509e781351835.js?28450587254dc64233d9b06:2:1020431
+h@https://st.vk.com/dist/common.94a9426509e781351835.js?28450587254dc64233d9b06:2:788800
+p@https://st.vk.com/dist/common.94a9426509e781351835.js?28450587254dc64233d9b06:2:788355
+49535/c/d<@https://st.vk.com/dist/common.94a9426509e781351835.js?28450587254dc64233d9b06:2:786936
+
+1645019040015	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://st.vk.com/dist/common.94a9426509e781351835.js?28450587254dc64233d9b06, line 2: Script terminated by timeout at:
+setItem@https://st.vk.com/dist/common.94a9426509e781351835.js?28450587254dc64233d9b06:2:1535089
+set@https://st.vk.com/dist/common.94a9426509e781351835.js?28450587254dc64233d9b06:2:703694
+ee@https://st.vk.com/dist/web/common_web.976d3bddffc1e7b2eeee.js?:1:36698
+Z@https://st.vk.com/dist/web/common_web.976d3bddffc1e7b2eeee.js?:1:36617
+F@https://st.vk.com/dist/web/common_web.976d3bddffc1e7b2eeee.js?:1:36034
+p@https://st.vk.com/dist/common.94a9426509e781351835.js?28450587254dc64233d9b06:2:788689
+49535/c/d<@https://st.vk.com/dist/common.94a9426509e781351835.js?28450587254dc64233d9b06:2:786936
+
+1645019043431	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=_jXbeYPiz0woWziJkKcXwI7ExLFSUDkPULvAqKrpC6K481ta9ZaquZo0fw1nKeeG, line 330: Script terminated by timeout at:
+ns.SetTimeout@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=_jXbeYPiz0woWziJkKcXwI7ExLFSUDkPULvAqKrpC6K481ta9ZaquZo0fw1nKeeG:330:5
+ProcessActivate@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=_jXbeYPiz0woWziJkKcXwI7ExLFSUDkPULvAqKrpC6K481ta9ZaquZo0fw1nKeeG:2087:44
+OnFocus@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=_jXbeYPiz0woWziJkKcXwI7ExLFSUDkPULvAqKrpC6K481ta9ZaquZo0fw1nKeeG:2108:13
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=_jXbeYPiz0woWziJkKcXwI7ExLFSUDkPULvAqKrpC6K481ta9ZaquZo0fw1nKeeG:261:29
+
+1645019052153	Marionette	INFO	Stopped listening on port 63677
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645019062325	geckodriver	INFO	Listening on 127.0.0.1:63793
+1645019065389	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63794" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileMFPqjm"
+1645019065568	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileMFPqjm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63794/devtools/browser/8ded9a94-b422-4e80-b0e7-c08685568251
+1645019066738	Marionette	INFO	Listening on port 63799
+1645019066939	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google.com/?gws_rd=ssl, line 20: Script terminated by timeout at:
+m@https://www.google.com/?gws_rd=ssl:20:226
+
+1645019071513	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/?gws_rd=ssl, line 20: Script terminated by timeout at:
+m@https://www.google.com/?gws_rd=ssl:20:226
+
+1645019083861	Marionette	INFO	Stopped listening on port 63799
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645019124771	geckodriver	INFO	Listening on 127.0.0.1:63887
+1645019127807	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63888" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileVyP7Em"
+1645019127982	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileVyP7Em\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63888/devtools/browser/9fa0d000-7c6d-4551-a46d-134e5d1be01b
+1645019129142	Marionette	INFO	Listening on port 63893
+1645019129339	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=jHAxcezgT2FNUDLPf2SUzr3mdv5TaKrkzv8OFUFqEkMppjWWcHH9kx751mxpb83V4B4p0CzFtan2GJu2y3oqcw, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=jHAxcezgT2FNUDLPf2SUzr3mdv5TaKrkzv8OFUFqEkMppjWWcHH9kx751mxpb83V4B4p0CzFtan2GJu2y3oqcw:259:1
+
+1645019132709	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=jHAxcezgT2FNUDLPf2SUzr3mdv5TaKrkzv8OFUFqEkMppjWWcHH9kx751mxpb83V4B4p0CzFtan2GJu2y3oqcw, line 318: Script terminated by timeout at:
+ns.SetTimeout@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=jHAxcezgT2FNUDLPf2SUzr3mdv5TaKrkzv8OFUFqEkMppjWWcHH9kx751mxpb83V4B4p0CzFtan2GJu2y3oqcw:318:9
+ProcessActivate@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=jHAxcezgT2FNUDLPf2SUzr3mdv5TaKrkzv8OFUFqEkMppjWWcHH9kx751mxpb83V4B4p0CzFtan2GJu2y3oqcw:2087:44
+OnFocus@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=jHAxcezgT2FNUDLPf2SUzr3mdv5TaKrkzv8OFUFqEkMppjWWcHH9kx751mxpb83V4B4p0CzFtan2GJu2y3oqcw:2108:13
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=jHAxcezgT2FNUDLPf2SUzr3mdv5TaKrkzv8OFUFqEkMppjWWcHH9kx751mxpb83V4B4p0CzFtan2GJu2y3oqcw:261:29
+
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Ib-LSCHOgY-2LHDvsKjZ9F2CU-wEQUY3q8XbJJWrOPc, line 318: Script terminated by timeout at:
+ns.SetTimeout@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Ib-LSCHOgY-2LHDvsKjZ9F2CU-wEQUY3q8XbJJWrOPc:318:9
+ProcessActivate@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Ib-LSCHOgY-2LHDvsKjZ9F2CU-wEQUY3q8XbJJWrOPc:2087:44
+OnFocus@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Ib-LSCHOgY-2LHDvsKjZ9F2CU-wEQUY3q8XbJJWrOPc:2108:13
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Ib-LSCHOgY-2LHDvsKjZ9F2CU-wEQUY3q8XbJJWrOPc:261:29
+
+JavaScript warning: https://st.vk.com/dist/web/grip.2bb10fa6ebc26aba54f0.js?d462ebb289917abed0b24a7926238bd6, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st.vk.com/dist/web/grip.2bb10fa6ebc26aba54f0.js?d462ebb289917abed0b24a7926238bd6, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645019147220	Marionette	INFO	Stopped listening on port 63893
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645019242614	geckodriver	INFO	Listening on 127.0.0.1:64055
+1645019245668	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64056" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileHTy8gB"
+1645019245853	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileHTy8gB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64056/devtools/browser/e090f402-5c1f-43d3-ba61-86dc9016c22d
+1645019247022	Marionette	INFO	Listening on port 64061
+1645019247215	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=MKh5MhTUXiPmWD8Nw2ZxvD9s7TopMJFOBP3ixxvW86O-dvxfbC3sh7IwPReJR229cPYVXm27S-7XvltlOyXD8w, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=MKh5MhTUXiPmWD8Nw2ZxvD9s7TopMJFOBP3ixxvW86O-dvxfbC3sh7IwPReJR229cPYVXm27S-7XvltlOyXD8w:259:1
+
+1645019249732	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1645019251591	Marionette	INFO	Stopped listening on port 64061
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1645019318895	geckodriver	INFO	Listening on 127.0.0.1:64131
+1645019321955	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64132" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile219sAh"
+1645019322131	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile219sAh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64132/devtools/browser/cbfec7cc-d87a-4574-b907-a3ee82fe4c67
+1645019323303	Marionette	INFO	Listening on port 64137
+1645019323495	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=ZC-uBI8z4PzF2wgRmna-s1OMJVZnjRPnR_eUJgN9f-9W0OHyOReHPjA9qRv8FW95-_Fo6cpDZikMWBm-ckC_Fw, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=ZC-uBI8z4PzF2wgRmna-s1OMJVZnjRPnR_eUJgN9f-9W0OHyOReHPjA9qRv8FW95-_Fo6cpDZikMWBm-ckC_Fw:259:1
+
+1645019326440	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=ZC-uBI8z4PzF2wgRmna-s1OMJVZnjRPnR_eUJgN9f-9W0OHyOReHPjA9qRv8FW95-_Fo6cpDZikMWBm-ckC_Fw, line 318: Script terminated by timeout at:
+ns.SetTimeout@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=ZC-uBI8z4PzF2wgRmna-s1OMJVZnjRPnR_eUJgN9f-9W0OHyOReHPjA9qRv8FW95-_Fo6cpDZikMWBm-ckC_Fw:318:9
+ProcessActivate@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=ZC-uBI8z4PzF2wgRmna-s1OMJVZnjRPnR_eUJgN9f-9W0OHyOReHPjA9qRv8FW95-_Fo6cpDZikMWBm-ckC_Fw:2087:44
+OnFocus@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=ZC-uBI8z4PzF2wgRmna-s1OMJVZnjRPnR_eUJgN9f-9W0OHyOReHPjA9qRv8FW95-_Fo6cpDZikMWBm-ckC_Fw:2108:13
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=ZC-uBI8z4PzF2wgRmna-s1OMJVZnjRPnR_eUJgN9f-9W0OHyOReHPjA9qRv8FW95-_Fo6cpDZikMWBm-ckC_Fw:261:29
+
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.9/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 11: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645019333659	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://aeis.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aeis.alicdn.com/AWSC/fireyejs/1.219.2/fireyejs.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645019337841	Marionette	INFO	Stopped listening on port 64137
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645019404999	geckodriver	INFO	Listening on 127.0.0.1:64312
+1645019408070	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64313" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileTqPBe6"
+1645019408272	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileTqPBe6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64313/devtools/browser/30a02a5d-7e67-48db-b3e9-8161eff24e61
+1645019409445	Marionette	INFO	Listening on port 64318
+1645019409625	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=rH6um4ejSaBnt55DkpG_haoGeF3MqUHosvV67TPMlhjWMyuY1FBSEjPiv8ZJFgKyNGiuPtv2iIQDxnQiz0wcEg, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=rH6um4ejSaBnt55DkpG_haoGeF3MqUHosvV67TPMlhjWMyuY1FBSEjPiv8ZJFgKyNGiuPtv2iIQDxnQiz0wcEg:259:1
+
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=IiSoWxk2pW9TJSftv8cgbAAxNEP6LNKhxuLu8Eda3SI, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=IiSoWxk2pW9TJSftv8cgbAAxNEP6LNKhxuLu8Eda3SI:259:1
+
+1645019415640	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1645019418000	Marionette	INFO	Stopped listening on port 64318
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645019527760	geckodriver	INFO	Listening on 127.0.0.1:64448
+1645019530814	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64449" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile89A32t"
+1645019531008	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile89A32t\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64449/devtools/browser/3d35e569-247b-4658-8c1c-bfaf98c5d0c0
+1645019532527	Marionette	INFO	Listening on port 64454
+1645019532858	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=lxHZvZJ-eLH_TpueQ6cz4xjLqGzGu0axPUDbVi0ZT8Q_5i-1Nlp71o1gINoLVePnaKjvczd0q1ujQToZfFamuQ, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=lxHZvZJ-eLH_TpueQ6cz4xjLqGzGu0axPUDbVi0ZT8Q_5i-1Nlp71o1gINoLVePnaKjvczd0q1ujQToZfFamuQ:259:1
+
+1645019536770	Marionette	INFO	Stopped listening on port 64454
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645020048045	geckodriver	INFO	Listening on 127.0.0.1:58718
+1645020051095	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58719" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileVdY8yE"
+1645020051273	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileVdY8yE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58719/devtools/browser/5b134455-dac0-43c0-9c65-7e71a4fc3fe2
+1645020052547	Marionette	INFO	Listening on port 58725
+1645020052639	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=G5VuQOi-o-EEnHULERJAu4u9XuSzTA5i-ZJg7sk7I6vIvAdEHmU8HbMNiti13Glkh4egu7mCi2AMMKD7YU4TRg, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=G5VuQOi-o-EEnHULERJAu4u9XuSzTA5i-ZJg7sk7I6vIvAdEHmU8HbMNiti13Glkh4egu7mCi2AMMKD7YU4TRg:259:1
+
+1645020055706	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=G5VuQOi-o-EEnHULERJAu4u9XuSzTA5i-ZJg7sk7I6vIvAdEHmU8HbMNiti13Glkh4egu7mCi2AMMKD7YU4TRg, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=G5VuQOi-o-EEnHULERJAu4u9XuSzTA5i-ZJg7sk7I6vIvAdEHmU8HbMNiti13Glkh4egu7mCi2AMMKD7YU4TRg:259:1
+
+1645020064122	Marionette	INFO	Stopped listening on port 58725
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645020161161	geckodriver	INFO	Listening on 127.0.0.1:58828
+1645020164201	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58829" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileDXuhDo"
+1645020164378	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileDXuhDo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58829/devtools/browser/135de5a1-e672-4705-99a4-2e11ccd1cef0
+1645020165537	Marionette	INFO	Listening on port 58834
+1645020165731	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=M6Oomt8AlT2LvTG2vA4B74bSANvo4n--AgNXYQ9tlvVyQj9Jt7cJ6TGMqqNiMaqdHPQTmwD-RfGsCEEr_Qaaog, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=M6Oomt8AlT2LvTG2vA4B74bSANvo4n--AgNXYQ9tlvVyQj9Jt7cJ6TGMqqNiMaqdHPQTmwD-RfGsCEEr_Qaaog:259:1
+
+1645020174147	Marionette	INFO	Stopped listening on port 58834
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645020210909	geckodriver	INFO	Listening on 127.0.0.1:58906
+1645020213958	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58907" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileqsYudD"
+1645020214135	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileqsYudD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58907/devtools/browser/a77451c3-58da-425c-8951-5e615b9d7154
+1645020215294	Marionette	INFO	Listening on port 58912
+1645020215497	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=aVOF_Qp-YnBBfjpIz8DkBPvThzWSsrZene9ZfmnJFUpmeEoyzAb9w-STlMeGLXbXlqGpq1SsT6mTOj7KOgVTDg, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=aVOF_Qp-YnBBfjpIz8DkBPvThzWSsrZene9ZfmnJFUpmeEoyzAb9w-STlMeGLXbXlqGpq1SsT6mTOj7KOgVTDg:259:1
+
+1645020253566	Marionette	INFO	Stopped listening on port 58912
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1645020263139	geckodriver	INFO	Listening on 127.0.0.1:58991
+1645020266182	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58992" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilecw9Wbv"
+1645020266362	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilecw9Wbv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58992/devtools/browser/6d92c29b-a3e6-4777-b7a5-9143d1db6f8b
+1645020267514	Marionette	INFO	Listening on port 58997
+1645020267728	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Oeb-VqNn_Ld8X94EzWkxhd_nv-DJ1MKZRk5LytrpKvayxOtJiGZm4kiu2WBsECnIkOLKnlLAiT1Er7hZHFVzdQ, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Oeb-VqNn_Ld8X94EzWkxhd_nv-DJ1MKZRk5LytrpKvayxOtJiGZm4kiu2WBsECnIkOLKnlLAiT1Er7hZHFVzdQ:259:1
+
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=qE1Py4x5saBPdfvceOlSywPwJz_aSEtQDDrpX_7zwIc, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=qE1Py4x5saBPdfvceOlSywPwJz_aSEtQDDrpX_7zwIc:259:1
+
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.9/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 11: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://aliexpress.ru"
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.9/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+1645020276940	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://aeis.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 11: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aeis.alicdn.com/AWSC/fireyejs/1.219.2/fireyejs.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aeis.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: Script terminated by timeout at:
+e/<@https://aeis.alicdn.com/AWSC/uab/1.140.0/collina.js:4:17278
+e@https://aeis.alicdn.com/AWSC/uab/1.140.0/collina.js:5:22365
+
+JavaScript warning: https://st.vk.com/dist/web/grip.2bb10fa6ebc26aba54f0.js?d462ebb289917abed0b24a7926238bd6, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st.vk.com/dist/web/grip.2bb10fa6ebc26aba54f0.js?d462ebb289917abed0b24a7926238bd6, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st.vk.com/dist/web/common_web.976d3bddffc1e7b2eeee.js?, line 1: Script terminated by timeout at:
+F@https://st.vk.com/dist/web/common_web.976d3bddffc1e7b2eeee.js?:1:35996
+p@https://st.vk.com/dist/common.94a9426509e781351835.js?28450587254dc64233d9b06:2:788689
+49535/c/d<@https://st.vk.com/dist/common.94a9426509e781351835.js?28450587254dc64233d9b06:2:786936
+
+1645020283086	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1645020286013	Marionette	INFO	Stopped listening on port 58997
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645020324161	geckodriver	INFO	Listening on 127.0.0.1:60240
+1645020327214	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60241" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilehQo2z0"
+1645020327402	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilehQo2z0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60241/devtools/browser/da60089f-d437-40fb-8237-1137cf9aef0d
+1645020328549	Marionette	INFO	Listening on port 60246
+1645020328740	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=18GgiIisAVGpWRQ1auubVELBqB-LzAhqf8nZHkJlEiw7vBYG5BsKBv06XTWn0AnYWcd-3uM9O09NAc6FwUIgKg, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=18GgiIisAVGpWRQ1auubVELBqB-LzAhqf8nZHkJlEiw7vBYG5BsKBv06XTWn0AnYWcd-3uM9O09NAc6FwUIgKg:259:1
+
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=BTui-61-GDKG2NrMcjis_FlDqnJixiwCL70T1RcqOC0, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=BTui-61-GDKG2NrMcjis_FlDqnJixiwCL70T1RcqOC0:259:1
+
+1645020342975	Marionette	INFO	Stopped listening on port 60246
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1645020370029	geckodriver	INFO	Listening on 127.0.0.1:60336
+1645020373104	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60337" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileDju3aL"
+1645020373296	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileDju3aL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60337/devtools/browser/02a3ddfd-48e8-4f53-9b24-55f0a4e4aba1
+1645020374659	Marionette	INFO	Listening on port 60370
+1645020375152	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=bZ3oUqTipzJrb_aCJ2i2i8-FZuhS_l2XGpPijKs0eZlMZMAieywfwETHAt8MvKFHXYgizrWF1nHPtmX_qQClig, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=bZ3oUqTipzJrb_aCJ2i2i8-FZuhS_l2XGpPijKs0eZlMZMAieywfwETHAt8MvKFHXYgizrWF1nHPtmX_qQClig:259:1
+
+JavaScript warning: https://st.vk.com/dist/web/grip.2bb10fa6ebc26aba54f0.js?d462ebb289917abed0b24a7926238bd6, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st.vk.com/dist/web/grip.2bb10fa6ebc26aba54f0.js?d462ebb289917abed0b24a7926238bd6, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st.vk.com/dist/common.94a9426509e781351835.js?28450587254dc64233d9b06, line 2: Script terminated by timeout at:
+get@https://st.vk.com/dist/common.94a9426509e781351835.js?28450587254dc64233d9b06:2:703568
+ee@https://st.vk.com/dist/web/common_web.976d3bddffc1e7b2eeee.js?:1:36656
+J@https://st.vk.com/dist/web/common_web.976d3bddffc1e7b2eeee.js?:1:36595
+F@https://st.vk.com/dist/web/common_web.976d3bddffc1e7b2eeee.js?:1:36026
+p@https://st.vk.com/dist/common.94a9426509e781351835.js?28450587254dc64233d9b06:2:788689
+49535/c/d<@https://st.vk.com/dist/common.94a9426509e781351835.js?28450587254dc64233d9b06:2:786936
+
+1645020381402	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1645020381806	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://st.vk.com/dist/common.94a9426509e781351835.js?28450587254dc64233d9b06, line 2: Script terminated by timeout at:
+p@https://st.vk.com/dist/common.94a9426509e781351835.js?28450587254dc64233d9b06:2:788530
+49535/c/d<@https://st.vk.com/dist/common.94a9426509e781351835.js?28450587254dc64233d9b06:2:786936
+
+1645020390313	Marionette	INFO	Stopped listening on port 60370
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645020432457	geckodriver	INFO	Listening on 127.0.0.1:60477
+1645020435512	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60478" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile9X24SJ"
+1645020435695	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile9X24SJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60478/devtools/browser/71b4687f-723d-4d2d-994b-2b87811d598d
+1645020436959	Marionette	INFO	Listening on port 60483
+1645020437064	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=TjEBTHBZh-HXy4UbBpVnDqBJZ2PEua4oM9vtmIteWYWhFzTQQrjxZnFHoGOSp2m16qDKGnDM4FjSl4cT3Npvsw, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=TjEBTHBZh-HXy4UbBpVnDqBJZ2PEua4oM9vtmIteWYWhFzTQQrjxZnFHoGOSp2m16qDKGnDM4FjSl4cT3Npvsw:259:1
+
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=RjfIgHFy4iLysb9L-vN1bMySwpRL6En5l3lBEgDmNkY, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=RjfIgHFy4iLysb9L-vN1bMySwpRL6En5l3lBEgDmNkY:259:1
+
+JavaScript warning: https://st.vk.com/dist/web/grip.2bb10fa6ebc26aba54f0.js?d462ebb289917abed0b24a7926238bd6, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st.vk.com/dist/web/grip.2bb10fa6ebc26aba54f0.js?d462ebb289917abed0b24a7926238bd6, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645020448339	Marionette	INFO	Stopped listening on port 60483
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1645021084348	geckodriver	INFO	Listening on 127.0.0.1:60677
+1645021087389	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60678" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileSgr3Ze"
+1645021087567	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileSgr3Ze\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60678/devtools/browser/e505eece-fbc2-44e4-90d2-5ebf9ace582f
+1645021088741	Marionette	INFO	Listening on port 60683
+1645021088915	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=f09Cd55dTBlSrCJINPWysXmwvvTIYTy97Qa3MMauPWNlUSDYjcKmHtWQPGJL-fHTxgjtxzQdMQgB0W_TU-uufA, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=f09Cd55dTBlSrCJINPWysXmwvvTIYTy97Qa3MMauPWNlUSDYjcKmHtWQPGJL-fHTxgjtxzQdMQgB0W_TU-uufA:259:1
+
+1645021092005	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=f09Cd55dTBlSrCJINPWysXmwvvTIYTy97Qa3MMauPWNlUSDYjcKmHtWQPGJL-fHTxgjtxzQdMQgB0W_TU-uufA, line 318: Script terminated by timeout at:
+ns.SetTimeout@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=f09Cd55dTBlSrCJINPWysXmwvvTIYTy97Qa3MMauPWNlUSDYjcKmHtWQPGJL-fHTxgjtxzQdMQgB0W_TU-uufA:318:9
+ProcessActivate@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=f09Cd55dTBlSrCJINPWysXmwvvTIYTy97Qa3MMauPWNlUSDYjcKmHtWQPGJL-fHTxgjtxzQdMQgB0W_TU-uufA:2087:44
+OnFocus@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=f09Cd55dTBlSrCJINPWysXmwvvTIYTy97Qa3MMauPWNlUSDYjcKmHtWQPGJL-fHTxgjtxzQdMQgB0W_TU-uufA:2108:13
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=f09Cd55dTBlSrCJINPWysXmwvvTIYTy97Qa3MMauPWNlUSDYjcKmHtWQPGJL-fHTxgjtxzQdMQgB0W_TU-uufA:261:29
+
+JavaScript warning: https://st.vk.com/dist/web/grip.2bb10fa6ebc26aba54f0.js?d462ebb289917abed0b24a7926238bd6, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st.vk.com/dist/web/grip.2bb10fa6ebc26aba54f0.js?d462ebb289917abed0b24a7926238bd6, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st.vk.com/dist/common.94a9426509e781351835.js?28450587254dc64233d9b06, line 2: Script terminated by timeout at:
+vkLocalStorage@https://st.vk.com/dist/common.94a9426509e781351835.js?28450587254dc64233d9b06:2:1534209
+get@https://st.vk.com/dist/common.94a9426509e781351835.js?28450587254dc64233d9b06:2:703576
+ee@https://st.vk.com/dist/web/common_web.976d3bddffc1e7b2eeee.js?:1:36656
+J@https://st.vk.com/dist/web/common_web.976d3bddffc1e7b2eeee.js?:1:36595
+F@https://st.vk.com/dist/web/common_web.976d3bddffc1e7b2eeee.js?:1:36026
+p@https://st.vk.com/dist/common.94a9426509e781351835.js?28450587254dc64233d9b06:2:788689
+49535/c/d<@https://st.vk.com/dist/common.94a9426509e781351835.js?28450587254dc64233d9b06:2:786936
+
+1645021098959	Marionette	INFO	Stopped listening on port 60683
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645021142119	geckodriver	INFO	Listening on 127.0.0.1:60795
+1645021145169	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60796" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileiUBHEI"
+1645021145349	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileiUBHEI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60796/devtools/browser/1f2c69b0-e7ef-4395-aace-f900a9ef5305
+1645021146518	Marionette	INFO	Listening on port 60801
+1645021146696	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=0aSaQfbj8oMh45Gq-se9pdz3VrEUtjgC6vQ6foHOE-KLgPM7t6pK7ztTdEYkFhC5sU19D6GCW6ABXwusJMB_ug, line 1440: Script terminated by timeout at:
+ns.WebSocketCaller/this.IsProductConnected@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=0aSaQfbj8oMh45Gq-se9pdz3VrEUtjgC6vQ6foHOE-KLgPM7t6pK7ztTdEYkFhC5sU19D6GCW6ABXwusJMB_ug:1440:5
+CallReceiver/this.IsProductConnected@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=0aSaQfbj8oMh45Gq-se9pdz3VrEUtjgC6vQ6foHOE-KLgPM7t6pK7ztTdEYkFhC5sU19D6GCW6ABXwusJMB_ug:1541:31
+CallImpl@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=0aSaQfbj8oMh45Gq-se9pdz3VrEUtjgC6vQ6foHOE-KLgPM7t6pK7ztTdEYkFhC5sU19D6GCW6ABXwusJMB_ug:1633:33
+Call@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=0aSaQfbj8oMh45Gq-se9pdz3VrEUtjgC6vQ6foHOE-KLgPM7t6pK7ztTdEYkFhC5sU19D6GCW6ABXwusJMB_ug:1651:21
+KasperskyLabSessionClass/this.InitializePlugin/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=0aSaQfbj8oMh45Gq-se9pdz3VrEUtjgC6vQ6foHOE-KLgPM7t6pK7ztTdEYkFhC5sU19D6GCW6ABXwusJMB_ug:1820:26
+FireActivateEventImpl@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=0aSaQfbj8oMh45Gq-se9pdz3VrEUtjgC6vQ6foHOE-KLgPM7t6pK7ztTdEYkFhC5sU19D6GCW6ABXwusJMB_ug:2045:23
+FireActivateEvent@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=0aSaQfbj8oMh45Gq-se9pdz3VrEUtjgC6vQ6foHOE-KLgPM7t6pK7ztTdEYkFhC5sU19D6GCW6ABXwusJMB_ug:2066:13
+ProcessActivate/m_activatedStateChangeTimeout<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=0aSaQfbj8oMh45Gq-se9pdz3VrEUtjgC6vQ6foHOE-KLgPM7t6pK7ztTdEYkFhC5sU19D6GCW6ABXwusJMB_ug:2090:21
+ns.SetTimeout/KasperskyLab<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=0aSaQfbj8oMh45Gq-se9pdz3VrEUtjgC6vQ6foHOE-KLgPM7t6pK7ztTdEYkFhC5sU19D6GCW6ABXwusJMB_ug:323:21
+
+1645021150735	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=0aSaQfbj8oMh45Gq-se9pdz3VrEUtjgC6vQ6foHOE-KLgPM7t6pK7ztTdEYkFhC5sU19D6GCW6ABXwusJMB_ug, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=0aSaQfbj8oMh45Gq-se9pdz3VrEUtjgC6vQ6foHOE-KLgPM7t6pK7ztTdEYkFhC5sU19D6GCW6ABXwusJMB_ug:259:1
+
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=HCzCYh8ciqmO8YbnoFklf-QRDxssbYR_RiHLxwyGsRQ, line 330: Script terminated by timeout at:
+ns.SetTimeout@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=HCzCYh8ciqmO8YbnoFklf-QRDxssbYR_RiHLxwyGsRQ:330:5
+ProcessActivate@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=HCzCYh8ciqmO8YbnoFklf-QRDxssbYR_RiHLxwyGsRQ:2087:44
+OnFocus@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=HCzCYh8ciqmO8YbnoFklf-QRDxssbYR_RiHLxwyGsRQ:2108:13
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=HCzCYh8ciqmO8YbnoFklf-QRDxssbYR_RiHLxwyGsRQ:261:29
+
+JavaScript warning: https://st.vk.com/dist/web/grip.2bb10fa6ebc26aba54f0.js?d462ebb289917abed0b24a7926238bd6, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st.vk.com/dist/web/grip.2bb10fa6ebc26aba54f0.js?d462ebb289917abed0b24a7926238bd6, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645021160305	Marionette	INFO	Stopped listening on port 60801
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1645021358635	geckodriver	INFO	Listening on 127.0.0.1:59637
+1645021361714	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59638" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileqKhsrK"
+1645021361897	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileqKhsrK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59638/devtools/browser/8db9a17c-aec7-4ebf-b259-69c9fc63015d
+1645021363247	Marionette	INFO	Listening on port 59643
+1645021363779	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=ks1NEaxgId8i5x2-PDiA2244TEmxYh_cUObD-0ImcnXUcDaknitrMCkGAnLXMLEHVNDfr2WsoDsZp7HzPOPJHQ, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=ks1NEaxgId8i5x2-PDiA2244TEmxYh_cUObD-0ImcnXUcDaknitrMCkGAnLXMLEHVNDfr2WsoDsZp7HzPOPJHQ:259:1
+
+1645021367651	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1645021368064	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=ks1NEaxgId8i5x2-PDiA2244TEmxYh_cUObD-0ImcnXUcDaknitrMCkGAnLXMLEHVNDfr2WsoDsZp7HzPOPJHQ, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=ks1NEaxgId8i5x2-PDiA2244TEmxYh_cUObD-0ImcnXUcDaknitrMCkGAnLXMLEHVNDfr2WsoDsZp7HzPOPJHQ:259:1
+
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=nbv4Oj9_LBgZQ2iwAdZBMXQyc95ef8NCSW4IrsCOHvc, line 318: Script terminated by timeout at:
+ns.SetTimeout@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=nbv4Oj9_LBgZQ2iwAdZBMXQyc95ef8NCSW4IrsCOHvc:318:9
+ProcessActivate@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=nbv4Oj9_LBgZQ2iwAdZBMXQyc95ef8NCSW4IrsCOHvc:2087:44
+OnFocus@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=nbv4Oj9_LBgZQ2iwAdZBMXQyc95ef8NCSW4IrsCOHvc:2108:13
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=nbv4Oj9_LBgZQ2iwAdZBMXQyc95ef8NCSW4IrsCOHvc:261:29
+
+JavaScript warning: https://st.vk.com/dist/web/grip.2bb10fa6ebc26aba54f0.js?d462ebb289917abed0b24a7926238bd6, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st.vk.com/dist/web/grip.2bb10fa6ebc26aba54f0.js?d462ebb289917abed0b24a7926238bd6, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+1645021379864	Marionette	INFO	Stopped listening on port 59643
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+

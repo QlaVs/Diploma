@@ -11,16 +11,23 @@ import threading
 
 from selenium.webdriver.common.by import By
 
+from log_analyzer import Analyzer
 from read_screen import Reader
 from selenium import webdriver
 
+# try:
+#     with open('LogFile.log', 'w'):
+#         pass
+# except:
+#     pass
 
-logging.getLogger().setLevel(logging.INFO)
-# logging.basicConfig(filename="LogFile.log",
-#                     filemode='a',
-#                     format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s',
-#                     datefmt='%H:%M:%S',
-#                     level=logging.DEBUG)
+
+logging.getLogger("scanner")
+logging.basicConfig(filename="LogFile.log",
+                    filemode='w',
+                    format='%(asctime)s %(levelname)s %(message)s',
+                    datefmt='%H:%M:%S',
+                    level=logging.DEBUG)
 
 tabs = 1
 
@@ -38,13 +45,13 @@ reader_thread.start()
 
 while True:
     try:
-        time.sleep(1)
+        time.sleep(0.5)
         url = driver.current_url
         if url != curr_url:
             logging.info("URL Changed: " + url)
             for i in lists['bl']:
                 if i in url:
-                    logging.error("Black List URL, redirecting...")
+                    logging.warning("Black List URL, redirecting...")
                     driver.back()
                     break
             else:
@@ -83,6 +90,10 @@ while True:
             driver.switch_to.window(main_page)
 
         except:
-            print("Browser closed")
+            logging.info("Browser closed")
             reader.stop()
+
+            analyzer = Analyzer("LogFile.log")
+            analyzer.start()
+
             exit(0)
