@@ -2656,3 +2656,767 @@ JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_
 
 ###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
 
+1645015829574	geckodriver	INFO	Listening on 127.0.0.1:57816
+1645015832703	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57817" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile26fedi"
+1645015832914	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile26fedi\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57817/devtools/browser/c83bb469-8576-4854-b2ac-0f7b0ed3001c
+1645015834477	Marionette	INFO	Listening on port 57822
+1645015834752	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=pbM6ZsXbDua4YfnRPsbKHVxec37r9lZ79eZfmV3kD-z5mnUjSJdvuV5xBhWdYXgkFUQjVJxopRDLBnGoqi_fnw, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=pbM6ZsXbDua4YfnRPsbKHVxec37r9lZ79eZfmV3kD-z5mnUjSJdvuV5xBhWdYXgkFUQjVJxopRDLBnGoqi_fnw:259:1
+
+1645015841709	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1645015842089	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.google.com/xjs/_/js/k=xjs.s.ru.5QYGcEgTGNY.O/am=AFQAwDYAAADMgAIAAAAAAAAACDwYAAAIjYQkAAAAAEAAAAAgEEAACAAAAOAjOgEA_AEADLCECwAAAAAAACDAliBDDRIBASAAAAAAgFhNVDEACAAE/d=1/ed=1/dg=2/esmo=1/rs=ACT90oGflrWGkYzVEkUTQ3NWmzmqH33AOw/m=cdos,cr,dpf,hsm,jsa,d,csi, line 697: Script terminated by timeout at:
+s_.Kya@https://www.google.com/xjs/_/js/k=xjs.s.ru.5QYGcEgTGNY.O/am=AFQAwDYAAADMgAIAAAAAAAAACDwYAAAIjYQkAAAAAEAAAAAgEEAACAAAAOAjOgEA_AEADLCECwAAAAAAACDAliBDDRIBASAAAAAAgFhNVDEACAAE/d=1/ed=1/dg=2/esmo=1/rs=ACT90oGflrWGkYzVEkUTQ3NWmzmqH33AOw/m=cdos,cr,dpf,hsm,jsa,d,csi:697:67
+s_.dispatchEvent@https://www.google.com/xjs/_/js/k=xjs.s.ru.5QYGcEgTGNY.O/am=AFQAwDYAAADMgAIAAAAAAAAACDwYAAAIjYQkAAAAAEAAAAAgEEAACAAAAOAjOgEA_AEADLCECwAAAAAAACDAliBDDRIBASAAAAAAgFhNVDEACAAE/d=1/ed=1/dg=2/esmo=1/rs=ACT90oGflrWGkYzVEkUTQ3NWmzmqH33AOw/m=cdos,cr,dpf,hsm,jsa,d,csi:695:362
+s_fM@https://www.google.com/xjs/_/js/k=xjs.s.ru.5QYGcEgTGNY.O/ck=xjs.s.pruOhHGY26I.L.F4.O/am=AFQAwDYAAADMgAIAAAAAAAAACDwYAAAIjYQkAAAAAEAAAAAgEEAACAAAAOAjOgEA_AEADLCECwAAAAAAACDAliBDDRIBASAAAAAAgFhNVDEACAAE/d=1/exm=cdos,cr,csi,d,dpf,hsm,jsa/esmo=1/ed=1/dg=2/rs=ACT90oHDVkHVQAzkV4egNx6IRdG3sFItPg/ee=rXjWyb:VWuaCc;uY49fb:COQbmf;EVNhjf:pw70Gc;g8nkx:U4MzKc;wQlYve:aLUfP;kbAm9d:MkHyGd;F9mqte:UoRcbe;sTsDMc:kHVSUb;dtl0hd:lLQWFe;q92ire:wPVhqc;dIoSBb:ZgGg9b;pXdRYb:JKoKVe;wR5FRb:TtcOte;KpRAue:Tia57b;aZ61od:arTwJ;LQlyHd:KJbvFf;JXS8fb:Qj0suc;rQSrae:C6D5Fc;qavrXe:zQzcXe;UDrY1c:eps46d;nKl0s:xxrckd;w3bZCb:ZPGaIb;imqimf:jKGL2e;Np8Qkd:Dpx6qc;BjwMce:cXX2Wb;oGtAuc:sOXFj;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;jVtPve:wQ95P;R4IIIb:QWfeKf;xbe2wc:wbTLEd;tosKvd:ZCqP3;NSEoX:lazG7b;kCQyJ:ueyPK;oSUNyd:fTfGO;SJsSc:H1GVub;SMDL4c:fTfGO;NPKaK:PVlQOd;zOsCQe:Ko78Df;WCEKNd:I46Hvd;LBgRLc:XVMNvd;LsNahb:ucGLNb;UyG7Kb:wQd0G;TxfV6d:YORN0b;GleZL:J1A7Od;qaS3gd:yiLg6e;VGRfx:VFqbr;aAJE9c:WHW6Ef;BgS6mb:fidj5d;z97YGf:oug9te;CxXAWb:YyRLvc;Pguwyb:Xm4ZCd;VN6jIc:ddQyuf;SLtqO:Kh1xYe;WDGyFe:jcVOxd;DULqB:RKfG5c;gaub4:TN6bMe;DpcR3d:zL72xf;hjRo6e:F62sG;whEZac:F4AmNb;qddgKe:x4FYXe;eBAeSb:Ck63tb;vfVwPd:OXTqFb;w9w86d:dt4g2b;lkq0A:Z0MWEf;KQzWid:mB4wNe;pNsl2d:j9Yuyc;eHDfl:ofjVkb;Nyt6ic:jn2sGd;SNUn3:x8cHvb;LEikZe:byfTOb,lsjVmc;io8t5d:sgY6Zb;j7137d:KG2eXe;Oj465e:KG2eXe;sP4Vbe:VwDzFe;kMFpHd:blwjVc;nAFL3:s39S4;iFQyKf:QIhFr/m=DhPYme,EkevXb,GU4Gab,NzU6V,aa,abd,async,dvl,mu,pHXghd,sb_wiz,sf?xjs=s1:59:12
+s_wUh/<@https://www.google.com/xjs/_/js/k=xjs.s.ru.5QYGcEgTGNY.O/ck=xjs.s.pruOhHGY26I.L.F4.O/am=AFQAwDYAAADMgAIAAAAAAAAACDwYAAAIjYQkAAAAAEAAAAAgEEAACAAAAOAjOgEA_AEADLCECwAAAAAAACDAliBDDRIBASAAAAAAgFhNVDEACAAE/d=1/exm=cdos,cr,csi,d,dpf,hsm,jsa/esmo=1/ed=1/dg=2/rs=ACT90oHDVkHVQAzkV4egNx6IRdG3sFItPg/ee=rXjWyb:VWuaCc;uY49fb:COQbmf;EVNhjf:pw70Gc;g8nkx:U4MzKc;wQlYve:aLUfP;kbAm9d:MkHyGd;F9mqte:UoRcbe;sTsDMc:kHVSUb;dtl0hd:lLQWFe;q92ire:wPVhqc;dIoSBb:ZgGg9b;pXdRYb:JKoKVe;wR5FRb:TtcOte;KpRAue:Tia57b;aZ61od:arTwJ;LQlyHd:KJbvFf;JXS8fb:Qj0suc;rQSrae:C6D5Fc;qavrXe:zQzcXe;UDrY1c:eps46d;nKl0s:xxrckd;w3bZCb:ZPGaIb;imqimf:jKGL2e;Np8Qkd:Dpx6qc;BjwMce:cXX2Wb;oGtAuc:sOXFj;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;jVtPve:wQ95P;R4IIIb:QWfeKf;xbe2wc:wbTLEd;tosKvd:ZCqP3;NSEoX:lazG7b;kCQyJ:ueyPK;oSUNyd:fTfGO;SJsSc:H1GVub;SMDL4c:fTfGO;NPKaK:PVlQOd;zOsCQe:Ko78Df;WCEKNd:I46Hvd;LBgRLc:XVMNvd;LsNahb:ucGLNb;UyG7Kb:wQd0G;TxfV6d:YORN0b;GleZL:J1A7Od;qaS3gd:yiLg6e;VGRfx:VFqbr;aAJE9c:WHW6Ef;BgS6mb:fidj5d;z97YGf:oug9te;CxXAWb:YyRLvc;Pguwyb:Xm4ZCd;VN6jIc:ddQyuf;SLtqO:Kh1xYe;WDGyFe:jcVOxd;DULqB:RKfG5c;gaub4:TN6bMe;DpcR3d:zL72xf;hjRo6e:F62sG;whEZac:F4AmNb;qddgKe:x4FYXe;eBAeSb:Ck63tb;vfVwPd:OXTqFb;w9w86d:dt4g2b;lkq0A:Z0MWEf;KQzWid:mB4wNe;pNsl2d:j9Yuyc;eHDfl:ofjVkb;Nyt6ic:jn2sGd;SNUn3:x8cHvb;LEikZe:byfTOb,lsjVmc;io8t5d:sgY6Zb;j7137d:KG2eXe;Oj465e:KG2eXe;sP4Vbe:VwDzFe;kMFpHd:blwjVc;nAFL3:s39S4;iFQyKf:QIhFr/m=DhPYme,EkevXb,GU4Gab,NzU6V,aa,abd,async,dvl,mu,pHXghd,sb_wiz,sf?xjs=s1:105:245
+s_Cra@https://www.google.com/xjs/_/js/k=xjs.s.ru.5QYGcEgTGNY.O/am=AFQAwDYAAADMgAIAAAAAAAAACDwYAAAIjYQkAAAAAEAAAAAgEEAACAAAAOAjOgEA_AEADLCECwAAAAAAACDAliBDDRIBASAAAAAAgFhNVDEACAAE/d=1/ed=1/dg=2/esmo=1/rs=ACT90oGflrWGkYzVEkUTQ3NWmzmqH33AOw/m=cdos,cr,dpf,hsm,jsa,d,csi:646:185
+s_zra@https://www.google.com/xjs/_/js/k=xjs.s.ru.5QYGcEgTGNY.O/am=AFQAwDYAAADMgAIAAAAAAAAACDwYAAAIjYQkAAAAAEAAAAAgEEAACAAAAOAjOgEA_AEADLCECwAAAAAAACDAliBDDRIBASAAAAAAgFhNVDEACAAE/d=1/ed=1/dg=2/esmo=1/rs=ACT90oGflrWGkYzVEkUTQ3NWmzmqH33AOw/m=cdos,cr,dpf,hsm,jsa,d,csi:646:236
+b@https://www.google.com/xjs/_/js/k=xjs.s.ru.5QYGcEgTGNY.O/am=AFQAwDYAAADMgAIAAAAAAAAACDwYAAAIjYQkAAAAAEAAAAAgEEAACAAAAOAjOgEA_AEADLCECwAAAAAAACDAliBDDRIBASAAAAAAgFhNVDEACAAE/d=1/ed=1/dg=2/esmo=1/rs=ACT90oGflrWGkYzVEkUTQ3NWmzmqH33AOw/m=cdos,cr,dpf,hsm,jsa,d,csi:643:272
+
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=xFFVwf1HZvyxKj9lkbn7HpvIZCHKl9BUI5jxOTAdBfk, line 1440: Script terminated by timeout at:
+ns.WebSocketCaller/this.IsProductConnected@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=xFFVwf1HZvyxKj9lkbn7HpvIZCHKl9BUI5jxOTAdBfk:1440:5
+CallReceiver/this.IsProductConnected@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=xFFVwf1HZvyxKj9lkbn7HpvIZCHKl9BUI5jxOTAdBfk:1541:31
+CallImpl@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=xFFVwf1HZvyxKj9lkbn7HpvIZCHKl9BUI5jxOTAdBfk:1633:33
+Call@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=xFFVwf1HZvyxKj9lkbn7HpvIZCHKl9BUI5jxOTAdBfk:1651:21
+KasperskyLabSessionClass/this.InitializePlugin/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=xFFVwf1HZvyxKj9lkbn7HpvIZCHKl9BUI5jxOTAdBfk:1820:26
+FireActivateEventImpl@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=xFFVwf1HZvyxKj9lkbn7HpvIZCHKl9BUI5jxOTAdBfk:2045:23
+FireActivateEvent@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=xFFVwf1HZvyxKj9lkbn7HpvIZCHKl9BUI5jxOTAdBfk:2066:13
+ProcessActivate/m_activatedStateChangeTimeout<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=xFFVwf1HZvyxKj9lkbn7HpvIZCHKl9BUI5jxOTAdBfk:2090:21
+ns.SetTimeout/KasperskyLab<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=xFFVwf1HZvyxKj9lkbn7HpvIZCHKl9BUI5jxOTAdBfk:323:21
+
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 11: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 4963 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.avito.ru/dstatic/build/client/f.f620419292c6b4bd4b98.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 6095 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.avito.ru"
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 11: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: "Error while destroying front:" "inspector" (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483728/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\n_getWalker@resource://devtools/client/fronts/inspector.js:90:30\ninitialize@resource://devtools/client/fronts/inspector.js:79:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483728/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\n_getWalker@resource://devtools/client/fronts/inspector.js:90:30\ninitialize@resource://devtools/client/fronts/inspector.js:79:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal2147483728/inspectorActor4, type getWalker failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:292:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+_getWalker@resource://devtools/client/fronts/inspector.js:90:30
+initialize@resource://devtools/client/fronts/inspector.js:79:12
+
+console.error: "Unable to find target with innerWindowId:2147483728"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztmi.1gfciqd.zexjneziom00, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztmi.1gfciqd.zexjneziom00, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.avito.ru"
+console.error: "Unable to find target with innerWindowId:2147483665"
+console.warn: "Error while destroying front:" "inspector" (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483740/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\n_getWalker@resource://devtools/client/fronts/inspector.js:90:30\ninitialize@resource://devtools/client/fronts/inspector.js:79:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483740/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\n_getWalker@resource://devtools/client/fronts/inspector.js:90:30\ninitialize@resource://devtools/client/fronts/inspector.js:79:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal2147483740/inspectorActor4, type getWalker failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:292:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+_getWalker@resource://devtools/client/fronts/inspector.js:90:30
+initialize@resource://devtools/client/fronts/inspector.js:79:12
+
+console.error: "Unable to find target with innerWindowId:2147483740"
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1645015928343	Marionette	INFO	Stopped listening on port 57822
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645015968154	geckodriver	INFO	Listening on 127.0.0.1:51414
+1645015971206	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51415" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileRNxeFe"
+1645015971386	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileRNxeFe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51415/devtools/browser/d5ed798d-6459-41ba-b481-cd462f5f0d78
+1645015972554	Marionette	INFO	Listening on port 51420
+1645015972746	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=U0XbUSim82yw96mVKXpyTrAYNeunh9n8KwiZhNqG96u_YX0NnUkXP-x40mGjVjoh8d7Jf9VLXTtm55Sa2c4sdw, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=U0XbUSim82yw96mVKXpyTrAYNeunh9n8KwiZhNqG96u_YX0NnUkXP-x40mGjVjoh8d7Jf9VLXTtm55Sa2c4sdw:259:1
+
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 11: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.avito.ru/dstatic/build/client/f.f620419292c6b4bd4b98.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 7707 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 11: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.avito.ru"
+console.warn: "Error while destroying front:" "inspector" (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483692/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\n_getWalker@resource://devtools/client/fronts/inspector.js:90:30\ninitialize@resource://devtools/client/fronts/inspector.js:79:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483692/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\n_getWalker@resource://devtools/client/fronts/inspector.js:90:30\ninitialize@resource://devtools/client/fronts/inspector.js:79:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal2147483692/inspectorActor4, type getWalker failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:292:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+_getWalker@resource://devtools/client/fronts/inspector.js:90:30
+initialize@resource://devtools/client/fronts/inspector.js:79:12
+
+console.error: "Unable to find target with innerWindowId:2147483692"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 2505 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "Unable to find target with innerWindowId:2147483662"
+JavaScript warning: https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40, line 1: Script terminated by timeout at:
+t.prototype.pushEvent@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:325867
+t.prototype.handleEvent@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:325157
+e.prototype.execute@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:269936
+e.prototype._dispatch@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:270765
+t.prototype.dispatch@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:270996
+t.prototype.onEvent@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:314580
+i@https://www.avito.ru/dstatic/build/client/sentry.9711a58505ea3e3de5d6.js:2:50765
+EventListener.handleEvent*8911/En/</<@https://www.avito.ru/dstatic/build/client/sentry.9711a58505ea3e3de5d6.js:2:66219
+8911/Ke/</</<@https://www.avito.ru/dstatic/build/client/sentry.9711a58505ea3e3de5d6.js:2:52991
+a.prototype.addEventListener@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:351361
+t.prototype.start@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:314931
+t.prototype.start@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:326881
+a.prototype.refreshListening@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:352319
+a.prototype.start/a</<@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:295741
+__generator</c/</<@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:107985
+__generator</c/<@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:108090
+o@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:106797
+promise callback*s@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:106960
+o@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:106794
+promise callback*s@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:106960
+o@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:106794
+promise callback*s@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:106960
+__awaiter</<@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:106971
+__awaiter<@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:106741
+a.prototype.start@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:292672
+a.prototype.startST/a</</<@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:300869
+t.prototype._dequeue@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:3468
+t.prototype.add/e.StPromiseQueue<@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:3099
+t.prototype.add@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:2930
+a.prototype.startST/a</<@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:300845
+__generator</c/</<@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:107985
+__generator</c/<@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:108090
+__awaiter</<@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:106993
+__awaiter<@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:106741
+a.prototype.startST@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:300650
+e.init@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:368548
+n@https://www.avito.ru/dstatic/build/client/avito-core.06597583f1942a0914a7.js:2:43668
+i@https://www.avito.ru/dstatic/build/client/sentry.9711a58505ea3e3de5d6.js:2:50765
+@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:369292
+onDomReady@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:369085
+@https://static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&sessionId=2t5yztqf.1gfciqd.yjygk3j6z40:1:369192
+
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 327))
+InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment: _createTargetActor/<@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:327:12
+newListener@resource://devtools/shared/event-emitter.js:173:27
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+destroy@resource://devtools/server/actors/targets/window-global.js:743:10
+module.exports/proto.destroy@resource://devtools/server/actors/targets/target-actor-mixin.js:244:30
+instantiate@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:242:26
+handleEvent@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:651:12
+
+console.error: "Unable to find target with innerWindowId:2147483670"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ok.ru"
+1645016110687	geckodriver	INFO	Listening on 127.0.0.1:55335
+1645016113714	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55336" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilejk8prY"
+1645016113902	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilejk8prY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55336/devtools/browser/a40020c3-0ace-4b3b-b793-bf04846a27ee
+1645016115096	Marionette	INFO	Listening on port 55341
+1645016115254	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Ux4g0Qlt8p5bJRftiu9-nIzugteB35fxbhG1VqJosi5YLVH8zizdxvbaYoPTAeP95nHApIpRw_TrZ6AYvE4jjQ, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Ux4g0Qlt8p5bJRftiu9-nIzugteB35fxbhG1VqJosi5YLVH8zizdxvbaYoPTAeP95nHApIpRw_TrZ6AYvE4jjQ:259:1
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 3202 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 11: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ru.wikipedia.org"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ru.wikipedia.org"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1645016210355	Marionette	INFO	Stopped listening on port 55341
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645016213534	geckodriver	INFO	Listening on 127.0.0.1:55520
+1645016216610	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55521" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileXIg70e"
+1645016216793	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileXIg70e\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55521/devtools/browser/844ddf5d-bced-489d-804b-7ec5b2e35c90
+1645016218027	Marionette	INFO	Listening on port 55527
+1645016218159	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Qqdnn8jCkAVFgiK_N__ya3aOvkk0Nhfb7sWmn3mvdyDJdh7N-cGmOEqrL0YD4J0760WoJtaajpumX3bSa6jKpg, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Qqdnn8jCkAVFgiK_N__ya3aOvkk0Nhfb7sWmn3mvdyDJdh7N-cGmOEqrL0YD4J0760WoJtaajpumX3bSa6jKpg:259:1
+
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ru.wikipedia.org"
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1645016282898	Marionette	INFO	Stopped listening on port 55527
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645016340574	geckodriver	INFO	Listening on 127.0.0.1:55619
+1645016343625	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55620" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile96Y7jS"
+1645016343805	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile96Y7jS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55620/devtools/browser/b983e944-99a3-4185-b944-3337245bd207
+1645016345258	Marionette	INFO	Listening on port 55625
+1645016345669	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=LXQDQduiK1CV6EvN7lrzFWjWl6yUa_GWl2d6uiu2Zpckql_Y8iZtBvDWllfb_ugX_2PKL73zs4DC34oKVpQP1g, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=LXQDQduiK1CV6EvN7lrzFWjWl6yUa_GWl2d6uiu2Zpckql_Y8iZtBvDWllfb_ugX_2PKL73zs4DC34oKVpQP1g:259:1
+
+1645016490540	geckodriver	INFO	Listening on 127.0.0.1:55730
+1645016493604	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55731" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilefivKY9"
+1645016493784	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilefivKY9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55731/devtools/browser/f9597274-819a-4d4e-9a19-0f5fd56cc3f0
+1645016495035	Marionette	INFO	Listening on port 55736
+1645016495144	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=DXRwgXClN8DtZC5fTPnN3_j_Ig4Y-9xeElDkrs_52fGRYHXif6MFoFHda95uwF66uL017UJnbhCCyfkpP-Ldjw, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=DXRwgXClN8DtZC5fTPnN3_j_Ig4Y-9xeElDkrs_52fGRYHXif6MFoFHda95uwF66uL017UJnbhCCyfkpP-Ldjw:259:1
+
+1645016512721	Marionette	INFO	Stopped listening on port 55736
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645016607693	geckodriver	INFO	Listening on 127.0.0.1:55796
+1645016610761	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55797" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileIURN0d"
+1645016610940	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileIURN0d\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55797/devtools/browser/16057ec6-a82c-498d-9676-2da13373ab34
+1645016612477	Marionette	INFO	Listening on port 55802
+1645016612798	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=3yKuY-MipXp_u1GaE2NBpVjkMvZIRkQKJG6xvvr6Z4zj77sXHuC51ga6MBu61PycicL_qEer7nrLIa5ykfxdtA, line 318: Script terminated by timeout at:
+ns.SetTimeout@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=3yKuY-MipXp_u1GaE2NBpVjkMvZIRkQKJG6xvvr6Z4zj77sXHuC51ga6MBu61PycicL_qEer7nrLIa5ykfxdtA:318:9
+ProcessActivate@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=3yKuY-MipXp_u1GaE2NBpVjkMvZIRkQKJG6xvvr6Z4zj77sXHuC51ga6MBu61PycicL_qEer7nrLIa5ykfxdtA:2087:44
+OnFocus@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=3yKuY-MipXp_u1GaE2NBpVjkMvZIRkQKJG6xvvr6Z4zj77sXHuC51ga6MBu61PycicL_qEer7nrLIa5ykfxdtA:2108:13
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=3yKuY-MipXp_u1GaE2NBpVjkMvZIRkQKJG6xvvr6Z4zj77sXHuC51ga6MBu61PycicL_qEer7nrLIa5ykfxdtA:261:29
+
+1645016717919	geckodriver	INFO	Listening on 127.0.0.1:55916
+1645016720965	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55917" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileIalkpq"
+1645016721151	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileIalkpq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55917/devtools/browser/11201f0e-d503-451b-a322-594016119dfa
+1645016722321	Marionette	INFO	Listening on port 55923
+1645016722508	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=sEVOSJ7-gZ0c4SRUErtz4TtvaSvvpZ1n_Es8yt_TozXqvHLfy_ksC7i5XxVbRjY9KHkQLyrBhLGd4n0FtjLftg, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=sEVOSJ7-gZ0c4SRUErtz4TtvaSvvpZ1n_Es8yt_TozXqvHLfy_ksC7i5XxVbRjY9KHkQLyrBhLGd4n0FtjLftg:259:1
+
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.9/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 11: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645016731420	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://aeis.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aeis.alicdn.com/AWSC/fireyejs/1.219.2/fireyejs.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://aliexpress.ru"
+SourceActor threw an exception: Error: Failed to fetch https://aliexpress.ru/?gatewayAdapt=glo2rus. Code 2152398879.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:556:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 556, column: 16
+console.error: (new Error("Failed to fetch https://aliexpress.ru/?gatewayAdapt=glo2rus. Code 2152398879.", "resource://devtools/shared/DevToolsUtils.js", 556))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 556: Error: Failed to fetch https://aliexpress.ru/?gatewayAdapt=glo2rus. Code 2152398879.
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: (new TypeError("nodeFront.walkerFront is null", "resource://devtools/client/inspector/markup/markup.js", 956))
+TypeError: nodeFront.walkerFront is null: _onNewSelection@resource://devtools/client/inspector/markup/markup.js:956:7
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+setNodeFront@resource://devtools/client/framework/selection.js:206:10
+onDetached@resource://devtools/client/inspector/inspector.js:1676:20
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+_onMutations@resource://devtools/client/framework/selection.js:104:12
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: (new Error("Can not send request 'getUniqueSelector' because front 'domnode' is already destroyed.", "resource://devtools/shared/protocol/Front/FrontClassWithSpec.js", 28))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2320))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+1645016752374	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 327))
+InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment: _createTargetActor/<@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:327:12
+newListener@resource://devtools/shared/event-emitter.js:173:27
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+destroy@resource://devtools/server/actors/targets/window-global.js:743:10
+module.exports/proto.destroy@resource://devtools/server/actors/targets/target-actor-mixin.js:244:30
+instantiate@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:242:26
+handleEvent@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:651:12
+
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 3369: TypeError: data.frameData.id is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://aliexpress.ru"
+console.error: "Unable to find target with innerWindowId:2147483655"
+JavaScript error: https://st.aliexpress.ru/mixer/ssr/1/aer-assets/index.880bc911124b4224c49d.js, line 118: FirebaseError: Installations: Create Installation request failed with error "400 INVALID_ARGUMENT: Invalid JSON payload received. Unknown name "_bx-v": Cannot bind query parameter. Field 'bx-v' could not be found in request message." (installations/request-failed).
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1645017006253	geckodriver	INFO	Listening on 127.0.0.1:57018
+1645017009303	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57019" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile2LXSNF"
+1645017009482	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile2LXSNF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57019/devtools/browser/e4512809-b41a-482f-9831-41367cfc9bc3
+1645017010653	Marionette	INFO	Listening on port 57024
+1645017010844	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=6lroxNm3y7h871AusMqzkyokQxl25KFYZYXZuMR8WD6xcsP-7KleOy01eXQpq_Zcdbc74E0TKaMGpjzMRsANeg, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=6lroxNm3y7h871AusMqzkyokQxl25KFYZYXZuMR8WD6xcsP-7KleOy01eXQpq_Zcdbc74E0TKaMGpjzMRsANeg:259:1
+
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=RC51K9ff6N5SvxbEdjp3qxAgAe1ADjr_UKjJvYkYCcI, line 318: Script terminated by timeout at:
+ns.SetTimeout@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=RC51K9ff6N5SvxbEdjp3qxAgAe1ADjr_UKjJvYkYCcI:318:9
+ProcessActivate@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=RC51K9ff6N5SvxbEdjp3qxAgAe1ADjr_UKjJvYkYCcI:2087:44
+OnFocus@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=RC51K9ff6N5SvxbEdjp3qxAgAe1ADjr_UKjJvYkYCcI:2108:13
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=RC51K9ff6N5SvxbEdjp3qxAgAe1ADjr_UKjJvYkYCcI:261:29
+
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.9/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 11: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645017029636	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://aeis.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aeis.alicdn.com/AWSC/fireyejs/1.219.2/fireyejs.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://aliexpress.ru"
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:false'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:448:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:412:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2129:35
+addAllSources@resource://devtools/server/actors/thread.js:1484:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:242:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:152:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:52:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:624:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:530:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:false'
+SourceActor threw an exception: Error: Failed to fetch https://aliexpress.ru/?gatewayAdapt=glo2rus. Code 2152398879.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:556:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 556, column: 16
+console.error: (new Error("Failed to fetch https://aliexpress.ru/?gatewayAdapt=glo2rus. Code 2152398879.", "resource://devtools/shared/DevToolsUtils.js", 556))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 556: Error: Failed to fetch https://aliexpress.ru/?gatewayAdapt=glo2rus. Code 2152398879.
+console.error: "Unable to find target with innerWindowId:2147483657"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://aliexpress.ru"
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1645017135429	geckodriver	INFO	Listening on 127.0.0.1:57232
+1645017138498	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57233" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilewiGTP1"
+1645017138679	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilewiGTP1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57233/devtools/browser/8e285910-fa63-4df8-a8b7-e41983be09e5
+1645017139833	Marionette	INFO	Listening on port 57238
+1645017140036	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+1645017174150	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+1645017215610	Marionette	INFO	Stopped listening on port 57238
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645017698731	geckodriver	INFO	Listening on 127.0.0.1:52020
+1645017701778	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52021" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilei3WKJx"
+1645017701956	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilei3WKJx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52021/devtools/browser/5e14c4a9-86c0-47c5-bda0-886df9004504
+1645017703178	Marionette	INFO	Listening on port 52027
+1645017703311	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=rLUk9ZU5sAb_C_5xlzoWTYbLAkyvs0mcDdJdod7z6UdinSMBp-kkO_Lk888L4GtC0nCzMSOQUKxSZ1Ywe2kZLg, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=rLUk9ZU5sAb_C_5xlzoWTYbLAkyvs0mcDdJdod7z6UdinSMBp-kkO_Lk888L4GtC0nCzMSOQUKxSZ1Ywe2kZLg:259:1
+
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.9/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 11: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645017718795	Marionette	INFO	Stopped listening on port 52027
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645017731682	geckodriver	INFO	Listening on 127.0.0.1:52165
+1645017734726	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52166" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileFpIAY4"
+1645017734902	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileFpIAY4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52166/devtools/browser/74e6c455-1759-4f7f-aac2-11b9694b0ba0
+1645017736045	Marionette	INFO	Listening on port 52171
+1645017736260	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=yZO1CJis3df8LfdU5Qx1gsmtKLHyEyMgRA_NFEewo6-KBIDnWO9ZxzFc-Ail54zYzZUJsb9gACLe7-OzSOxbAA, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=yZO1CJis3df8LfdU5Qx1gsmtKLHyEyMgRA_NFEewo6-KBIDnWO9ZxzFc-Ail54zYzZUJsb9gACLe7-OzSOxbAA:259:1
+
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.9/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 11: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645017744006	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://aeis.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aeis.alicdn.com/AWSC/fireyejs/1.219.2/fireyejs.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://aliexpress.ru"
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:false'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:448:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:412:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2129:35
+addAllSources@resource://devtools/server/actors/thread.js:1484:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:242:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:152:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:52:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:624:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:530:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:false'
+SourceActor threw an exception: Error: Failed to fetch https://aliexpress.ru/?gatewayAdapt=glo2rus. Code 2152398879.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:556:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 556, column: 16
+console.error: (new Error("Failed to fetch https://aliexpress.ru/?gatewayAdapt=glo2rus. Code 2152398879.", "resource://devtools/shared/DevToolsUtils.js", 556))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 556: Error: Failed to fetch https://aliexpress.ru/?gatewayAdapt=glo2rus. Code 2152398879.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1645017770105	Marionette	INFO	Stopped listening on port 52171
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645017796600	geckodriver	INFO	Listening on 127.0.0.1:52335
+1645017799669	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52336" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilekR2vOn"
+1645017799849	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilekR2vOn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52336/devtools/browser/50121c92-19d9-4efe-a82c-7d5339c4d12f
+1645017801002	Marionette	INFO	Listening on port 52341
+1645017801223	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=PiA6ou9q1mRo-VXzUBnHVl9qqTi93KSwnD7WkrVQJ5fYbRT2jZzY_rWTzlJ0hJ0naSKMLqyWIfEvESJhpkHPow, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=PiA6ou9q1mRo-VXzUBnHVl9qqTi93KSwnD7WkrVQJ5fYbRT2jZzY_rWTzlJ0hJ0naSKMLqyWIfEvESJhpkHPow:259:1
+
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.9/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 11: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.aliexpress.ru"
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.9/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 11: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645017811082	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://aeis.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aeis.alicdn.com/AWSC/fireyejs/1.219.2/fireyejs.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645017851198	geckodriver	INFO	Listening on 127.0.0.1:52508
+1645017854251	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52509" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile3qlcfV"
+1645017854435	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile3qlcfV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52509/devtools/browser/25e5c60d-a5dd-47bb-a944-b86d099e1dcb
+1645017855600	Marionette	INFO	Listening on port 52515
+1645017855792	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=X_I_Z8o8jo3413YmgQ7GO60Rd6e7DICtwrGI26_WfBZf_0LVlaaDp35KRt1iLNHFByXnPqiPZX39KB296l6LRw, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=X_I_Z8o8jo3413YmgQ7GO60Rd6e7DICtwrGI26_WfBZf_0LVlaaDp35KRt1iLNHFByXnPqiPZX39KB296l6LRw:259:1
+
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ru.wikipedia.org"
+JavaScript warning: https://ru.wikipedia.org/w/load.php?lang=ru&modules=ext.centralNotice.geoIP%7Cext.centralauth.centralautologin%7Cext.cx.eventlogging.campaigns%7Cext.eventLogging%2CnavigationTiming%2CwikimediaEvents%7Cext.uls.common%2Ccompactlinks%2Cinterface%2Cpreferences%2Cwebfonts%7Cjquery%7Cjquery.client%2Ccookie%2ClengthLimit%2CtextSelection%7Cjquery.uls.data%7Cmediawiki.String%2CTitle%2CUri%2Capi%2Cbase%2Ccldr%2Ccookie%2Cexperiments%2Chtmlform%2CjqueryMsg%2Clanguage%2Cstorage%2Cuser%2Cutil%2CvisibleTimeout%7Cmediawiki.editfont.styles%7Cmediawiki.libs.pluralruleparser%7Cmediawiki.page.ready%7Cskins.vector.legacy.js&skin=vector&version=7xhft, line 168: Script terminated by timeout at:
+addProp/<.get<@https://ru.wikipedia.org/w/load.php?lang=ru&modules=ext.centralNotice.geoIP%7Cext.centralauth.centralautologin%7Cext.cx.eventlogging.campaigns%7Cext.eventLogging%2CnavigationTiming%2CwikimediaEvents%7Cext.uls.common%2Ccompactlinks%2Cinterface%2Cpreferences%2Cwebfonts%7Cjquery%7Cjquery.client%2Ccookie%2ClengthLimit%2CtextSelection%7Cjquery.uls.data%7Cmediawiki.String%2CTitle%2CUri%2Capi%2Cbase%2Ccldr%2Ccookie%2Cexperiments%2Chtmlform%2CjqueryMsg%2Clanguage%2Cstorage%2Cuser%2Cutil%2CvisibleTimeout%7Cmediawiki.editfont.styles%7Cmediawiki.libs.pluralruleparser%7Cmediawiki.page.ready%7Cskins.vector.legacy.js&skin=vector&version=7xhft:168:637
+jQuery.fn.extend@https://ru.wikipedia.org/w/load.php?lang=ru&modules=ext.centralNotice.geoIP%7Cext.centralauth.centralautologin%7Cext.cx.eventlogging.campaigns%7Cext.eventLogging%2CnavigationTiming%2CwikimediaEvents%7Cext.uls.common%2Ccompactlinks%2Cinterface%2Cpreferences%2Cwebfonts%7Cjquery%7Cjquery.client%2Ccookie%2ClengthLimit%2CtextSelection%7Cjquery.uls.data%7Cmediawiki.String%2CTitle%2CUri%2Capi%2Cbase%2Ccldr%2Ccookie%2Cexperiments%2Chtmlform%2CjqueryMsg%2Clanguage%2Cstorage%2Cuser%2Cutil%2CvisibleTimeout%7Cmediawiki.editfont.styles%7Cmediawiki.libs.pluralruleparser%7Cmediawiki.page.ready%7Cskins.vector.legacy.js&skin=vector&version=7xhft:101:151
+simulate@https://ru.wikipedia.org/w/load.php?lang=ru&modules=ext.centralNotice.geoIP%7Cext.centralauth.centralautologin%7Cext.cx.eventlogging.campaigns%7Cext.eventLogging%2CnavigationTiming%2CwikimediaEvents%7Cext.uls.common%2Ccompactlinks%2Cinterface%2Cpreferences%2Cwebfonts%7Cjquery%7Cjquery.client%2Ccookie%2ClengthLimit%2CtextSelection%7Cjquery.uls.data%7Cmediawiki.String%2CTitle%2CUri%2Capi%2Cbase%2Ccldr%2Ccookie%2Cexperiments%2Chtmlform%2CjqueryMsg%2Clanguage%2Cstorage%2Cuser%2Cutil%2CvisibleTimeout%7Cmediawiki.editfont.styles%7Cmediawiki.libs.pluralruleparser%7Cmediawiki.page.ready%7Cskins.vector.legacy.js&skin=vector&version=7xhft:214:499
+handler@https://ru.wikipedia.org/w/load.php?lang=ru&modules=ext.centralNotice.geoIP%7Cext.centralauth.centralautologin%7Cext.cx.eventlogging.campaigns%7Cext.eventLogging%2CnavigationTiming%2CwikimediaEvents%7Cext.uls.common%2Ccompactlinks%2Cinterface%2Cpreferences%2Cwebfonts%7Cjquery%7Cjquery.client%2Ccookie%2ClengthLimit%2CtextSelection%7Cjquery.uls.data%7Cmediawiki.String%2CTitle%2CUri%2Capi%2Cbase%2Ccldr%2Ccookie%2Cexperiments%2Chtmlform%2CjqueryMsg%2Clanguage%2Cstorage%2Cuser%2Cutil%2CvisibleTimeout%7Cmediawiki.editfont.styles%7Cmediawiki.libs.pluralruleparser%7Cmediawiki.page.ready%7Cskins.vector.legacy.js&skin=vector&version=7xhft:214:957
+
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 327))
+InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment: _createTargetActor/<@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:327:12
+newListener@resource://devtools/shared/event-emitter.js:173:27
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+destroy@resource://devtools/server/actors/targets/window-global.js:743:10
+module.exports/proto.destroy@resource://devtools/server/actors/targets/target-actor-mixin.js:244:30
+instantiate@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:242:26
+handleEvent@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:651:12
+
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.9/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 11: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://aliexpress.ru"
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 327))
+InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment: _createTargetActor/<@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:327:12
+newListener@resource://devtools/shared/event-emitter.js:173:27
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+destroy@resource://devtools/server/actors/targets/window-global.js:743:10
+module.exports/proto.destroy@resource://devtools/server/actors/targets/target-actor-mixin.js:244:30
+instantiate@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:242:26
+handleEvent@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:651:12
+
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.9/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 11: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "Unable to find target with innerWindowId:2147483654"
+console.error: "Unable to find target with innerWindowId:2147483654"
+console.error: "Unable to find target with innerWindowId:2147483654"
+console.error: "Unable to find target with innerWindowId:2147483654"
+console.error: "Unable to find target with innerWindowId:2147483654"
+console.error: "Unable to find target with innerWindowId:2147483654"
+console.error: "Unable to find target with innerWindowId:2147483654"
+console.error: "Unable to find target with innerWindowId:2147483660"
+JavaScript warning: https://aeis.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645017886688	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 327))
+InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment: _createTargetActor/<@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:327:12
+newListener@resource://devtools/shared/event-emitter.js:173:27
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+destroy@resource://devtools/server/actors/targets/window-global.js:743:10
+module.exports/proto.destroy@resource://devtools/server/actors/targets/target-actor-mixin.js:244:30
+instantiate@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:242:26
+handleEvent@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:651:12
+
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 3369: TypeError: data.frameData.id is null
+JavaScript warning: https://aeis.alicdn.com/AWSC/fireyejs/1.219.2/fireyejs.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.aliexpress.ru"
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1645017903726	Marionette	INFO	Stopped listening on port 52515
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1645018024359	geckodriver	INFO	Listening on 127.0.0.1:54713
+1645018027406	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54714" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileuVb87l"
+1645018027582	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileuVb87l\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54714/devtools/browser/c01bee18-60cf-40f2-bf05-2548bdc1b91a
+1645018028762	Marionette	INFO	Listening on port 54719
+1645018028950	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=x1_4KmgvKovzbqt3LKRVDp5pWzvVwukyYrdJsCZFVketPmP5At_Pnq1GaJhDMb7Iw5ZUBS-RM0Q77HErR4V4MQ, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=x1_4KmgvKovzbqt3LKRVDp5pWzvVwukyYrdJsCZFVketPmP5At_Pnq1GaJhDMb7Iw5ZUBS-RM0Q77HErR4V4MQ:259:1
+
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.9/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 11: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645018035668	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://aeis.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aeis.alicdn.com/AWSC/fireyejs/1.219.2/fireyejs.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645018292304	geckodriver	INFO	Listening on 127.0.0.1:54938
+1645018295350	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54939" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileePl8Ra"
+1645018295532	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileePl8Ra\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54939/devtools/browser/067e56c5-5cd6-47d7-bff3-44099b01d8b8
+1645018297086	Marionette	INFO	Listening on port 54944
+1645018297399	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=K_ZH-DKJYXoJQueZzx-2ZgsfYbmyIdsyPwgBaZZfVHSy1Tkckj7kOpCXcKq3x_sp0qlhWXILweO6qiSHr_iDtw, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=K_ZH-DKJYXoJQueZzx-2ZgsfYbmyIdsyPwgBaZZfVHSy1Tkckj7kOpCXcKq3x_sp0qlhWXILweO6qiSHr_iDtw:259:1
+
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.9/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 11: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645018308490	Marionette	INFO	Stopped listening on port 54944
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645018309692	geckodriver	INFO	Listening on 127.0.0.1:55081
+1645018312730	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55082" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileKmU66y"
+1645018312921	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileKmU66y\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55082/devtools/browser/d77dd3e7-4575-490f-8a9d-b3ad1a4da81f
+1645018314082	Marionette	INFO	Listening on port 55087
+1645018314260	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google.com/?gws_rd=ssl, line 21: Script terminated by timeout at:
+S@https://www.google.com/?gws_rd=ssl:21:1043
+m@https://www.google.com/?gws_rd=ssl:20:1168
+
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ok.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ok.ru"
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1645018342392	Marionette	INFO	Stopped listening on port 55087
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1645018505198	geckodriver	INFO	Listening on 127.0.0.1:55180
+1645018508267	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55181" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileIxx0TO"
+1645018508449	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileIxx0TO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55181/devtools/browser/249fcb97-e05f-4a95-9627-247c46b426ed
+1645018510016	Marionette	INFO	Listening on port 55187
+1645018510314	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=bGNxikydz9ZyGLCvSE3_FTrRBc0ZIOJmXsYdKAiuQFMGz1mmFe6wxo82qhoM8AFvQczJ5zPcDw1yZ934XJvFgw, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=bGNxikydz9ZyGLCvSE3_FTrRBc0ZIOJmXsYdKAiuQFMGz1mmFe6wxo82qhoM8AFvQczJ5zPcDw1yZ934XJvFgw:259:1
+
+1645018588593	geckodriver	INFO	Listening on 127.0.0.1:55297
+1645018591642	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55298" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile2gAWIR"
+1645018591820	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile2gAWIR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55298/devtools/browser/5ae3df84-d9ed-4611-8c51-79298dd029c7
+1645018592982	Marionette	INFO	Listening on port 55303
+1645018593190	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=MWmEtRqAGgoiBFaQ9n1P7MHZChJPv8C7AO1G-zD7c9J1cEwhvZZRPxJRnzcfAw3gKNVB19QOb3PJ5lecSuNPTA, line 1440: Script terminated by timeout at:
+ns.WebSocketCaller/this.IsProductConnected@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=MWmEtRqAGgoiBFaQ9n1P7MHZChJPv8C7AO1G-zD7c9J1cEwhvZZRPxJRnzcfAw3gKNVB19QOb3PJ5lecSuNPTA:1440:5
+CallReceiver/this.IsProductConnected@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=MWmEtRqAGgoiBFaQ9n1P7MHZChJPv8C7AO1G-zD7c9J1cEwhvZZRPxJRnzcfAw3gKNVB19QOb3PJ5lecSuNPTA:1541:31
+CallImpl@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=MWmEtRqAGgoiBFaQ9n1P7MHZChJPv8C7AO1G-zD7c9J1cEwhvZZRPxJRnzcfAw3gKNVB19QOb3PJ5lecSuNPTA:1633:33
+Call@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=MWmEtRqAGgoiBFaQ9n1P7MHZChJPv8C7AO1G-zD7c9J1cEwhvZZRPxJRnzcfAw3gKNVB19QOb3PJ5lecSuNPTA:1651:21
+KasperskyLabSessionClass/this.InitializePlugin/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=MWmEtRqAGgoiBFaQ9n1P7MHZChJPv8C7AO1G-zD7c9J1cEwhvZZRPxJRnzcfAw3gKNVB19QOb3PJ5lecSuNPTA:1820:26
+FireActivateEventImpl@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=MWmEtRqAGgoiBFaQ9n1P7MHZChJPv8C7AO1G-zD7c9J1cEwhvZZRPxJRnzcfAw3gKNVB19QOb3PJ5lecSuNPTA:2045:23
+FireActivateEvent@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=MWmEtRqAGgoiBFaQ9n1P7MHZChJPv8C7AO1G-zD7c9J1cEwhvZZRPxJRnzcfAw3gKNVB19QOb3PJ5lecSuNPTA:2066:13
+ProcessActivate/m_activatedStateChangeTimeout<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=MWmEtRqAGgoiBFaQ9n1P7MHZChJPv8C7AO1G-zD7c9J1cEwhvZZRPxJRnzcfAw3gKNVB19QOb3PJ5lecSuNPTA:2090:21
+ns.SetTimeout/KasperskyLab<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=MWmEtRqAGgoiBFaQ9n1P7MHZChJPv8C7AO1G-zD7c9J1cEwhvZZRPxJRnzcfAw3gKNVB19QOb3PJ5lecSuNPTA:323:21
+
+1645018620196	geckodriver	INFO	Listening on 127.0.0.1:55388
+1645018623264	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55389" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilec7pArx"
+1645018623440	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilec7pArx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55389/devtools/browser/b0d30089-5599-4321-90cb-007a6cae211f
+1645018624712	Marionette	INFO	Listening on port 55395
+1645018624802	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=UusnOZdQMdOvGk1NcKYZ51JgBAf3ggefSsFqygEmiTsIiKRVZE-_BcCF-4AWx8eHNxrPoDYcuH_zOfs3-qzP4w, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=UusnOZdQMdOvGk1NcKYZ51JgBAf3ggefSsFqygEmiTsIiKRVZE-_BcCF-4AWx8eHNxrPoDYcuH_zOfs3-qzP4w:259:1
+
+1645018649850	geckodriver	INFO	Listening on 127.0.0.1:55466
+1645018652906	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55467" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilelquNSB"
+1645018653085	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilelquNSB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55467/devtools/browser/a9869e18-515c-4707-a017-80034846989d
+1645018654243	Marionette	INFO	Listening on port 55472
+1645018654443	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=IcbOr_IhjuV6PS9jAoaUjnXtscAgi4JBOUkza4Gdu26RpSB9sRzrIlOsDL0A-tSF-r8G4iDrhsV4mVyhgSvKtw, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=IcbOr_IhjuV6PS9jAoaUjnXtscAgi4JBOUkza4Gdu26RpSB9sRzrIlOsDL0A-tSF-r8G4iDrhsV4mVyhgSvKtw:259:1
+
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ok.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ok.ru"
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=OBVjpRF-vdTiwq7qGrUNh0iXGEDASlyK9rCXkzlG2LA, line 318: Script terminated by timeout at:
+ns.SetTimeout@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=OBVjpRF-vdTiwq7qGrUNh0iXGEDASlyK9rCXkzlG2LA:318:9
+ProcessActivate@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=OBVjpRF-vdTiwq7qGrUNh0iXGEDASlyK9rCXkzlG2LA:2087:44
+OnFocus@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=OBVjpRF-vdTiwq7qGrUNh0iXGEDASlyK9rCXkzlG2LA:2108:13
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=OBVjpRF-vdTiwq7qGrUNh0iXGEDASlyK9rCXkzlG2LA:261:29
+
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 327))
+InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment: _createTargetActor/<@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:327:12
+newListener@resource://devtools/shared/event-emitter.js:173:27
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+destroy@resource://devtools/server/actors/targets/window-global.js:743:10
+module.exports/proto.destroy@resource://devtools/server/actors/targets/target-actor-mixin.js:244:30
+instantiate@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:242:26
+handleEvent@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:651:12
+
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.9/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 11: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://aliexpress.ru"
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 327))
+InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment: _createTargetActor/<@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:327:12
+newListener@resource://devtools/shared/event-emitter.js:173:27
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+destroy@resource://devtools/server/actors/targets/window-global.js:743:10
+module.exports/proto.destroy@resource://devtools/server/actors/targets/target-actor-mixin.js:244:30
+instantiate@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:242:26
+handleEvent@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:651:12
+
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.9/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 11: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "Unable to find target with innerWindowId:2147483652"
+console.error: "Unable to find target with innerWindowId:2147483652"
+console.error: "Unable to find target with innerWindowId:2147483652"
+console.error: "Unable to find target with innerWindowId:2147483652"
+console.error: "Unable to find target with innerWindowId:2147483652"
+console.error: "Unable to find target with innerWindowId:2147483652"
+console.error: "Unable to find target with innerWindowId:2147483652"
+console.error: "Unable to find target with innerWindowId:2147483658"
+JavaScript warning: https://aeis.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645018684516	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483672/layout27, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 327))
+InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment: _createTargetActor/<@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:327:12
+newListener@resource://devtools/shared/event-emitter.js:173:27
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+destroy@resource://devtools/server/actors/targets/window-global.js:743:10
+module.exports/proto.destroy@resource://devtools/server/actors/targets/target-actor-mixin.js:244:30
+instantiate@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:242:26
+handleEvent@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:651:12
+
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 3369: TypeError: data.frameData.id is null
+JavaScript warning: https://aeis.alicdn.com/AWSC/fireyejs/1.219.2/fireyejs.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.aliexpress.ru"
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'

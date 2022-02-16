@@ -26,7 +26,6 @@ tabs = 1
 
 driver = webdriver.Firefox()
 driver.get("http://www.google.com")
-
 f = open('Lists.JSON')
 lists = json.load(f)
 curr_url = "about:blank"

@@ -5,6 +5,7 @@ E-mail
 email
 адрес
 password
+Password
 login
 mail
 field_email
