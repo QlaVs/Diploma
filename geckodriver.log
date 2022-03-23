@@ -3849,3 +3849,17 @@ JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_
 
 ###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
 
+1645699816193	geckodriver	INFO	Listening on 127.0.0.1:58452
+1645699819263	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58453" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileU44vAG"
+1645699820295	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileU44vAG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58453/devtools/browser/0b702def-2367-4ba5-9b93-61ca8fd20490
+1645699823952	Marionette	INFO	Listening on port 58470
+1645699824147	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645699847349	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.google.com/?gws_rd=ssl, line 20: Script terminated by timeout at:
+m@https://www.google.com/?gws_rd=ssl:20:226
+
+1645699863666	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1645699967230	Marionette	INFO	Stopped listening on port 58470
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
