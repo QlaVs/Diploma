@@ -46,7 +46,7 @@ class Reader:
                 # text = pytesseract.image_to_string(im, lang="rus")
 
                 try:
-                    if ML.check_strings(self.driver.page_source, words):
+                    ML.check_strings(self.driver.page_source, words)
 
                 except:
                     pass

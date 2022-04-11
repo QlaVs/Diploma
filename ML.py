@@ -32,5 +32,3 @@ def check_strings(html_page, words):
 
 
     arr.clear()
-
-    return True
