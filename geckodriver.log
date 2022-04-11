@@ -3863,3 +3863,591 @@ m@https://www.google.com/?gws_rd=ssl:20:226
 1645699863666	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 1645699967230	Marionette	INFO	Stopped listening on port 58470
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1649699633133	geckodriver	INFO	Listening on 127.0.0.1:52888
+1649699636192	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52889" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileDl82ie"
+1649699636390	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileDl82ie\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52889/devtools/browser/7a8c1c60-d12c-45ff-9ae7-877f5e3c42dc
+1649699637603	Marionette	INFO	Listening on port 52894
+1649699637728	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?hl=ru&passive=true&continue=https://www.google.com/%3Fgws_rd%3Dssl&ec=GAZAmgQ line 1 > eval line 321 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://accounts.google.com/ServiceLogin?hl=ru&passive=true&continue=https://www.google.com/%3Fgws_rd%3Dssl&ec=GAZAmgQ, line 746: Script terminated by timeout at:
+_.sw@/accounts/static/_/js/k=gaia.gaiafe_glif.ru.Z9SPCIg8jVY.O/am=HST-gCT8AAAAAAAAAAAAAAAAPBFRA42yAQ/d=1/excm=glif_initial_css/rs=ABkqax3SECJxqpB-Agyk0wHgjbeVbieM_A/m=glifb,identifier_view,unknownerror_view:746:86
+wN@/accounts/static/_/js/k=gaia.gaiafe_glif.ru.Z9SPCIg8jVY.O/am=HST-gCT8AAAAAAAAAAAAAAAAPBFRA42yAQ/d=1/excm=glif_initial_css/rs=ABkqax3SECJxqpB-Agyk0wHgjbeVbieM_A/m=glifb,identifier_view,unknownerror_view:3614:35
+vda@/accounts/static/_/js/k=gaia.gaiafe_glif.ru.Z9SPCIg8jVY.O/am=HST-gCT8AAAAAAAAAAAAAAAAPBFRA42yAQ/d=1/excm=glif_initial_css/rs=ABkqax3SECJxqpB-Agyk0wHgjbeVbieM_A/m=glifb,identifier_view,unknownerror_view:3627:382
+wda/this.oa@/accounts/static/_/js/k=gaia.gaiafe_glif.ru.Z9SPCIg8jVY.O/am=HST-gCT8AAAAAAAAAAAAAAAAPBFRA42yAQ/d=1/excm=glif_initial_css/rs=ABkqax3SECJxqpB-Agyk0wHgjbeVbieM_A/m=glifb,identifier_view,unknownerror_view:110:280
+wda.prototype.fa@/accounts/static/_/js/k=gaia.gaiafe_glif.ru.Z9SPCIg8jVY.O/am=HST-gCT8AAAAAAAAAAAAAAAAPBFRA42yAQ/d=1/excm=glif_initial_css/rs=ABkqax3SECJxqpB-Agyk0wHgjbeVbieM_A/m=glifb,identifier_view,unknownerror_view:3626:295
+f@/accounts/static/_/js/k=gaia.gaiafe_glif.ru.Z9SPCIg8jVY.O/am=HST-gCT8AAAAAAAAAAAAAAAAPBFRA42yAQ/d=1/excm=glif_initial_css/rs=ABkqax3SECJxqpB-Agyk0wHgjbeVbieM_A/m=glifb,identifier_view,unknownerror_view:3602:187
+
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=jK8mWiApmneKd7qmyWqmCMXw0Eb435Jkh8JyPLY2PAOS04P0KHzy9wyuuDBxxEv1, line 1440: Script terminated by timeout at:
+ns.WebSocketCaller/this.IsProductConnected@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=jK8mWiApmneKd7qmyWqmCMXw0Eb435Jkh8JyPLY2PAOS04P0KHzy9wyuuDBxxEv1:1440:5
+CallReceiver/this.IsProductConnected@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=jK8mWiApmneKd7qmyWqmCMXw0Eb435Jkh8JyPLY2PAOS04P0KHzy9wyuuDBxxEv1:1541:31
+CallImpl@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=jK8mWiApmneKd7qmyWqmCMXw0Eb435Jkh8JyPLY2PAOS04P0KHzy9wyuuDBxxEv1:1633:33
+Call@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=jK8mWiApmneKd7qmyWqmCMXw0Eb435Jkh8JyPLY2PAOS04P0KHzy9wyuuDBxxEv1:1651:21
+KasperskyLabSessionClass/this.InitializePlugin/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=jK8mWiApmneKd7qmyWqmCMXw0Eb435Jkh8JyPLY2PAOS04P0KHzy9wyuuDBxxEv1:1820:26
+FireActivateEventImpl@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=jK8mWiApmneKd7qmyWqmCMXw0Eb435Jkh8JyPLY2PAOS04P0KHzy9wyuuDBxxEv1:2045:23
+FireActivateEvent@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=jK8mWiApmneKd7qmyWqmCMXw0Eb435Jkh8JyPLY2PAOS04P0KHzy9wyuuDBxxEv1:2066:13
+ProcessActivate/m_activatedStateChangeTimeout<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=jK8mWiApmneKd7qmyWqmCMXw0Eb435Jkh8JyPLY2PAOS04P0KHzy9wyuuDBxxEv1:2090:21
+ns.SetTimeout/KasperskyLab<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=jK8mWiApmneKd7qmyWqmCMXw0Eb435Jkh8JyPLY2PAOS04P0KHzy9wyuuDBxxEv1:323:21
+
+1649699677644	Marionette	INFO	Stopped listening on port 52894
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1649699684117	geckodriver	INFO	Listening on 127.0.0.1:52980
+1649699687169	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52981" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilePD2dC8"
+1649699687356	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilePD2dC8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52981/devtools/browser/8ebb4186-ce9c-42a0-849a-a785e8d97279
+1649699688508	Marionette	INFO	Listening on port 52987
+1649699688701	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.9/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1649700093544	geckodriver	INFO	Listening on 127.0.0.1:54404
+1649700096615	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54405" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilewlOrnV"
+1649700096794	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilewlOrnV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54405/devtools/browser/e7b5eef8-8282-4654-84a3-9de556a9d826
+1649700097966	Marionette	INFO	Listening on port 54411
+1649700098166	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://st.vk.com/dist/web/grip.2bb10fa6ebc26aba54f0.js?d462ebb289917abed0b24a7926238bd6, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st.vk.com/dist/web/grip.2bb10fa6ebc26aba54f0.js?d462ebb289917abed0b24a7926238bd6, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st.vk.com/dist/common.350e020c2332f3a01013.js?28818da2e4bfdaeba71cc7d, line 2: Script terminated by timeout at:
+C@https://st.vk.com/dist/common.350e020c2332f3a01013.js?28818da2e4bfdaeba71cc7d:2:1075267
+h@https://st.vk.com/dist/common.350e020c2332f3a01013.js?28818da2e4bfdaeba71cc7d:2:845199
+p@https://st.vk.com/dist/common.350e020c2332f3a01013.js?28818da2e4bfdaeba71cc7d:2:844754
+49535/c/d<@https://st.vk.com/dist/common.350e020c2332f3a01013.js?28818da2e4bfdaeba71cc7d:2:843335
+
+1649700121452	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://st.vk.com/dist/web/sentry.a7e6eae6a04b48d61e74.js?b43f6320cd1dda1a6f0c85a8ee642635, line 1: Script terminated by timeout at:
+g@https://st.vk.com/dist/web/sentry.a7e6eae6a04b48d61e74.js?b43f6320cd1dda1a6f0c85a8ee642635:1:5760
+653692/d/<@https://st.vk.com/dist/web/sentry.a7e6eae6a04b48d61e74.js?b43f6320cd1dda1a6f0c85a8ee642635:1:16991
+ns.SetTimeout@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=O_o4oa3kXuUMRRkB8bcvClIWfkEYPjtDr8Y70vZwPR2vuTLMVSOaOa-JswOYR_gW:318:16
+ProcessActivate@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=O_o4oa3kXuUMRRkB8bcvClIWfkEYPjtDr8Y70vZwPR2vuTLMVSOaOa-JswOYR_gW:2087:44
+OnFocus@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=O_o4oa3kXuUMRRkB8bcvClIWfkEYPjtDr8Y70vZwPR2vuTLMVSOaOa-JswOYR_gW:2108:13
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=O_o4oa3kXuUMRRkB8bcvClIWfkEYPjtDr8Y70vZwPR2vuTLMVSOaOa-JswOYR_gW:261:29
+
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.9/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1649700132213	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://aeis.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aeis.alicdn.com/AWSC/fireyejs/1.221.0/fireyejs.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1649700223808	geckodriver	INFO	Listening on 127.0.0.1:53793
+1649700226874	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53794" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileQrGvVP"
+1649700227063	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileQrGvVP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53794/devtools/browser/fc3f75be-a8d8-4edd-86bc-8a3463ad1b21
+1649700228175	Marionette	INFO	Listening on port 53799
+1649700228410	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.9/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+1649700235909	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aeis.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aeis.alicdn.com/AWSC/fireyejs/1.221.0/fireyejs.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://st.aliexpress.ru/mixer/ssr/1/aer-assets/index.64a10bcab148e494193a.js, line 83: FirebaseError: Installations: Create Installation request failed with error "400 INVALID_ARGUMENT: Invalid JSON payload received. Unknown name "_bx-v": Cannot bind query parameter. Field 'bx-v' could not be found in request message." (installations/request-failed).
+1649700271149	geckodriver	INFO	Listening on 127.0.0.1:56529
+1649700274210	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56530" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileZtUBaK"
+1649700274391	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileZtUBaK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56530/devtools/browser/376e3de7-4c7a-4e5e-b9c5-928854b0bc59
+1649700275516	Marionette	INFO	Listening on port 56535
+1649700275748	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=xDxnuMEfu7oEkZ13T9Td3iMZ5kBKqdSfgii2IiI2LBjnGgwOWkvr9o_KM8JcsYkO8OqI419RRfw0L6nJ73wf7A, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=xDxnuMEfu7oEkZ13T9Td3iMZ5kBKqdSfgii2IiI2LBjnGgwOWkvr9o_KM8JcsYkO8OqI419RRfw0L6nJ73wf7A:259:1
+
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.9/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.9/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1649700283845	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://aeis.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aeis.alicdn.com/AWSC/fireyejs/1.221.0/fireyejs.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.aliexpress.ru"
+SourceActor threw an exception: Error: Failed to fetch https://login.aliexpress.ru/?flag=1&return_url=https%3A%2F%2Fhome.aliexpress.ru%2Findex.htm%3Fspm%3Da2g2w.home.1000001.9.5a50501dm8xxgm%26tracelog%3Dws_topbar%26_ga%3D2.199497774.1293627093.1649700282-225742344.1649700282. Code 2152398879.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:556:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 556, column: 16
+console.error: (new Error("Failed to fetch https://login.aliexpress.ru/?flag=1&return_url=https%3A%2F%2Fhome.aliexpress.ru%2Findex.htm%3Fspm%3Da2g2w.home.1000001.9.5a50501dm8xxgm%26tracelog%3Dws_topbar%26_ga%3D2.199497774.1293627093.1649700282-225742344.1649700282. Code 2152398879.", "resource://devtools/shared/DevToolsUtils.js", 556))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 556: Error: Failed to fetch https://login.aliexpress.ru/?flag=1&return_url=https%3A%2F%2Fhome.aliexpress.ru%2Findex.htm%3Fspm%3Da2g2w.home.1000001.9.5a50501dm8xxgm%26tracelog%3Dws_topbar%26_ga%3D2.199497774.1293627093.1649700282-225742344.1649700282. Code 2152398879.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.aliexpress.ru"
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yPRSpnmC7kCVHbP5HJYGhFaCAnVrOjYDhSjhq7GpE_U.js line 1 > eval line 7271 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+1649700381163	Marionette	INFO	Stopped listening on port 56535
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1649700408311	geckodriver	INFO	Listening on 127.0.0.1:58507
+1649700411361	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58508" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile0QLNFU"
+1649700411542	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile0QLNFU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58508/devtools/browser/ea9e5ebd-6226-45b6-b330-1c93f91e7b8c
+1649700412667	Marionette	INFO	Listening on port 58513
+1649700412906	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google.com/?gws_rd=ssl, line 22: Script terminated by timeout at:
+S@https://www.google.com/?gws_rd=ssl:22:1135
+m@https://www.google.com/?gws_rd=ssl:21:1168
+
+1649700423923	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=zrBH_JTVk971Z9s7ixLM-C0z7DvYaHtbMtWwKJsfn33tUS8D8QT0Y9vfhU3SqW0VqiCwUFHPoFVL7kRJZ8Ecyg, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=zrBH_JTVk971Z9s7ixLM-C0z7DvYaHtbMtWwKJsfn33tUS8D8QT0Y9vfhU3SqW0VqiCwUFHPoFVL7kRJZ8Ecyg:259:1
+
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.9/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+1649700431691	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aeis.alicdn.com/AWSC/fireyejs/1.221.0/fireyejs.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aeis.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1649700611394	geckodriver	INFO	Listening on 127.0.0.1:60465
+1649700614456	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60466" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileoN7rat"
+1649700614636	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileoN7rat\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60466/devtools/browser/437645fe-71b5-402c-a868-6b0f2bd7ecfa
+1649700615774	Marionette	INFO	Listening on port 60471
+1649700615994	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=ZlfvK4Jbe4ArB1_xmh6z9YH9KhD7roXfstdxkwvBO7V7tn13eAkEtY0G1ZFPD5wW-RLskVfCQRNAlFcQHaUXaQ, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=ZlfvK4Jbe4ArB1_xmh6z9YH9KhD7roXfstdxkwvBO7V7tn13eAkEtY0G1ZFPD5wW-RLskVfCQRNAlFcQHaUXaQ:259:1
+
+1649700623342	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: VK is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.news/news-list/?hide-header=true&hide-footer=true&message=true&bg=true&themeId=dark2021&fingerprintId=93505c7626d1b0eaf2cdfe099a342bc2 line 240 > injectedScript, line 1: ReferenceError: yaCounter86146936 is not defined
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rutube.ru"
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2320))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rutube.ru"
+console.error: "Unable to find target with innerWindowId:2147483661"
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.9/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+1649700695340	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 3456: TypeError: data.frameData.id is null
+JavaScript warning: https://aeis.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aeis.alicdn.com/AWSC/fireyejs/1.221.0/fireyejs.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 3456: TypeError: data.frameData.id is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.error: "Failed to start [root-node] legacy listener for target null" (new TypeError("inspectorFront.walker is null", "resource://devtools/shared/commands/resource/legacy-listeners/root-node.js", 50))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://github.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://github.com"
+1649700834402	geckodriver	INFO	Listening on 127.0.0.1:63958
+1649700837447	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63959" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileSklV0H"
+1649700837632	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileSklV0H\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63959/devtools/browser/555db123-fe3f-4066-9336-47ebd6fdb5b8
+1649700839079	Marionette	INFO	Listening on port 63964
+1649700839496	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=FXZhOKzOjr4xRZcJn-lqGm0i3NKJapJlnvtuMuqfk6D4Gponae9bgBWzqo_m6TG1CRWGvGQmbQwDxtzcuIY3_A, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=FXZhOKzOjr4xRZcJn-lqGm0i3NKJapJlnvtuMuqfk6D4Gponae9bgBWzqo_m6TG1CRWGvGQmbQwDxtzcuIY3_A:259:1
+
+1649700897150	geckodriver	INFO	Listening on 127.0.0.1:64098
+1649700900235	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64099" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileL5qwLa"
+1649700900413	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileL5qwLa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64099/devtools/browser/6dde2231-96ef-4b40-b8e7-cb35204529b9
+1649700901543	Marionette	INFO	Listening on port 64104
+1649700901775	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=NAoBiJ_XncijZ4vWMnYnxCDMYhWri3rnADNLBA2wOgCjppD26HXVZcAvGbynLsYtLjEUFTtHktFl6kldzy7ZuQ, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=NAoBiJ_XncijZ4vWMnYnxCDMYhWri3rnADNLBA2wOgCjppD26HXVZcAvGbynLsYtLjEUFTtHktFl6kldzy7ZuQ:259:1
+
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ru.wikipedia.org"
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ru.wikipedia.org"
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=fxoWecKKyK4Wej7swZaHS2Fp5CU-_DXP6OjZ4htLMJS-yTx5fH-wGsNo9E59ortr8Zp-gYL44sX4dwnByykXZEmbUWxt7dTQIg_8Wlr3wF9LRh6dqBuz9dhXldOkAQ-_4ERbm-lVV0LI_j-uq8lDnJ04d6RJMpJLTnC2S-aa8VGWzmzONZJGkgc-rYX04waNjK4LeSuQV25jSyVWbn1FoV0am_nUzOstk_2mdv5j5pQ, line 318: Script terminated by timeout at:
+ns.SetTimeout@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=fxoWecKKyK4Wej7swZaHS2Fp5CU-_DXP6OjZ4htLMJS-yTx5fH-wGsNo9E59ortr8Zp-gYL44sX4dwnByykXZEmbUWxt7dTQIg_8Wlr3wF9LRh6dqBuz9dhXldOkAQ-_4ERbm-lVV0LI_j-uq8lDnJ04d6RJMpJLTnC2S-aa8VGWzmzONZJGkgc-rYX04waNjK4LeSuQV25jSyVWbn1FoV0am_nUzOstk_2mdv5j5pQ:318:9
+ProcessActivate@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=fxoWecKKyK4Wej7swZaHS2Fp5CU-_DXP6OjZ4htLMJS-yTx5fH-wGsNo9E59ortr8Zp-gYL44sX4dwnByykXZEmbUWxt7dTQIg_8Wlr3wF9LRh6dqBuz9dhXldOkAQ-_4ERbm-lVV0LI_j-uq8lDnJ04d6RJMpJLTnC2S-aa8VGWzmzONZJGkgc-rYX04waNjK4LeSuQV25jSyVWbn1FoV0am_nUzOstk_2mdv5j5pQ:2087:44
+OnFocus@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=fxoWecKKyK4Wej7swZaHS2Fp5CU-_DXP6OjZ4htLMJS-yTx5fH-wGsNo9E59ortr8Zp-gYL44sX4dwnByykXZEmbUWxt7dTQIg_8Wlr3wF9LRh6dqBuz9dhXldOkAQ-_4ERbm-lVV0LI_j-uq8lDnJ04d6RJMpJLTnC2S-aa8VGWzmzONZJGkgc-rYX04waNjK4LeSuQV25jSyVWbn1FoV0am_nUzOstk_2mdv5j5pQ:2108:13
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=fxoWecKKyK4Wej7swZaHS2Fp5CU-_DXP6OjZ4htLMJS-yTx5fH-wGsNo9E59ortr8Zp-gYL44sX4dwnByykXZEmbUWxt7dTQIg_8Wlr3wF9LRh6dqBuz9dhXldOkAQ-_4ERbm-lVV0LI_j-uq8lDnJ04d6RJMpJLTnC2S-aa8VGWzmzONZJGkgc-rYX04waNjK4LeSuQV25jSyVWbn1FoV0am_nUzOstk_2mdv5j5pQ:261:29
+EventListener.handleEvent*ns.AddEventListener@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=fxoWecKKyK4Wej7swZaHS2Fp5CU-_DXP6OjZ4htLMJS-yTx5fH-wGsNo9E59ortr8Zp-gYL44sX4dwnByykXZEmbUWxt7dTQIg_8Wlr3wF9LRh6dqBuz9dhXldOkAQ-_4ERbm-lVV0LI_j-uq8lDnJ04d6RJMpJLTnC2S-aa8VGWzmzONZJGkgc-rYX04waNjK4LeSuQV25jSyVWbn1FoV0am_nUzOstk_2mdv5j5pQ:256:21
+@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=fxoWecKKyK4Wej7swZaHS2Fp5CU-_DXP6OjZ4htLMJS-yTx5fH-wGsNo9E59ortr8Zp-gYL44sX4dwnByykXZEmbUWxt7dTQIg_8Wlr3wF9LRh6dqBuz9dhXldOkAQ-_4ERbm-lVV0LI_j-uq8lDnJ04d6RJMpJLTnC2S-aa8VGWzmzONZJGkgc-rYX04waNjK4LeSuQV25jSyVWbn1FoV0am_nUzOstk_2mdv5j5pQ:2127:12
+Init/</<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=fxoWecKKyK4Wej7swZaHS2Fp5CU-_DXP6OjZ4htLMJS-yTx5fH-wGsNo9E59ortr8Zp-gYL44sX4dwnByykXZEmbUWxt7dTQIg_8Wlr3wF9LRh6dqBuz9dhXldOkAQ-_4ERbm-lVV0LI_j-uq8lDnJ04d6RJMpJLTnC2S-aa8VGWzmzONZJGkgc-rYX04waNjK4LeSuQV25jSyVWbn1FoV0am_nUzOstk_2mdv5j5pQ:1994:44
+ns.WebSocketCaller/this.InitCall/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=fxoWecKKyK4Wej7swZaHS2Fp5CU-_DXP6OjZ4htLMJS-yTx5fH-wGsNo9E59ortr8Zp-gYL44sX4dwnByykXZEmbUWxt7dTQIg_8Wlr3wF9LRh6dqBuz9dhXldOkAQ-_4ERbm-lVV0LI_j-uq8lDnJ04d6RJMpJLTnC2S-aa8VGWzmzONZJGkgc-rYX04waNjK4LeSuQV25jSyVWbn1FoV0am_nUzOstk_2mdv5j5pQ:1399:31
+ProcessMessage@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=fxoWecKKyK4Wej7swZaHS2Fp5CU-_DXP6OjZ4htLMJS-yTx5fH-wGsNo9E59ortr8Zp-gYL44sX4dwnByykXZEmbUWxt7dTQIg_8Wlr3wF9LRh6dqBuz9dhXldOkAQ-_4ERbm-lVV0LI_j-uq8lDnJ04d6RJMpJLTnC2S-aa8VGWzmzONZJGkgc-rYX04waNjK4LeSuQV25jSyVWbn1FoV0am_nUzOstk_2mdv5j5pQ:1277:32
+ns.WebSocketCaller/GetWebSocket/webSocket.onmessage@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=fxoWecKKyK4Wej7swZaHS2Fp5CU-_DXP6OjZ4htLMJS-yTx5fH-wGsNo9E59ortr8Zp-gYL44sX4dwnByykXZEmbUWxt7dTQIg_8Wlr3wF9LRh6dqBuz9dhXldOkAQ-_4ERbm-lVV0LI_j-uq8lDnJ04d6RJMpJLTnC2S-aa8VGWzmzONZJGkgc-rYX04waNjK4LeSuQV25jSyVWbn1FoV0am_nUzOstk_2mdv5j5pQ:1232:31
+EventHandlerNonNull*GetWebSocket@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=fxoWecKKyK4Wej7swZaHS2Fp5CU-_DXP6OjZ4htLMJS-yTx5fH-wGsNo9E59ortr8Zp-gYL44sX4dwnByykXZEmbUWxt7dTQIg_8Wlr3wF9LRh6dqBuz9dhXldOkAQ-_4ERbm-lVV0LI_j-uq8lDnJ04d6RJMpJLTnC2S-aa8VGWzmzONZJGkgc-rYX04waNjK4LeSuQV25jSyVWbn1FoV0am_nUzOstk_2mdv5j5pQ:1230:9
+ns.WebSocketCaller/this.Start@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=fxoWecKKyK4Wej7swZaHS2Fp5CU-_DXP6OjZ4htLMJS-yTx5fH-wGsNo9E59ortr8Zp-gYL44sX4dwnByykXZEmbUWxt7dTQIg_8Wlr3wF9LRh6dqBuz9dhXldOkAQ-_4ERbm-lVV0LI_j-uq8lDnJ04d6RJMpJLTnC2S-aa8VGWzmzONZJGkgc-rYX04waNjK4LeSuQV25jSyVWbn1FoV0am_nUzOstk_2mdv5j5pQ:1349:24
+FindSupportedImpl@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=fxoWecKKyK4Wej7swZaHS2Fp5CU-_DXP6OjZ4htLMJS-yTx5fH-wGsNo9E59ortr8Zp-gYL44sX4dwnByykXZEmbUWxt7dTQIg_8Wlr3wF9LRh6dqBuz9dhXldOkAQ-_4ERbm-lVV0LI_j-uq8lDnJ04d6RJMpJLTnC2S-aa8VGWzmzONZJGkgc-rYX04waNjK4LeSuQV25jSyVWbn1FoV0am_nUzOstk_2mdv5j5pQ:1924:24
+SupportedCallerProvider/this.FindSupported@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=fxoWecKKyK4Wej7swZaHS2Fp5CU-_DXP6OjZ4htLMJS-yTx5fH-wGsNo9E59ortr8Zp-gYL44sX4dwnByykXZEmbUWxt7dTQIg_8Wlr3wF9LRh6dqBuz9dhXldOkAQ-_4ERbm-lVV0LI_j-uq8lDnJ04d6RJMpJLTnC2S-aa8VGWzmzONZJGkgc-rYX04waNjK4LeSuQV25jSyVWbn1FoV0am_nUzOstk_2mdv5j5pQ:1934:30
+Init@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=fxoWecKKyK4Wej7swZaHS2Fp5CU-_DXP6OjZ4htLMJS-yTx5fH-wGsNo9E59ortr8Zp-gYL44sX4dwnByykXZEmbUWxt7dTQIg_8Wlr3wF9LRh6dqBuz9dhXldOkAQ-_4ERbm-lVV0LI_j-uq8lDnJ04d6RJMpJLTnC2S-aa8VGWzmzONZJGkgc-rYX04waNjK4LeSuQV25jSyVWbn1FoV0am_nUzOstk_2mdv5j5pQ:1949:24
+ns.SetTimeout/KasperskyLab<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=fxoWecKKyK4Wej7swZaHS2Fp5CU-_DXP6OjZ4htLMJS-yTx5fH-wGsNo9E59ortr8Zp-gYL44sX4dwnByykXZEmbUWxt7dTQIg_8Wlr3wF9LRh6dqBuz9dhXldOkAQ-_4ERbm-lVV0LI_j-uq8lDnJ04d6RJMpJLTnC2S-aa8VGWzmzONZJGkgc-rYX04waNjK4LeSuQV25jSyVWbn1FoV0am_nUzOstk_2mdv5j5pQ:323:21
+setTimeout handler*ns.SetTimeout@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=fxoWecKKyK4Wej7swZaHS2Fp5CU-_DXP6OjZ4htLMJS-yTx5fH-wGsNo9E59ortr8Zp-gYL44sX4dwnByykXZEmbUWxt7dTQIg_8Wlr3wF9LRh6dqBuz9dhXldOkAQ-_4ERbm-lVV0LI_j-uq8lDnJ04d6RJMpJLTnC2S-aa8VGWzmzONZJGkgc-rYX04waNjK4LeSuQV25jSyVWbn1FoV0am_nUzOstk_2mdv5j5pQ:318:16
+ns.StartSession@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=fxoWecKKyK4Wej7swZaHS2Fp5CU-_DXP6OjZ4htLMJS-yTx5fH-wGsNo9E59ortr8Zp-gYL44sX4dwnByykXZEmbUWxt7dTQIg_8Wlr3wF9LRh6dqBuz9dhXldOkAQ-_4ERbm-lVV0LI_j-uq8lDnJ04d6RJMpJLTnC2S-aa8VGWzmzONZJGkgc-rYX04waNjK4LeSuQV25jSyVWbn1FoV0am_nUzOstk_2mdv5j5pQ:2018:12
+@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=fxoWecKKyK4Wej7swZaHS2Fp5CU-_DXP6OjZ4htLMJS-yTx5fH-wGsNo9E59ortr8Zp-gYL44sX4dwnByykXZEmbUWxt7dTQIg_8Wlr3wF9LRh6dqBuz9dhXldOkAQ-_4ERbm-lVV0LI_j-uq8lDnJ04d6RJMpJLTnC2S-aa8VGWzmzONZJGkgc-rYX04waNjK4LeSuQV25jSyVWbn1FoV0am_nUzOstk_2mdv5j5pQ:3371:14
+@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=fxoWecKKyK4Wej7swZaHS2Fp5CU-_DXP6OjZ4htLMJS-yTx5fH-wGsNo9E59ortr8Zp-gYL44sX4dwnByykXZEmbUWxt7dTQIg_8Wlr3wF9LRh6dqBuz9dhXldOkAQ-_4ERbm-lVV0LI_j-uq8lDnJ04d6RJMpJLTnC2S-aa8VGWzmzONZJGkgc-rYX04waNjK4LeSuQV25jSyVWbn1FoV0am_nUzOstk_2mdv5j5pQ:3372:4
+
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+JavaScript warning: https://yastatic.net/s3/distribution/specprojects/internet/v6.5.17/desktop.bundle.ru.js, line 32: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://passport.yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://passport.yandex.ru"
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://passport.yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://passport.yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://passport.yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://passport.yandex.ru"
+1649701116628	geckodriver	INFO	Listening on 127.0.0.1:64259
+1649701119687	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64260" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilejHCADb"
+1649701119874	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilejHCADb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64260/devtools/browser/76f44789-919c-413c-9d23-fcc210b79581
+1649701121059	Marionette	INFO	Listening on port 64266
+1649701121238	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/watch_serp.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://passport.yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://passport.yandex.ru"
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1649701189583	geckodriver	INFO	Listening on 127.0.0.1:64411
+1649701192632	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64412" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilegt7BpU"
+1649701192815	Marionette	INFO	Marionette enabled
+1649701213325	geckodriver	INFO	Listening on 127.0.0.1:64435
+1649701216381	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64436" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilevPmIBu"
+1649701216560	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilevPmIBu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64436/devtools/browser/71fe7b8c-230f-4135-b0e6-556f2b5e1e68
+1649701217724	Marionette	INFO	Listening on port 64450
+1649701217930	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?hl=ru&passive=true&continue=https://www.google.com/%3Fgws_rd%3Dssl&ec=GAZAmgQ line 1 > eval line 5141 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://accounts.google.com/ServiceLogin?hl=ru&passive=true&continue=https://www.google.com/%3Fgws_rd%3Dssl&ec=GAZAmgQ, line 3598: Script terminated by timeout at:
+f@/accounts/static/_/js/k=gaia.gaiafe_glif.ru.Z9SPCIg8jVY.O/am=HST-gCQAAAAAAAAAAAAAAAAAPBFRA42yQQ/d=1/excm=glif_initial_css/rs=ABkqax29BLUEpTJUP2Vu8AKTSbv-m-ZFfg/m=glifb,identifier_view,unknownerror_view:3598:219
+
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.avito.ru/9da2e6d68e71adbaf.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.avito.ru/9da2e6d68e71adbaf.js, line 5: InvalidStateError: Can't close an AudioContext twice
+JavaScript warning: https://www.avito.ru/dstatic/build/client/f.f620419292c6b4bd4b98.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.avito.ru"
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+console.error: "Unable to find target with innerWindowId:6442450958"
+1649701293573	geckodriver	INFO	Listening on 127.0.0.1:64379
+1649701296636	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64380" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilemrQZi7"
+1649701296818	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilemrQZi7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64380/devtools/browser/452fb7d6-fbe4-4659-901f-641efcd4d265
+1649701297951	Marionette	INFO	Listening on port 64385
+1649701298173	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649701302390	Marionette	INFO	Stopped listening on port 64385
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1649701419963	geckodriver	INFO	Listening on 127.0.0.1:64530
+1649701423027	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64531" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilecO0J6b"
+1649701423205	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilecO0J6b\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64531/devtools/browser/ae9547bc-65f9-4edc-ae63-5282d0b58d51
+1649701424317	Marionette	INFO	Listening on port 64536
+1649701424571	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/watch_serp.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://passport.yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://passport.yandex.ru"
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://passport.yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://passport.yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://passport.yandex.ru"
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://passport.yandex.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 3456: TypeError: data.frameData.id is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.error: "Failed to start [root-node] legacy listener for target null" (new TypeError("inspectorFront.walker is null", "resource://devtools/shared/commands/resource/legacy-listeners/root-node.js", 50))
+console.error: "Unable to find target with innerWindowId:2147483663"
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: VK is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.news/news-list/?hide-header=true&hide-footer=true&message=true&bg=true&themeId=dark2021 line 240 > injectedScript, line 1: ReferenceError: yaCounter86146936 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://rutube.news/news-list/?hide-header=true&hide-footer=true&message=true&bg=true&themeId=dark2021&fingerprintId=93505c7626d1b0eaf2cdfe099a342bc2 line 240 > injectedScript, line 1: ReferenceError: yaCounter86146936 is not defined
+console.error: "Unable to find target with innerWindowId:2147483684"
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rutube.ru"
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2320))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rutube.ru"
+1649701697923	geckodriver	INFO	Listening on 127.0.0.1:64828
+1649701700969	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64829" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileie6Squ"
+1649701701148	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileie6Squ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64829/devtools/browser/6dd526ec-e969-4243-9b4a-db10d612ec7f
+1649701702299	Marionette	INFO	Listening on port 64834
+1649701702489	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: VK is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.news/news-list/?hide-header=true&hide-footer=true&message=true&bg=true&themeId=dark2021 line 240 > injectedScript, line 1: ReferenceError: yaCounter86146936 is not defined
+JavaScript error: https://rutube.news/news-list/?hide-header=true&hide-footer=true&message=true&bg=true&themeId=dark2021&fingerprintId=93505c7626d1b0eaf2cdfe099a342bc2 line 240 > injectedScript, line 1: ReferenceError: yaCounter86146936 is not defined
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1649702020141	geckodriver	INFO	Listening on 127.0.0.1:65061
+1649702023187	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65062" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileqt8KZZ"
+1649702023370	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileqt8KZZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65062/devtools/browser/f6e5d89a-0f19-4c07-b2de-4d19ac7aca7f
+1649702024565	Marionette	INFO	Listening on port 65067
+1649702024733	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: VK is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.news/news-list/?hide-header=true&hide-footer=true&message=true&bg=true&themeId=dark2021 line 240 > injectedScript, line 1: ReferenceError: yaCounter86146936 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.news/news-list/?hide-header=true&hide-footer=true&message=true&bg=true&themeId=dark2021&fingerprintId=39bddbb0549e173e57dc1c082f035d5a line 240 > injectedScript, line 1: ReferenceError: yaCounter86146936 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1649702065040	geckodriver	INFO	Listening on 127.0.0.1:65233
+1649702068099	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65234" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileqNQlNV"
+1649702068282	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileqNQlNV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65234/devtools/browser/ecb821ae-756e-4b69-9381-83c2625733da
+1649702069411	Marionette	INFO	Listening on port 65239
+1649702069648	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: VK is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.news/news-list/?hide-header=true&hide-footer=true&message=true&bg=true&themeId=dark2021&fingerprintId=93505c7626d1b0eaf2cdfe099a342bc2 line 240 > injectedScript, line 1: ReferenceError: yaCounter86146936 is not defined
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1649702307500	geckodriver	INFO	Listening on 127.0.0.1:65509
+1649702310570	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65510" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileyvEzoX"
+1649702310748	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileyvEzoX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65510/devtools/browser/24692b70-a1e4-4e34-b22d-2fbf9b32fbdb
+1649702311893	Marionette	INFO	Listening on port 65515
+1649702312109	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+JavaScript error: https://rutube.news/news-list/?hide-header=true&hide-footer=true&message=true&bg=true&themeId=dark2021 line 240 > injectedScript, line 1: ReferenceError: yaCounter86146936 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: VK is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.news/news-list/?hide-header=true&hide-footer=true&message=true&bg=true&themeId=dark2021&fingerprintId=93505c7626d1b0eaf2cdfe099a342bc2 line 240 > injectedScript, line 1: ReferenceError: yaCounter86146936 is not defined
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1649702329334	Marionette	INFO	Stopped listening on port 65515
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1649702423768	geckodriver	INFO	Listening on 127.0.0.1:49312
+1649702426837	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49313" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile6raIMy"
+1649702427024	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile6raIMy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49313/devtools/browser/7ad6480d-35ca-4829-b276-17faa60afa3a
+1649702428189	Marionette	INFO	Listening on port 49318
+1649702428374	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: VK is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.news/news-list/?hide-header=true&hide-footer=true&message=true&bg=true&themeId=dark2021&fingerprintId=39bddbb0549e173e57dc1c082f035d5a line 240 > injectedScript, line 1: ReferenceError: yaCounter86146936 is not defined
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1649702492722	geckodriver	INFO	Listening on 127.0.0.1:49479
+1649702495770	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49480" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileNn4IA7"
+1649702495952	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileNn4IA7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49480/devtools/browser/e21b6856-4c23-43cf-a1af-896024f0b88f
+1649702497093	Marionette	INFO	Listening on port 49486
+1649702497311	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://rutube.news/news-list/?hide-header=true&hide-footer=true&message=true&bg=true&themeId=dark2021 line 240 > injectedScript, line 1: ReferenceError: yaCounter86146936 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: VK is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.news/news-list/?hide-header=true&hide-footer=true&message=true&bg=true&themeId=dark2021&fingerprintId=93505c7626d1b0eaf2cdfe099a342bc2 line 240 > injectedScript, line 1: ReferenceError: yaCounter86146936 is not defined
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: VK is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+1649702584731	geckodriver	INFO	Listening on 127.0.0.1:49662
+1649702587783	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49663" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileRwalP9"
+1649702587963	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileRwalP9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49663/devtools/browser/3d2ded94-b0f2-4ddf-aeb7-284a1f7cf161
+1649702589059	Marionette	INFO	Listening on port 49673
+1649702589324	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: VK is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.news/news-list/?hide-header=true&hide-footer=true&message=true&bg=true&themeId=dark2021&fingerprintId=93505c7626d1b0eaf2cdfe099a342bc2 line 240 > injectedScript, line 1: ReferenceError: yaCounter86146936 is not defined
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1649702665808	geckodriver	INFO	Listening on 127.0.0.1:49862
+1649702668856	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49863" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile3iTszB"
+1649702669035	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile3iTszB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49863/devtools/browser/f8374da7-4c20-4979-a113-64d55c73da6f
+1649702670156	Marionette	INFO	Listening on port 49868
+1649702670386	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: VK is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.news/news-list/?hide-header=true&hide-footer=true&message=true&bg=true&themeId=dark2021 line 240 > injectedScript, line 1: ReferenceError: yaCounter86146936 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://rutube.news/news-list/?hide-header=true&hide-footer=true&message=true&bg=true&themeId=dark2021&fingerprintId=93505c7626d1b0eaf2cdfe099a342bc2 line 240 > injectedScript, line 1: ReferenceError: yaCounter86146936 is not defined
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1649702738670	geckodriver	INFO	Listening on 127.0.0.1:50048
+1649702741726	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50049" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile4AkIlU"
+1649702741907	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile4AkIlU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50049/devtools/browser/f777866e-09ff-44fe-86f0-1d48f4bccea3
+1649702743025	Marionette	INFO	Listening on port 50054
+1649702743261	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://rutube.news/news-list/?hide-header=true&hide-footer=true&message=true&bg=true&themeId=dark2021 line 240 > injectedScript, line 1: ReferenceError: yaCounter86146936 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: VK is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.news/news-list/?hide-header=true&hide-footer=true&message=true&bg=true&themeId=dark2021&fingerprintId=93505c7626d1b0eaf2cdfe099a342bc2 line 240 > injectedScript, line 1: ReferenceError: yaCounter86146936 is not defined
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1649702803967	geckodriver	INFO	Listening on 127.0.0.1:50243
+1649702807007	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50244" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilewjB9vd"
+1649702807188	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilewjB9vd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50244/devtools/browser/7626dc05-8b43-4f29-a59d-9c665b34c8e8
+1649702808283	Marionette	INFO	Listening on port 50249
+1649702808551	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: VK is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 341 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.news/news-list/?hide-header=true&hide-footer=true&message=true&bg=true&themeId=dark2021&fingerprintId=93505c7626d1b0eaf2cdfe099a342bc2 line 240 > injectedScript, line 1: ReferenceError: yaCounter86146936 is not defined
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1649703627496	geckodriver	INFO	Listening on 127.0.0.1:50553
+1649703630532	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50554" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileiXQ2wm"
+1649703630715	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileiXQ2wm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50554/devtools/browser/17c5d2e7-3d9e-4dbe-9f54-0a4a975f1e0b
+1649703631930	Marionette	INFO	Listening on port 50560
+1649703632066	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=yI37H879Ek261HyoU4T5X2FIN3AeDn1Pxnsu_nO6AwhlkzsbfxI5rZIV3Guk5nz4TI5-CMxUOBrHt0nUfpcFAA, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=yI37H879Ek261HyoU4T5X2FIN3AeDn1Pxnsu_nO6AwhlkzsbfxI5rZIV3Guk5nz4TI5-CMxUOBrHt0nUfpcFAA:259:1
+
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.9/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+1649703640784	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aeis.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aeis.alicdn.com/AWSC/fireyejs/1.221.0/fireyejs.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.

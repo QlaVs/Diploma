@@ -34,4 +34,4 @@ class Analyzer:
                        headers=['Messages', 'Count'], tablefmt='orgtbl'))
         print()
         print("Visited pages: ")
-        print(*self.cites, sep=", ")
+        print(*self.cites, sep="\n")

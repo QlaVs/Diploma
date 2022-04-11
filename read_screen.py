@@ -1,4 +1,5 @@
 import time
+import ML
 import mss
 import numpy
 import pytesseract
@@ -44,30 +45,39 @@ class Reader:
                 #
                 # text = pytesseract.image_to_string(im, lang="rus")
 
-                for i in words:
+                try:
+                    if ML.check_strings(self.driver.page_source, words):
+
+                except:
+                    pass
+
+                # for i in words:
                     # TODO: Create field disabling feature
-                    try:
-                        z = self.driver.find_element(By.CSS_SELECTOR, f'input[id*={i}]')
-                        # z = self.driver.find_element(By.XPATH, f"text()[contains(.,'{i}')]")
-                        # z = self.driver.find_element(By.XPATH, f".//*[input()='{i}']")
-                        logging.warning("Suspicious word (id): " + i)
-                    except:
-                        pass
 
-                    try:
-                        x = self.driver.find_element(By.CSS_SELECTOR, f'input[name*={i}]')
-                        logging.warning("Suspicious word (name): " + i)
-                    except:
-                        pass
+                    # try:
+                    #     z = self.driver.find_element(By.CSS_SELECTOR, f'input[id*={i}]')
+                    #     # z = self.driver.find_element(By.XPATH, f"text()[contains(.,'{i}')]")
+                    #     # z = self.driver.find_element(By.XPATH, f".//*[input()='{i}']")
+                    #     logging.warning("Suspicious word (id): " + i)
+                    # except:
+                    #     pass
+                    #
+                    # try:
+                    #     x = self.driver.find_element(By.CSS_SELECTOR, f'input[name*={i}]')
+                    #     logging.warning("Suspicious word (name): " + i)
+                    # except:
+                    #     pass
+                    #
+                    # try:
+                    #     y = self.driver.find_element(By.CSS_SELECTOR, f'input[class*={i}]')
+                    #     logging.warning("Suspicious word (class): " + i)
+                    # except:
+                    #     pass
 
-                    try:
-                        y = self.driver.find_element(By.CSS_SELECTOR, f'input[class*={i}]')
-                        logging.warning("Suspicious word (class): " + i)
-                    except:
-                        pass
 
-                else:
-                    print("Checking")
+
+                # else:
+                print("Checking")
                 #     if i in text:
                 #         logging.warning("Suspicious word: " + i)
 
