@@ -30,5 +30,4 @@ def check_strings(html_page, words):
         except:
             pass
 
-
     arr.clear()

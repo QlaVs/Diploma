@@ -5,6 +5,7 @@ import numpy
 import pytesseract
 import logging
 from selenium.webdriver.common.by import By
+from win10toast import ToastNotifier
 
 # pytesseract.pytesseract.tesseract_cmd = 'C:\Program Files\Tesseract-OCR\\tesseract.exe'
 # mon = {'top': 0, 'left': 0, 'width': 1920, 'height': 1080}
@@ -28,11 +29,12 @@ class Reader:
         return self.state
 
     def start(self):
-        print("Scanner is waiting")
+        print("Scanner online")
         while not self.state:
-            if self.stopping:
-                print("Scanner stopped")
-                return
+            pass
+            # if self.stopping:
+            #     print("Scanner stopped")
+            #     return
         try:
             print("Start scanning...")
             # with mss.mss() as sct:
@@ -85,6 +87,37 @@ class Reader:
             self.start()
         except Exception as err:
             return logging.critical(err)
+
+    def stop(self) -> None:
+        if not self.stopping:
+            self.stopping = not self.stopping
+
+
+class Notifier:
+    stopping = False
+    url = None
+
+    def __init__(self):
+        self.toast = ToastNotifier()
+
+    def start(self):
+        print("Notifier online")
+        while True:
+            try:
+                if self.stopping:
+                    logging.info("Notifier stopped")
+                    return
+                if self.url is not None:
+                    self.toast.show_toast("Небезопасный сайт",
+                                          f"{self.url} может быть использован для кражи персональных данных\n"
+                                          "Пожалуйста, не вводите личные данные на этой странице",
+                                          duration=7)
+                    self.url = None
+            except Exception as err:
+                return logging.critical(err)
+
+    def notification(self, url):
+        self.url = url
 
     def stop(self) -> None:
         if not self.stopping:

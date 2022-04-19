@@ -18,7 +18,8 @@ class Analyzer:
                 if "URL Changed:" in i:
                     temp = i
                     temp = temp.split("Changed: ", 1)[-1]
-                    self.cites.append(temp)
+                    if temp not in self.cites:
+                        self.cites.append(temp)
             elif "WARNING" in i:
                 self.warning += 1
             elif "CRITICAL" in i:
