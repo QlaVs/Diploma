@@ -2,6 +2,8 @@ import time
 import ML
 import mss
 import numpy
+import re
+import json
 import pytesseract
 import logging
 from selenium.webdriver.common.by import By
@@ -10,8 +12,11 @@ from win10toast import ToastNotifier
 # pytesseract.pytesseract.tesseract_cmd = 'C:\Program Files\Tesseract-OCR\\tesseract.exe'
 # mon = {'top': 0, 'left': 0, 'width': 1920, 'height': 1080}
 
-f = open('Words.txt', 'r', encoding='utf-8')
-words = f.read().splitlines()
+f = open('Words.JSON', encoding='utf-8')
+words = json.load(f)
+
+f = open('phishing_cites.json')
+cites_list = json.load(f)
 
 
 class Reader:
@@ -48,10 +53,24 @@ class Reader:
                 # text = pytesseract.image_to_string(im, lang="rus")
 
                 try:
-                    ML.check_strings(self.driver.page_source, words)
+                    phishing = 0
 
-                except:
-                    pass
+                    curr_url = re.search('//(.*?)/', self.driver.current_url)
+                    curr_url = curr_url.group(1)
+
+                    for i in range(len(cites_list)):
+                        phish_url = re.search('//(.*?)/', cites_list[i]["url"])
+                        if phish_url:
+                            phish_url = phish_url.group(1)
+                            # print(phish_url)
+                            if phish_url == curr_url:
+                                phishing = 1
+                                break
+
+                    ML.check_strings(self.driver.page_source, words, phishing)
+
+                except Exception as err:
+                    print(err)
 
                 # for i in words:
                     # TODO: Create field disabling feature

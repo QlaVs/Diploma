@@ -5016,3 +5016,427 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+1650559220767	geckodriver	INFO	Listening on 127.0.0.1:60811
+1650559223813	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60812" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileFEGs0M"
+1650559224019	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileFEGs0M\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60812/devtools/browser/62130fe6-a625-4bfd-b21b-0be1852566c9
+1650559225248	Marionette	INFO	Listening on port 60817
+1650559225360	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=E89hpXgGb6IzHq06qAisjPdXZrqeiKJqjjU4AyQjw8mt77d2m2UzXijiv1Vv1CW2AU5Q7sMn9BcxDIsoG-XN4w, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=E89hpXgGb6IzHq06qAisjPdXZrqeiKJqjjU4AyQjw8mt77d2m2UzXijiv1Vv1CW2AU5Q7sMn9BcxDIsoG-XN4w:259:1
+
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=wgxwC-Re2sqKdMshlOPLCiNMqFbcteJKR7s5iBgaw00DV_z7QVoL5-vWH8zlxWHrHjG5eECOKK6x1LCAZkt-nA, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=wgxwC-Re2sqKdMshlOPLCiNMqFbcteJKR7s5iBgaw00DV_z7QVoL5-vWH8zlxWHrHjG5eECOKK6x1LCAZkt-nA:259:1
+
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.9/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1650559274611	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://aeis.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aeis.alicdn.com/AWSC/fireyejs/1.222.3/fireyejs.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://aliexpress.ru"
+1650559338672	geckodriver	INFO	Listening on 127.0.0.1:49163
+1650559341731	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49164" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileVBOj96"
+1650559341911	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileVBOj96\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49164/devtools/browser/814e659b-1fe9-4911-add5-f7ffd1d55929
+1650559342995	Marionette	INFO	Listening on port 49169
+1650559343270	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=87QeM5xm8RaRVrO6ndu7RaIUixCt6V4fLQ7lvGfY87TIt-4jQbBX6h67BDLwhZschGIswxKeJ8-mgswwJPFA4A, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=87QeM5xm8RaRVrO6ndu7RaIUixCt6V4fLQ7lvGfY87TIt-4jQbBX6h67BDLwhZschGIswxKeJ8-mgswwJPFA4A:259:1
+
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.9/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1650559355819	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://aeis.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aeis.alicdn.com/AWSC/fireyejs/1.222.3/fireyejs.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://st.aliexpress.ru/mixer/ssr/1/aer-assets/index.a171fc87e9b04ebd1721.js, line 80: FirebaseError: Installations: Create Installation request failed with error "400 INVALID_ARGUMENT: Invalid JSON payload received. Unknown name "_bx-v": Cannot bind query parameter. Field 'bx-v' could not be found in request message." (installations/request-failed).
+JavaScript warning: https://aeis.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://a.alipayobjects.com/??jquery/jquery/1.9.1/jquery.js,arale/validator/0.9.5/validator.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1650559410554	Marionette	INFO	Stopped listening on port 49169
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1650559599996	geckodriver	INFO	Listening on 127.0.0.1:50191
+1650559603025	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50192" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileNAPiwS"
+1650559603213	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileNAPiwS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50192/devtools/browser/2e25080b-1687-44e8-b21e-8587c4f18b3f
+1650559604352	Marionette	INFO	Listening on port 50197
+1650559604573	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=a0GO6CRBtvCFbrivXDCWjhgAF6gWW0i-A5Lz7aYAYxj3q8BbW2mNtObHcd8HqctGC2vXTlKbw_TTCEECGFbz6w, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=a0GO6CRBtvCFbrivXDCWjhgAF6gWW0i-A5Lz7aYAYxj3q8BbW2mNtObHcd8HqctGC2vXTlKbw_TTCEECGFbz6w:259:1
+
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1650559693104	geckodriver	INFO	Listening on 127.0.0.1:50282
+1650559696153	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50283" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileBRzjvg"
+1650559696349	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileBRzjvg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50283/devtools/browser/6c92b6d2-fe32-4891-8ff0-81b965f6eb01
+1650559697487	Marionette	INFO	Listening on port 50288
+1650559697694	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=1vokvM6zpYt-9UMpLTY1VJwkptvEoK3DBMrcQUeEPW3aYjcjfSsAjNYCW3JdwV4Wm04Pvj-xpLdaegJnAhRdnw, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=1vokvM6zpYt-9UMpLTY1VJwkptvEoK3DBMrcQUeEPW3aYjcjfSsAjNYCW3JdwV4Wm04Pvj-xpLdaegJnAhRdnw:259:1
+
+1650559734071	geckodriver	INFO	Listening on 127.0.0.1:50359
+1650559737127	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50360" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilenKKaVr"
+1650559737308	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilenKKaVr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50360/devtools/browser/87a1a3d6-eee4-4502-a367-738399d387c9
+1650559738482	Marionette	INFO	Listening on port 50365
+1650559738669	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=4p-UiQpy8yu_ItkGn2DQAgMye9O-VoQWWx1g9ftK2eMA4GSqGev7U3ZO43KPZkQYCo_H2dPs-rSUpLB-vstfVg, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=4p-UiQpy8yu_ItkGn2DQAgMye9O-VoQWWx1g9ftK2eMA4GSqGev7U3ZO43KPZkQYCo_H2dPs-rSUpLB-vstfVg:259:1
+
+1650560388179	geckodriver	INFO	Listening on 127.0.0.1:50461
+1650560391213	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50462" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileGKXyfb"
+1650560391398	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileGKXyfb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50462/devtools/browser/c35fb40c-3da0-4c27-ba8a-d15b03f305d4
+1650560392520	Marionette	INFO	Listening on port 50469
+1650560392751	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google.com/?gws_rd=ssl, line 22: Script terminated by timeout at:
+S@https://www.google.com/?gws_rd=ssl:22:1043
+m@https://www.google.com/?gws_rd=ssl:21:1168
+
+1650560418390	geckodriver	INFO	Listening on 127.0.0.1:50537
+1650560421434	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50538" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileAYhl5s"
+1650560421614	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileAYhl5s\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50538/devtools/browser/c94a4743-5e6d-436f-add5-37304e047c95
+1650560422734	Marionette	INFO	Listening on port 50544
+1650560422977	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=KJXFcAAbB1LWgNBDyisUJfZ0yKf2rOhYpHDE5TP30Cy10lqfNg82H962aqshkLcAHmXstVZEmwUkxbwi5jY3iw, line 1440: Script terminated by timeout at:
+ns.WebSocketCaller/this.IsProductConnected@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=KJXFcAAbB1LWgNBDyisUJfZ0yKf2rOhYpHDE5TP30Cy10lqfNg82H962aqshkLcAHmXstVZEmwUkxbwi5jY3iw:1440:5
+CallReceiver/this.IsProductConnected@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=KJXFcAAbB1LWgNBDyisUJfZ0yKf2rOhYpHDE5TP30Cy10lqfNg82H962aqshkLcAHmXstVZEmwUkxbwi5jY3iw:1541:31
+CallImpl@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=KJXFcAAbB1LWgNBDyisUJfZ0yKf2rOhYpHDE5TP30Cy10lqfNg82H962aqshkLcAHmXstVZEmwUkxbwi5jY3iw:1633:33
+Call@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=KJXFcAAbB1LWgNBDyisUJfZ0yKf2rOhYpHDE5TP30Cy10lqfNg82H962aqshkLcAHmXstVZEmwUkxbwi5jY3iw:1651:21
+KasperskyLabSessionClass/this.InitializePlugin/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=KJXFcAAbB1LWgNBDyisUJfZ0yKf2rOhYpHDE5TP30Cy10lqfNg82H962aqshkLcAHmXstVZEmwUkxbwi5jY3iw:1820:26
+FireActivateEventImpl@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=KJXFcAAbB1LWgNBDyisUJfZ0yKf2rOhYpHDE5TP30Cy10lqfNg82H962aqshkLcAHmXstVZEmwUkxbwi5jY3iw:2045:23
+FireActivateEvent@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=KJXFcAAbB1LWgNBDyisUJfZ0yKf2rOhYpHDE5TP30Cy10lqfNg82H962aqshkLcAHmXstVZEmwUkxbwi5jY3iw:2066:13
+ProcessActivate/m_activatedStateChangeTimeout<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=KJXFcAAbB1LWgNBDyisUJfZ0yKf2rOhYpHDE5TP30Cy10lqfNg82H962aqshkLcAHmXstVZEmwUkxbwi5jY3iw:2090:21
+ns.SetTimeout/KasperskyLab<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=KJXFcAAbB1LWgNBDyisUJfZ0yKf2rOhYpHDE5TP30Cy10lqfNg82H962aqshkLcAHmXstVZEmwUkxbwi5jY3iw:323:21
+
+1650560451670	geckodriver	INFO	Listening on 127.0.0.1:50604
+1650560454719	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50605" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileuohOIz"
+1650560454900	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileuohOIz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50605/devtools/browser/5691019f-3db0-46fb-8ee9-dd5dc02f594d
+1650560456041	Marionette	INFO	Listening on port 50610
+1650560456255	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=VooRYurgAjVcyd2U0owvTqnGwqRIbYkDh1cLJndh51QDTE3WXJEPpSXxGmDAWfKjyNUYri86I0FKgs8uag_MDg, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=VooRYurgAjVcyd2U0owvTqnGwqRIbYkDh1cLJndh51QDTE3WXJEPpSXxGmDAWfKjyNUYri86I0FKgs8uag_MDg:259:1
+
+1650560637021	geckodriver	INFO	Listening on 127.0.0.1:50731
+1650560640059	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50732" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile54TtaC"
+1650560640242	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile54TtaC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50732/devtools/browser/6c65ac8a-bda9-454a-add6-39dc618477e1
+1650560641368	Marionette	INFO	Listening on port 50737
+1650560641602	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=KwhgvRuz5sHbzLSk6Vbvf78uQmWN37HH61fWgXk3d_20x1JGvociL4Cv16uajlOCrgoMFV7RvnWww8MFXH2G5A, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=KwhgvRuz5sHbzLSk6Vbvf78uQmWN37HH61fWgXk3d_20x1JGvociL4Cv16uajlOCrgoMFV7RvnWww8MFXH2G5A:259:1
+
+1650560671008	geckodriver	INFO	Listening on 127.0.0.1:50799
+1650560674065	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50800" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileqHRmDy"
+1650560674249	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileqHRmDy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50800/devtools/browser/b805f657-1389-4399-91e1-aae68606662c
+1650560675355	Marionette	INFO	Listening on port 50805
+1650560675609	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=OViBwHSCehYIhwdO-37Z6IKuuXWBPjHuu-SdnxtX3yDoGT25iUxHCfSNN2OX7JGIti6zQycYH2EmstAG67DpRw, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=OViBwHSCehYIhwdO-37Z6IKuuXWBPjHuu-SdnxtX3yDoGT25iUxHCfSNN2OX7JGIti6zQycYH2EmstAG67DpRw:259:1
+
+1650560738613	geckodriver	INFO	Listening on 127.0.0.1:50862
+1650560741654	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50863" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile5JzrOU"
+1650560741840	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile5JzrOU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50863/devtools/browser/6b7518e0-e381-4b57-b698-172a148ed0b7
+1650560742977	Marionette	INFO	Listening on port 50868
+1650560743189	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google.com/?gws_rd=ssl, line 22: Script terminated by timeout at:
+S@https://www.google.com/?gws_rd=ssl:22:1043
+m@https://www.google.com/?gws_rd=ssl:21:1168
+
+1650560849669	geckodriver	INFO	Listening on 127.0.0.1:50946
+1650560852708	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50947" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilejEeUyY"
+1650560852889	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilejEeUyY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50947/devtools/browser/50f78f89-631f-46e3-b3d0-4a4a9bd4113b
+1650560854014	Marionette	INFO	Listening on port 50952
+1650560854246	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=k-MZy3Wos9Q-yQsvzRxOkAYK1Jkb-hevaRGmnKptYAJG48ETkyEspYSejrAwsEoiiZDd1sblNlxXZ_NlE_m3VQ, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=k-MZy3Wos9Q-yQsvzRxOkAYK1Jkb-hevaRGmnKptYAJG48ETkyEspYSejrAwsEoiiZDd1sblNlxXZ_NlE_m3VQ:259:1
+
+1650560863201	Marionette	INFO	Stopped listening on port 50952
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1650561103921	geckodriver	INFO	Listening on 127.0.0.1:51017
+1650561106970	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51018" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileIyqhL8"
+1650561107150	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileIyqhL8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51018/devtools/browser/ae3c494c-e347-4186-b6f3-835dff9c7649
+1650561108276	Marionette	INFO	Listening on port 51023
+1650561108514	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=mDElM1EtenVgUL7dkzntUBDDE9lMkd4XwPH48ZtnuT9DrDctrCfTP-m5T4epSyvVIZDltfVe5s_DfFnT2atDpA, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=mDElM1EtenVgUL7dkzntUBDDE9lMkd4XwPH48ZtnuT9DrDctrCfTP-m5T4epSyvVIZDltfVe5s_DfFnT2atDpA:259:1
+
+1650561139142	geckodriver	INFO	Listening on 127.0.0.1:51092
+1650561142172	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51093" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilegLxGmF"
+1650561142352	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilegLxGmF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51093/devtools/browser/7c222890-9854-49dc-bff1-69bd1c399ad2
+1650561143527	Marionette	INFO	Listening on port 51098
+1650561143725	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=BjwtLHxDc3VDlq1g4F122DMy2k5A1Qa4BoAKdrOaB1I93CFQR7Qeb7GXLQvINH2Xwso9f5DglqVpY8Jjk-rMpA, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=BjwtLHxDc3VDlq1g4F122DMy2k5A1Qa4BoAKdrOaB1I93CFQR7Qeb7GXLQvINH2Xwso9f5DglqVpY8Jjk-rMpA:259:1
+
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://support.avito.ru"
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1650565867111	geckodriver	INFO	Listening on 127.0.0.1:51383
+1650565870152	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51384" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilewvyR6D"
+1650565870337	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilewvyR6D\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51384/devtools/browser/605666e5-2ed4-4079-9e32-7561aaabb43d
+1650565871517	Marionette	INFO	Listening on port 51389
+1650565871689	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=0jh-KLGuAQYJ13YsxQ7bKL9VWpD5dp3JqJ-j6QCKiYtlaVWj8SiUUMDpyfzXZy9MSjW0M3QTL4BcLkoXhuZ3Pg, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=0jh-KLGuAQYJ13YsxQ7bKL9VWpD5dp3JqJ-j6QCKiYtlaVWj8SiUUMDpyfzXZy9MSjW0M3QTL4BcLkoXhuZ3Pg:259:1
+
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1650565926463	geckodriver	INFO	Listening on 127.0.0.1:51468
+1650565929510	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51469" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile49UCkZ"
+1650565929690	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile49UCkZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51469/devtools/browser/80297843-4d5c-4320-8936-015a53747ddc
+1650565930792	Marionette	INFO	Listening on port 51474
+1650565931049	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=s5sVp9feBOhX04Wwd_5nIqltO0bxw4erY0Q83kdQ20KdRunZA1UW155fexQz7R9aeE071gIbit7PNG2rLdBGmA, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=s5sVp9feBOhX04Wwd_5nIqltO0bxw4erY0Q83kdQ20KdRunZA1UW155fexQz7R9aeE071gIbit7PNG2rLdBGmA:259:1
+
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1650565976532	geckodriver	INFO	Listening on 127.0.0.1:51549
+1650565979576	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51550" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile1HX7Pu"
+1650565979758	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile1HX7Pu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51550/devtools/browser/c2456f2a-1fe0-41d5-bd5d-4ae04bb6a784
+1650565980864	Marionette	INFO	Listening on port 51555
+1650565981119	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=tGQPolyLDKNBa3iYgykWIXH4IqevXCIKNEoWizXV0Ana9kifvcQWb93Pzrq6FLSP16PDqI3MqE9uHD-Ak4-7cA, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=tGQPolyLDKNBa3iYgykWIXH4IqevXCIKNEoWizXV0Ana9kifvcQWb93Pzrq6FLSP16PDqI3MqE9uHD-Ak4-7cA:259:1
+
+
+###!!! [Parent][PCompositorManagerParent] Error: RunMessage(msgname=SHMEM_DESTROYED_MESSAGE) Channel error: cannot send/recv
+
+
+###!!! [Parent][PCompositorManagerParent] Error: RunMessage(msgname=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Parent][PCompositorManagerParent] Error: Send(msgname=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1650566080021	geckodriver	INFO	Listening on 127.0.0.1:51694
+1650566083101	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51695" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileRj6Xrb"
+1650566083288	Marionette	INFO	Marionette enabled
+1650566088072	geckodriver	INFO	Listening on 127.0.0.1:51706
+1650566091120	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51707" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileOQyBtf"
+1650566091299	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileOQyBtf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51707/devtools/browser/7462050e-c9ea-4f2e-9e69-53106c11a190
+1650566092405	Marionette	INFO	Listening on port 51712
+1650566092651	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Hv_39OtSa0sgh8n2WH0fQOO-br5wn1vpLD-228Xo3irAy7URl0gZuBasGq_QbGcp0skhzP--XjhuCsIRXVBuyw, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Hv_39OtSa0sgh8n2WH0fQOO-br5wn1vpLD-228Xo3irAy7URl0gZuBasGq_QbGcp0skhzP--XjhuCsIRXVBuyw:259:1
+
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.avito.ru/9da2e6d68e71adbaf.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1650566208156	geckodriver	INFO	Listening on 127.0.0.1:51949
+1650566211217	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51950" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile4c0rTJ"
+1650566211397	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile4c0rTJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51950/devtools/browser/22df4f51-8abf-417f-a165-fdcc4c124b84
+1650566212479	Marionette	INFO	Listening on port 51955
+1650566212777	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=1c8RBNwK3rzK4mVx-cTKligr8UAc3Tbk-gW3ze1VL81yIBxePmsiy5yeweJ7-3035TZDakWRjGAFKxfE-3wP7Q, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=1c8RBNwK3rzK4mVx-cTKligr8UAc3Tbk-gW3ze1VL81yIBxePmsiy5yeweJ7-3035TZDakWRjGAFKxfE-3wP7Q:259:1
+
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.9/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1650566278813	geckodriver	INFO	Listening on 127.0.0.1:57074
+1650566295217	geckodriver	INFO	Listening on 127.0.0.1:57087
+1650566298247	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57088" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilewcLxJu"
+1650566298426	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilewcLxJu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57088/devtools/browser/9500ea37-aa71-4e5f-8327-bf85ac7bbb17
+1650566299512	Marionette	INFO	Listening on port 57096
+1650566299797	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=8Yk0UWZwlCWRsaIkW97yy-k2Q2897tdO9m6g7ilfAIf7CRsy4MCJ9cNibZl9iyDxBnV_4A39MDj18s-kCPDA8w, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=8Yk0UWZwlCWRsaIkW97yy-k2Q2897tdO9m6g7ilfAIf7CRsy4MCJ9cNibZl9iyDxBnV_4A39MDj18s-kCPDA8w:259:1
+
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.9/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1650566334226	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://aeis.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aeis.alicdn.com/AWSC/fireyejs/1.222.3/fireyejs.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1650566474397	geckodriver	INFO	Listening on 127.0.0.1:57247
+1650566477446	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57248" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileCBX1Of"
+1650566477629	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileCBX1Of\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57248/devtools/browser/3606aaaa-5e54-491c-8bb3-41b7e338ef58
+1650566478737	Marionette	INFO	Listening on port 57253
+1650566478979	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ok.ru"
+1650566612939	geckodriver	INFO	Listening on 127.0.0.1:57386
+1650566615958	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57387" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilellEs5z"
+1650566616135	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilellEs5z\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57387/devtools/browser/cf000912-0610-4897-b2ad-c978d2e03939
+1650566617258	Marionette	INFO	Listening on port 57392
+1650566617498	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1650566681083	geckodriver	INFO	Listening on 127.0.0.1:57500
+1650566684112	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57501" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileH6sLLs"
+1650566684316	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileH6sLLs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57501/devtools/browser/2f648767-8cd7-419b-9c58-21ad5ada62f4
+1650566685441	Marionette	INFO	Listening on port 57506
+1650566685659	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1650566852822	geckodriver	INFO	Listening on 127.0.0.1:57703
+1650566855897	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57704" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileEBBdQC"
+1650566856076	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileEBBdQC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57704/devtools/browser/8a7e21cb-bd60-40a3-bbca-afda6fc819e9
+1650566857184	Marionette	INFO	Listening on port 57709
+1650566857435	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ok.ru"
+1650567146348	geckodriver	INFO	Listening on 127.0.0.1:57947
+1650567149386	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57948" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile9CgQ15"
+1650567149568	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile9CgQ15\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57948/devtools/browser/c2dcf058-b96f-4fca-ac2d-ecf3cac44771
+1650567150681	Marionette	INFO	Listening on port 57953
+1650567150924	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1650567291425	geckodriver	INFO	Listening on 127.0.0.1:58048
+1650567295060	geckodriver	INFO	Listening on 127.0.0.1:58054
+1650567298110	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58055" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile91mXH7"
+1650567298289	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofile91mXH7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58055/devtools/browser/68439e48-d89e-470e-9970-f0f162ae9867
+1650567299391	Marionette	INFO	Listening on port 58060
+1650567299647	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Li1k-mpCffBcuCWlTG8KaJWfBc5DPRdgdcDZfktj-r7V52nGuM2r9ZTkRQ_SoQR7-Sl4bIugbXWpbiwIZHN24A, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Li1k-mpCffBcuCWlTG8KaJWfBc5DPRdgdcDZfktj-r7V52nGuM2r9ZTkRQ_SoQR7-Sl4bIugbXWpbiwIZHN24A:259:1
+
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.9/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g/AWSC/et/1.62.1/et_n.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://assets.alicdn.com/g/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1650567334488	geckodriver	INFO	Listening on 127.0.0.1:61400
+1650567337564	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61401" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilepa0au7"
+1650567337749	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilepa0au7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61401/devtools/browser/00dbca5f-0265-4d5c-9e85-76adce73cf8f
+1650567338869	Marionette	INFO	Listening on port 61406
+1650567339098	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://pdf.js/PdfStreamConverter.jsm, line 1123: NS_ERROR_FAILURE: Ignore PDF.js for this download.
+1650567812971	geckodriver	INFO	Listening on 127.0.0.1:61558
+1650567816047	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61559" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileLweMyM"
+1650567816228	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileLweMyM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61559/devtools/browser/472d5762-c5d1-4402-991b-4caf795debcb
+1650567817398	Marionette	INFO	Listening on port 61565
+1650567817593	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=7926Ddm8xdUWI0HhaAVgWENgsvVC514egSN4La7oNGVtxZF6S0vbbbf44Qyej_bUxQ88u5gVD1JgiY5Hp_0hmQ, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=7926Ddm8xdUWI0HhaAVgWENgsvVC514egSN4La7oNGVtxZF6S0vbbbf44Qyej_bUxQ88u5gVD1JgiY5Hp_0hmQ:259:1
+
+1650567846926	geckodriver	INFO	Listening on 127.0.0.1:61636
+1650567849987	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61637" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileAXKO3V"
+1650567850168	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileAXKO3V\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61637/devtools/browser/d7324e7f-5b3b-4273-b09b-f6d511039102
+1650567851277	Marionette	INFO	Listening on port 61642
+1650567851517	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=f90PaFxZi5Z9RFhm6E7nJuIvBW3x3lQq7j_E_n5ulOGx71UkDyG64M7__7M-ud7fV3--3FyXvnOY_skkkm6_tw, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=f90PaFxZi5Z9RFhm6E7nJuIvBW3x3lQq7j_E_n5ulOGx71UkDyG64M7__7M-ud7fV3--3FyXvnOY_skkkm6_tw:259:1
+
+JavaScript warning: https://www.redditstatic.com/accountmanager/login.c91eab1a653f903ba95c.js, line 1: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.reddit.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.reddit.com"
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1650568114250	geckodriver	INFO	Listening on 127.0.0.1:61787
+1650568117284	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61788" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilekDua80"
+1650568117464	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilekDua80\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61788/devtools/browser/0af76ce6-e7fd-4826-8f05-3a444abaf393
+1650568118617	Marionette	INFO	Listening on port 61794
+1650568118822	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=OaWvpo_Hj5cuouMFE-fdzw5i-yVHJ-MVyF4Ma04Ia0C8Ih9Myh2HAWQoGV3nelFlqSCD9M0H_tpS5QPatCSK9g, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=OaWvpo_Hj5cuouMFE-fdzw5i-yVHJ-MVyF4Ma04Ia0C8Ih9Myh2HAWQoGV3nelFlqSCD9M0H_tpS5QPatCSK9g:259:1
+
+1650568133731	geckodriver	INFO	Listening on 127.0.0.1:61852
+1650568136772	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61853" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileH1S8JA"
+1650568136949	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileH1S8JA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61853/devtools/browser/3e210326-3964-4be3-a027-ebf9459ce907
+1650568138060	Marionette	INFO	Listening on port 61858
+1650568138309	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=knC3udNs0V2DYrV1RInVcTJwKDk9hN01KTYLFiEvBIim48vCBosIM6m-z7q1FKtaQOjdIfWC0swqc6L9YpKctQ, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=knC3udNs0V2DYrV1RInVcTJwKDk9hN01KTYLFiEvBIim48vCBosIM6m-z7q1FKtaQOjdIfWC0swqc6L9YpKctQ:259:1
+
+1650568564528	geckodriver	INFO	Listening on 127.0.0.1:61928
+1650568577880	geckodriver	INFO	Listening on 127.0.0.1:61933
+1650568580933	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61934" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileoNnySQ"
+1650568581115	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileoNnySQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61934/devtools/browser/3e9dab2f-5d34-4196-9477-5955a8df0fab
+1650568582292	Marionette	INFO	Listening on port 61939
+1650568582457	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=BMJSXKbFVcPqa-L6Rp1o-8VtpZHnoFHk4LWQKdP19AOAB7LUj7l_BFHKtQdZd17v8__OH3gh-ocKweLhSaXCFA, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=BMJSXKbFVcPqa-L6Rp1o-8VtpZHnoFHk4LWQKdP19AOAB7LUj7l_BFHKtQdZd17v8__OH3gh-ocKweLhSaXCFA:259:1
+
+1650568964179	geckodriver	INFO	Listening on 127.0.0.1:62027
+1650568967242	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62028" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileEkDJFO"
+1650568967419	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileEkDJFO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62028/devtools/browser/04536e72-e92f-435d-ad61-8f1d60537955
+1650568968624	Marionette	INFO	Listening on port 62033
+1650568968773	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=QZQcPEPt8Fr3hmqkG0wBY0FAKtQY-t5Xx77qaDcOFDj8k09vIeTXNi49J_4PtBq018eNfynBbFquO7akjtQmSA, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=QZQcPEPt8Fr3hmqkG0wBY0FAKtQY-t5Xx77qaDcOFDj8k09vIeTXNi49J_4PtBq018eNfynBbFquO7akjtQmSA:259:1
+
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://support.avito.ru"
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1650569101938	Marionette	INFO	Stopped listening on port 62033
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]

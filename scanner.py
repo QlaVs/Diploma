@@ -24,8 +24,6 @@ from selenium import webdriver
 #     pass
 
 
-
-
 logging.getLogger("scanner")
 logging.basicConfig(filename="LogFile.log",
                     filemode='w',
