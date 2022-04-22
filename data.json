@@ -1,0 +1,37 @@
+[
+  {
+    "phishing_url": 0,
+    "password": 0,
+    "login": 0,
+    "diff": -1,
+    "result": 0
+  },
+  {
+    "phishing_url": 1,
+    "password": 0,
+    "login": 0,
+    "diff": -1,
+    "result": 1
+  },
+  {
+    "phishing_url": 0,
+    "password": 0,
+    "login": 1,
+    "diff": -1,
+    "result": 2
+  },
+  {
+    "phishing_url": 0,
+    "password": 1,
+    "login": 1,
+    "diff": 5,
+    "result": 2
+  },
+  {
+    "phishing_url": 1,
+    "password": 1,
+    "login": 1,
+    "diff": 3,
+    "result": 1
+  }
+]
