@@ -15,6 +15,14 @@
     "mail",
     "field_email",
     "number"
+  ],
+  "domain": [
+    "com",
+    "net",
+    "org",
+    "ru",
+    "edu",
+    "gov"
   ]
 }
 

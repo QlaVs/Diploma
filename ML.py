@@ -6,16 +6,34 @@ import re
 arr = []
 ml_data = {}
 
+# f = open('data.json')
 
-def check_strings(html_page, words, phishing):
+# data = json.load(f)
+
+
+def writing():
+    with open('data.json') as fl:
+        data = json.load(fl)
+        if ml_data not in data:
+            print("WRITING")
+            data.append(ml_data)
+        # if ml_data not in data:
+        #     print('WRITING')
+        #     data.append(ml_data)
+    with open('data.json', 'w') as js:
+        json.dump(data, js, indent=4, separators=(',', ': '))
+
+
+def check_strings(html_page, words, phishing, sus):
     # url = "https://github.com/login"
     # req = requests.get(url)
     # html_page = req.text
 
-    ml_data['phishing_url'] = phishing
-    ml_data['password'] = 0
-    ml_data['login'] = 0
-    ml_data['diff'] = -1
+    ml_data["phishing_url"] = phishing
+    ml_data["sus"] = sus
+    ml_data["password"] = 0
+    ml_data["login"] = 0
+    ml_data["diff"] = -1
 
     html_page = html_page.split(">")
     for l_num, line in enumerate(html_page):
@@ -59,9 +77,11 @@ def check_strings(html_page, words, phishing):
             except:
                 pass
             print(ml_data)
+            writing()
 
     else:
         print(ml_data)
+        writing()
         # Add ML there??
 
     ml_data.fromkeys(ml_data, None)

@@ -6,6 +6,7 @@ TODO:
 
 import json
 import re
+from urllib.parse import urlparse
 import time
 import logging
 import threading
@@ -55,6 +56,8 @@ while True:
         url = driver.current_url
         # url = re.search('//(.*?)/', url)
         # url = url.group(1)
+        url = urlparse(url)
+        url = url.netloc
         if url != curr_url:
             logging.info("URL Changed: " + url)
             for i in lists['bl']:

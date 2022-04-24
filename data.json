@@ -1,37 +1,205 @@
 [
-  {
-    "phishing_url": 0,
-    "password": 0,
-    "login": 0,
-    "diff": -1,
-    "result": 0
-  },
-  {
-    "phishing_url": 1,
-    "password": 0,
-    "login": 0,
-    "diff": -1,
-    "result": 1
-  },
-  {
-    "phishing_url": 0,
-    "password": 0,
-    "login": 1,
-    "diff": -1,
-    "result": 2
-  },
-  {
-    "phishing_url": 0,
-    "password": 1,
-    "login": 1,
-    "diff": 5,
-    "result": 2
-  },
-  {
-    "phishing_url": 1,
-    "password": 1,
-    "login": 1,
-    "diff": 3,
-    "result": 1
-  }
+    {
+        "phishing_url": 0,
+        "sus": 0,
+        "password": 0,
+        "login": 0,
+        "diff": -1
+    },
+    {
+        "phishing_url": 0,
+        "sus": 1,
+        "password": 0,
+        "login": 0,
+        "diff": -1
+    },
+    {
+        "phishing_url": 0,
+        "sus": 1,
+        "password": 1,
+        "login": 1,
+        "diff": 5
+    },
+    {
+        "phishing_url": 0,
+        "sus": 1,
+        "password": 1,
+        "login": 1,
+        "diff": 0
+    },
+    {
+        "phishing_url": 0,
+        "sus": 1,
+        "password": 0,
+        "login": 1,
+        "diff": -1
+    },
+    {
+        "phishing_url": 0,
+        "sus": 1,
+        "password": 1,
+        "login": 1,
+        "diff": 19
+    },
+    {
+        "phishing_url": 0,
+        "sus": 1,
+        "password": 1,
+        "login": 1,
+        "diff": 31
+    },
+    {
+        "phishing_url": 0,
+        "sus": 1,
+        "password": 1,
+        "login": 1,
+        "diff": 4
+    },
+    {
+        "phishing_url": 1,
+        "sus": 2,
+        "password": 0,
+        "login": 0,
+        "diff": -1
+    },
+    {
+        "phishing_url": 1,
+        "sus": 0,
+        "password": 0,
+        "login": 0,
+        "diff": -1
+    },
+    {
+        "phishing_url": 1,
+        "sus": 1,
+        "password": 0,
+        "login": 0,
+        "diff": -1
+    },
+    {
+        "phishing_url": 0,
+        "sus": 2,
+        "password": 0,
+        "login": 0,
+        "diff": -1
+    },
+    {
+        "phishing_url": 0,
+        "sus": 0,
+        "password": 1,
+        "login": 1,
+        "diff": 20
+    },
+    {
+        "phishing_url": 0,
+        "sus": 0,
+        "password": 1,
+        "login": 1,
+        "diff": 2
+    },
+    {
+        "phishing_url": 0,
+        "sus": 0,
+        "password": 1,
+        "login": 1,
+        "diff": 27
+    },
+    {
+        "phishing_url": 0,
+        "sus": 0,
+        "password": 1,
+        "login": 1,
+        "diff": 1
+    },
+    {
+        "phishing_url": 0,
+        "sus": 0,
+        "password": 1,
+        "login": 1,
+        "diff": 36
+    },
+    {
+        "phishing_url": 0,
+        "sus": 0,
+        "password": 1,
+        "login": 1,
+        "diff": 11
+    },
+    {
+        "phishing_url": 0,
+        "sus": 0,
+        "password": 1,
+        "login": 1,
+        "diff": 49
+    },
+    {
+        "phishing_url": 0,
+        "sus": 1,
+        "password": 1,
+        "login": 1,
+        "diff": 9
+    },
+    {
+        "phishing_url": 0,
+        "sus": 2,
+        "password": 1,
+        "login": 1,
+        "diff": 9
+    },
+    {
+        "phishing_url": 0,
+        "sus": 2,
+        "password": 1,
+        "login": 1,
+        "diff": 140
+    },
+    {
+        "phishing_url": 0,
+        "sus": 2,
+        "password": 1,
+        "login": 1,
+        "diff": 138
+    },
+    {
+        "phishing_url": 0,
+        "sus": 2,
+        "password": 1,
+        "login": 1,
+        "diff": 478
+    },
+    {
+        "phishing_url": 0,
+        "sus": 2,
+        "password": 1,
+        "login": 1,
+        "diff": 1
+    },
+    {
+        "phishing_url": 0,
+        "sus": 2,
+        "password": 0,
+        "login": 1,
+        "diff": -1
+    },
+    {
+        "phishing_url": 0,
+        "sus": 2,
+        "password": 1,
+        "login": 1,
+        "diff": 5
+    },
+    {
+        "phishing_url": 0,
+        "sus": 0,
+        "password": 0,
+        "login": 1,
+        "diff": -1
+    },
+    {
+        "phishing_url": 0,
+        "sus": 0,
+        "password": 0,
+        "login": 1,
+        "diff": 177
+    }
 ]

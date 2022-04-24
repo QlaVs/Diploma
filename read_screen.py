@@ -1,4 +1,8 @@
+import sys
 import time
+import traceback
+from urllib.parse import urlparse
+
 import ML
 import mss
 import numpy
@@ -54,23 +58,40 @@ class Reader:
 
                 try:
                     phishing = 0
+                    sus = 0
 
-                    curr_url = re.search('//(.*?)/', self.driver.current_url)
-                    curr_url = curr_url.group(1)
+                    # curr_url = re.search('//(.*?)/', self.driver.current_url)
+                    # curr_url = curr_url.group(1)
+
+                    curr_url = urlparse(self.driver.current_url)
+                    if curr_url.scheme != "https":
+                        sus = 2
+                    curr_url = curr_url.netloc
+
+                    # temp = re.findall('(?<=\.)\w+(?=\.)', curr_url)
+                    temp = curr_url.split('.')
+                    if sus != 2:
+                        if len(temp) != 3:
+                            sus = 1
+                        elif temp[0] != 'www' or temp[2] not in words['domain']:
+                            sus = 2
 
                     for i in range(len(cites_list)):
-                        phish_url = re.search('//(.*?)/', cites_list[i]["url"])
-                        if phish_url:
-                            phish_url = phish_url.group(1)
-                            # print(phish_url)
-                            if phish_url == curr_url:
-                                phishing = 1
-                                break
+                        # phish_url = re.search('//(.*?)/', cites_list[i]["url"])
+                        phish_url = urlparse(cites_list[i]['url'])
+                        phish_url = phish_url.netloc
+                        # phish_url = phish_url.group(1)
+                        # print(phish_url)
+                        if phish_url == curr_url:
+                            phishing = 1
+                            break
 
-                    ML.check_strings(self.driver.page_source, words, phishing)
+                    ML.check_strings(self.driver.page_source, words, phishing, sus)
 
-                except Exception as err:
-                    print(err)
+                    temp.clear()
+
+                except Exception:
+                    print(traceback.format_exc())
 
                 # for i in words:
                     # TODO: Create field disabling feature
@@ -127,11 +148,12 @@ class Notifier:
                     logging.info("Notifier stopped")
                     return
                 if self.url is not None:
-                    self.toast.show_toast("Небезопасный сайт",
+                    self.toast.show_toast("Потенциальная угроза",
                                           f"{self.url} может быть использован для кражи персональных данных\n"
                                           "Пожалуйста, не вводите личные данные на этой странице",
                                           duration=7)
                     self.url = None
+                time.sleep(0.2)
             except Exception as err:
                 return logging.critical(err)
 
