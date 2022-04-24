@@ -1,0 +1,24 @@
+"phishing":
+    0 - no log form / can't grab log form
+    1 - probably phishing cite
+    2 - probably NOT phishing cite
+
+"sus":
+    0 - not sus at all
+    1 - URL doesn't contain 3 parts (must be for exp: "www.cite.com";
+                                 sometimes its only can be "cite.com", so this flag is "soft")
+        / First part of URL is not "WWW" (that's not happened all the time, but its might be suspicious for sure)
+    2 -|        OR
+        \ Top-level domain name is not popular (for exp: popular: .com, .net, .ru; sus: .xyz, .xxx, .me)
+
+"password":
+    0 - no pass input / didn't grab pass input
+    1 - page contains pass input
+
+"login":
+    0 - no log input / didn't grab log input
+    1 - page contains log input
+
+"diff":
+         -1 - can't compare different between pass and log because: only one input / no input at all
+    ANY NUM - approx number of html strings between log and pass input forms

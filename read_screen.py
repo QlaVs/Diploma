@@ -57,7 +57,7 @@ class Reader:
                 # text = pytesseract.image_to_string(im, lang="rus")
 
                 try:
-                    phishing = 0
+                    phishing = 2
                     sus = 0
 
                     # curr_url = re.search('//(.*?)/', self.driver.current_url)

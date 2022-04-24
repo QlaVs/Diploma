@@ -67,6 +67,9 @@ def check_strings(html_page, words, phishing, sus):
         except:
             pass
 
+    else:
+        ml_data["phishing_url"] = 0
+
     if len(arr) > 1:
         for i in range(len(arr) - 1):
             try:
