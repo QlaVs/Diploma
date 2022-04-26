@@ -11,10 +11,13 @@
     "E-mail",
     "email",
     "адрес",
+    "номер",
+    "телефон",
     "login",
     "mail",
     "field_email",
-    "number"
+    "number",
+    "phone"
   ],
   "domain": [
     "com",

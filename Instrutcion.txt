@@ -1,15 +1,21 @@
 "phishing":
-    0 - no log form / can't grab log form
+   -1 - no log form / can't grab log form
+    0 - probably NOT phishing cite
     1 - probably phishing cite
-    2 - probably NOT phishing cite
+
+"rank":
+    0 - bad domain rank  (< 5/10)
+    1 - good domain rank (>= 5/10)
 
 "sus":
-    0 - not sus at all
-    1 - URL doesn't contain 3 parts (must be for exp: "www.cite.com";
+   -1 - not sus at all
+    0 - URL doesn't contain 3 parts (must be for exp: "www.cite.com";
                                  sometimes its only can be "cite.com", so this flag is "soft")
-        / First part of URL is not "WWW" (that's not happened all the time, but its might be suspicious for sure)
-    2 -|        OR
-        \ Top-level domain name is not popular (for exp: popular: .com, .net, .ru; sus: .xyz, .xxx, .me)
+         / First part of URL is not "WWW" (that's not happened all the time, but its might be suspicious for sure)
+        |        OR
+    1 - |  Top-level domain name is not popular (for exp: popular: .com, .net, .ru; sus: .xyz, .xxx, .me)
+        |        OR
+         \ HTTP is not Secure (not HTTPS in URL)
 
 "password":
     0 - no pass input / didn't grab pass input
@@ -20,5 +26,10 @@
     1 - page contains log input
 
 "diff":
-         -1 - can't compare different between pass and log because: only one input / no input at all
-    ANY NUM - approx number of html strings between log and pass input forms
+   0 - can't compare different between pass and log because: only one input / no input at all
+*ANY* - approx number of html strings between log and pass input forms
+
+
+"result":
+   -1 - No warning
+    1 - Warning

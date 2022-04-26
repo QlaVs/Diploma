@@ -5,14 +5,10 @@ TODO:
 """
 
 import json
-import re
 from urllib.parse import urlparse
 import time
 import logging
 import threading
-
-from selenium.webdriver.common.by import By
-
 from log_analyzer import Analyzer
 from read_screen import Reader, Notifier
 from selenium import webdriver
@@ -23,7 +19,6 @@ from selenium import webdriver
 #         pass
 # except:
 #     pass
-
 
 logging.getLogger("scanner")
 logging.basicConfig(filename="LogFile.log",
@@ -36,19 +31,21 @@ tabs = 1
 
 driver = webdriver.Firefox()
 driver.get("http://www.google.com")
-f = open('Lists.JSON')
-lists = json.load(f)
+with open('Lists.JSON') as f:
+    lists = json.load(f)
 
 curr_url = "about:blank"
 
 logging.info("Program is starting up...")
 
+
+# nf = Notifier()
+# notifier_thread = threading.Thread(target=nf.start, name="NF")
+# notifier_thread.start()
+
 reader = Reader(driver)
-nf = Notifier()
 reader_thread = threading.Thread(target=reader.start, name="RR")
 reader_thread.start()
-notifier_thread = threading.Thread(target=nf.start, name="NF")
-notifier_thread.start()
 
 while True:
     try:
@@ -75,7 +72,6 @@ while True:
                         break
                 else:
                     logging.warning("Not in Lists, monitoring...")
-                    nf.notification(curr_url)
                     # notification = re.search('//(.*?)/', curr_url) notification.group(1)
                     reader.change_status(True)
 
@@ -105,9 +101,9 @@ while True:
         except:
             logging.info("Browser closed")
             reader.stop()
-            nf.stop()
 
             analyzer = Analyzer("LogFile.log")
             analyzer.start()
 
+            print('Exiting...')
             exit(0)
