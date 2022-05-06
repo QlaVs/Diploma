@@ -63,6 +63,8 @@ notifier_thread.start()
 class Reader:
     state = False
     stopping = False
+    html_page = ''
+    temp_url = ''
 
     def __init__(self, driver):
         self.driver = driver
@@ -105,42 +107,76 @@ class Reader:
                         sus = 1
                     curr_url = curr_url.netloc
 
-                    # temp = re.findall('(?<=\.)\w+(?=\.)', curr_url)
-                    temp = curr_url.split('.')
-                    if sus != 1:
-                        if len(temp) != 3:
-                            sus = 0
-                        elif temp[0] != 'www' or temp[2] not in words['domain']:
-                            sus = 1
+                    # This is where the magic taking place!
+                    if self.temp_url != curr_url or self.html_page != self.driver.page_source:
+                        self.temp_url = curr_url
+                        self.html_page = self.driver.page_source
 
-                    for i in range(len(cites_list)):
-                        # phish_url = re.search('//(.*?)/', cites_list[i]["url"])
-                        phish_url = urlparse(cites_list[i]['url'])
-                        phish_url = phish_url.netloc
-                        # phish_url = phish_url.group(1)
-                        # print(phish_url)
-                        if phish_url == curr_url:
-                            phishing = 1
-                            break
+                        # temp = re.findall('(?<=\.)\w+(?=\.)', curr_url)
+                        temp = curr_url.split('.')
+                        if sus != 1:
+                            if len(temp) != 3:
+                                sus = 0
+                            elif temp[0] != 'www' or temp[2] not in words['domain']:
+                                sus = 1
 
-                    rank_data = requests.get(
-                        f'https://openpagerank.com/api/v1.0/getPageRank?API-OPR'
-                        f'=kco0goc4cwwgcog0ok08ckscsw0kcck0wg4840wg&domains[]={curr_url}')
+                        for i in range(len(cites_list)):
+                            # phish_url = re.search('//(.*?)/', cites_list[i]["url"])
+                            phish_url = urlparse(cites_list[i]['url'])
+                            phish_url = phish_url.netloc
+                            # phish_url = phish_url.group(1)
+                            # print(phish_url)
+                            if phish_url == curr_url:
+                                phishing = 1
+                                break
 
-                    if rank_data.json()['response'][0]['page_rank_decimal'] < 5:
-                        rank = 0
+                        rank_data = requests.get(
+                            f'https://openpagerank.com/api/v1.0/getPageRank?API-OPR'
+                            f'=kco0goc4cwwgcog0ok08ckscsw0kcck0wg4840wg&domains[]={curr_url}')
+
+                        r = rank_data.json()['response'][0]['page_rank_decimal']
+
+                        if r <= 3.36:
+                            rank = -1
+                        elif r <= 7.33:
+                            rank = 0
+                        else:
+                            rank = 1
+
+                        rank_data = requests.get(
+                            f'https://ipqualityscore.com/api/json/url/y5ag8EOGiHiBm8t5jxzRuR4D86C7Jz1t/{curr_url}')
+
+                        r = rank_data.json()
+                        if not r['phishing']:
+                            iqs_phishing = 0
+                        else:
+                            iqs_phishing = 1
+
+                        if not r['suspicious']:
+                            iqs_sus = 0
+                        else:
+                            iqs_sus = 1
+
+                        if r['risk_score'] <= 33:
+                            iqs_risk_score = -1
+                        elif r['risk_score'] <= 66:
+                            iqs_risk_score = 0
+                        else:
+                            iqs_risk_score = 1
+
+                        result = ML.check_strings(
+                            self.html_page, words, phishing, rank, sus, iqs_phishing, iqs_sus, iqs_risk_score)
+
+                        if result == 1:
+                            nf.notification(curr_url)
+                        elif result == -1:
+                            print("Might not be phishing page")
+                        elif result == 0:
+                            print("Waiting for changes")
+
+                        temp.clear()
                     else:
-                        rank = 1
-
-                    result = ML.check_strings(self.driver.page_source, words, phishing, rank, sus)
-                    if result == 1:
-                        nf.notification(curr_url)
-                    elif result == -1:
-                        print("Might not be phishing page")
-                    elif result == 0:
-                        print("Waiting for changes")
-
-                    temp.clear()
+                        print("Page was already checked")
 
                 except Exception:
                     print(traceback.format_exc())
