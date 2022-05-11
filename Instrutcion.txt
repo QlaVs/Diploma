@@ -1,0 +1,53 @@
+MY DATA:
+
+    "phishing":
+       -1 - no log form / can't grab log form
+        0 - probably NOT phishing cite
+        1 - probably phishing cite
+
+    "rank":
+       -1 - bad domain ran (0-3.66/10)
+        0 - good domain rank  (3.67-7.33/10)
+        1 - best domain rank (7.34-10/10)
+
+    "sus":
+       -1 - not sus at all
+        0 - URL doesn't contain 3 parts (must be for exp: "www.cite.com";
+                                     sometimes its only can be "cite.com", so this flag is "soft")
+             / First part of URL is not "WWW" (that's not happened all the time, but its might be suspicious for sure)
+            |        OR
+        1 - |  Top-level domain name is not popular (for exp: popular: .com, .net, .ru; sus: .xyz, .xxx, .me)
+            |        OR
+             \ HTTP is not Secure (not HTTPS in URL)
+
+    "password":
+        0 - no pass input / didn't grab pass input
+        1 - page contains pass input
+
+    "login":
+        0 - no log input / didn't grab log input
+        1 - page contains log input
+
+    "diff":
+       0 - can't compare different between pass and log because: only one input / no input at all
+    *ANY* - approx number of html strings between log and pass input forms
+
+
+IQS DATA:
+    "iqs_phishing":
+        0 - "false"
+        1 - "true"
+
+    "iqs_sus":
+        0 - "false"
+        1 - "true"
+
+    "iqs_risk_score":
+       -1 - 0-33
+        0 - 34-66
+        1 - 66-100
+
+
+"result":
+   -1 - No warning
+    1 - Warning

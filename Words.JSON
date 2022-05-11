@@ -1,0 +1,37 @@
+{
+  "pwd": [
+    "Пароль",
+    "пароль",
+    "password",
+    "Password",
+    "pass"
+  ],
+  "lgn": [
+    "Email",
+    "E-mail",
+    "email",
+    "адрес",
+    "номер",
+    "телефон",
+    "login",
+    "mail",
+    "field_email",
+    "number",
+    "phone"
+  ],
+  "domain": [
+    "com",
+    "net",
+    "org",
+    "ru",
+    "edu",
+    "gov"
+  ]
+}
+
+
+
+
+
+
+
