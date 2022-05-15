@@ -7533,3 +7533,177 @@ DevTools listening on ws://localhost:59700/devtools/browser/18f1bf16-e354-4725-8
 1651866753926	Marionette	INFO	Stopped listening on port 59705
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1652030275043	geckodriver	INFO	Listening on 127.0.0.1:51971
+1652030278110	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51972" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilemwyPvj"
+1652030278330	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofilemwyPvj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51972/devtools/browser/297cc7e1-1730-43ef-9a51-2c4686349315
+1652030279341	Marionette	INFO	Listening on port 51977
+1652030279659	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Vxxo0opzsh25_sipuEwF07DSzExebUhm2dJ7I8SMRhguIjaxbViFLe6S9THujRn2VN8N8dTQlJtTDXm2hU1e0w, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Vxxo0opzsh25_sipuEwF07DSzExebUhm2dJ7I8SMRhguIjaxbViFLe6S9THujRn2VN8N8dTQlJtTDXm2hU1e0w:259:1
+
+1652030290406	Marionette	INFO	Stopped listening on port 51977
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1652030530732	geckodriver	INFO	Listening on 127.0.0.1:52091
+1652030533778	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52092" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileKGd4m3"
+1652030533967	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileKGd4m3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52092/devtools/browser/df743715-64bb-41fc-a497-de54dde8eec5
+1652030534881	Marionette	INFO	Listening on port 52098
+1652030535317	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+1652030535879	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1652030583897	Marionette	INFO	Stopped listening on port 52098
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1652528049835	geckodriver	INFO	Listening on 127.0.0.1:65228
+1652528052893	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65229" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileFknrMY"
+1652528053106	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileFknrMY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65229/devtools/browser/612eff45-414b-4d40-af39-1f89e995d290
+1652528054043	Marionette	INFO	Listening on port 65234
+1652528054441	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=zFRC5_vsO0iAptXZuk2hWejzP3U0xyUFy1sO2ix5oktsOM-LFwl-R6FMpX4vu0hlTm2G6vwKYraCkBfrHKwG8g, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=zFRC5_vsO0iAptXZuk2hWejzP3U0xyUFy1sO2ix5oktsOM-LFwl-R6FMpX4vu0hlTm2G6vwKYraCkBfrHKwG8g:259:1
+
+JavaScript error: https://rutube.ru/ line 349 > injectedScript, line 1: ReferenceError: VK is not defined
+JavaScript error: https://rutube.ru/ line 349 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 349 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 349 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 349 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://rutube.ru/ line 349 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript error: https://rutube.ru/ line 349 > injectedScript, line 1: ReferenceError: yaCounter53182297 is not defined
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 156: Script terminated by timeout at:
+da/</<@https://mc.yandex.ru/metrika/tag.js:156:59
+vq/x<@https://mc.yandex.ru/metrika/tag.js:172:147
+
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.9/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js?v=1, line 5: WebGL context was lost.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652528114110	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://aeis.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://aeis.alicdn.com/AWSC/fireyejs/1.222.3/fireyejs.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+JavaScript error: https://wintop.org.ru/, line 1475: TypeError: ["7d03718c44f740ac10a533e9ccb2ee3d"].as is not a function
+JavaScript error: https://wintop.org.ru/, line 1482: TypeError: "".dc is not a function
+JavaScript error: https://wintop.org.ru/, line 1475: TypeError: ["7d03718c44f740ac10a533e9ccb2ee3d"].as is not a function
+JavaScript error: https://wintop.org.ru/, line 1482: TypeError: "".dc is not a function
+JavaScript error: http://www2.aeosoan.icu/, line 449: ReferenceError: $ is not defined
+1652528350805	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript error: https://www.gstatic.com/recaptcha/releases/0aeEuuJmrVqDrEL39Fsg5-UJ/recaptcha__ru.js, line 408: Error: reCAPTCHA has already been rendered in this element
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://qr.net"
+JavaScript error: https://www.gstatic.com/recaptcha/releases/0aeEuuJmrVqDrEL39Fsg5-UJ/recaptcha__ru.js, line 408: Error: reCAPTCHA has already been rendered in this element
+1652528388315	Marionette	INFO	Stopped listening on port 65234
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1652528406668	geckodriver	INFO	Listening on 127.0.0.1:64181
+1652528409712	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64182" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileC2rbjO"
+1652528409902	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofileC2rbjO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64182/devtools/browser/93340104-a3e3-4ff0-81e4-54ff1831cd9d
+1652528410731	Marionette	INFO	Listening on port 64187
+1652528410749	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652528535932	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://account.mail.ru"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+JavaScript error: https://maps.googleapis.com/maps/api/js?v=weekly&client=google-maps-lite&libraries=geometry%2Csearch&language=ru-RU&region=US&callback=__mapsCb, line 99: Error: Could not load "util".
+JavaScript error: https://maps.googleapis.com/maps/api/js?v=weekly&client=google-maps-lite&libraries=geometry%2Csearch&language=ru-RU&region=US&callback=__mapsCb, line 99: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?v=weekly&client=google-maps-lite&libraries=geometry%2Csearch&language=ru-RU&region=US&callback=__mapsCb, line 99: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?v=weekly&client=google-maps-lite&libraries=geometry%2Csearch&language=ru-RU&region=US&callback=__mapsCb, line 99: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?v=weekly&client=google-maps-lite&libraries=geometry%2Csearch&language=ru-RU&region=US&callback=__mapsCb, line 99: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?v=weekly&client=google-maps-lite&libraries=geometry%2Csearch&language=ru-RU&region=US&callback=__mapsCb, line 99: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?v=weekly&client=google-maps-lite&libraries=geometry%2Csearch&language=ru-RU&region=US&callback=__mapsCb, line 99: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?v=weekly&client=google-maps-lite&libraries=geometry%2Csearch&language=ru-RU&region=US&callback=__mapsCb, line 99: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?v=weekly&client=google-maps-lite&libraries=geometry%2Csearch&language=ru-RU&region=US&callback=__mapsCb, line 99: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?v=weekly&client=google-maps-lite&libraries=geometry%2Csearch&language=ru-RU&region=US&callback=__mapsCb, line 99: Error: Could not load "search_impl".
+1652528562680	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.zara.com/ru/, line 95: unreachable code after return statement
+JavaScript warning: https://beacon.riskified.com/?shop=www.zara.com&sid=1a9676f9-aabe-4940-b59b-7cd9ccbd1217, line 7: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.zara.com/fewThY7Wb/ye2UMt/4VQ/Eaf5QGDX/fSZnAQ/T0/UbFXhHRgg, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.zara.com/ru/ru/shop/cart, line 95: unreachable code after return statement
+JavaScript warning: https://beacon.riskified.com/?shop=www.zara.com&sid=1a9676f9-aabe-4940-b59b-7cd9ccbd1217, line 7: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.zara.com/fewThY7Wb/ye2UMt/4VQ/Eaf5QGDX/fSZnAQ/T0/UbFXhHRgg, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=9nxzuPB-ap2DfV77XJfjUCmirdp3bpLAH9BQmsWwF_nkhbpVVts_W-TxVcs-ZME7XA5mq_orz-D_U4BBMREFLg, line 1440: Script terminated by timeout at:
+ns.WebSocketCaller/this.IsProductConnected@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=9nxzuPB-ap2DfV77XJfjUCmirdp3bpLAH9BQmsWwF_nkhbpVVts_W-TxVcs-ZME7XA5mq_orz-D_U4BBMREFLg:1440:5
+CallReceiver/this.IsProductConnected@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=9nxzuPB-ap2DfV77XJfjUCmirdp3bpLAH9BQmsWwF_nkhbpVVts_W-TxVcs-ZME7XA5mq_orz-D_U4BBMREFLg:1541:31
+CallImpl@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=9nxzuPB-ap2DfV77XJfjUCmirdp3bpLAH9BQmsWwF_nkhbpVVts_W-TxVcs-ZME7XA5mq_orz-D_U4BBMREFLg:1633:33
+Call@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=9nxzuPB-ap2DfV77XJfjUCmirdp3bpLAH9BQmsWwF_nkhbpVVts_W-TxVcs-ZME7XA5mq_orz-D_U4BBMREFLg:1651:21
+KasperskyLabSessionClass/this.InitializePlugin/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=9nxzuPB-ap2DfV77XJfjUCmirdp3bpLAH9BQmsWwF_nkhbpVVts_W-TxVcs-ZME7XA5mq_orz-D_U4BBMREFLg:1820:26
+FireActivateEventImpl@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=9nxzuPB-ap2DfV77XJfjUCmirdp3bpLAH9BQmsWwF_nkhbpVVts_W-TxVcs-ZME7XA5mq_orz-D_U4BBMREFLg:2045:23
+FireActivateEvent@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=9nxzuPB-ap2DfV77XJfjUCmirdp3bpLAH9BQmsWwF_nkhbpVVts_W-TxVcs-ZME7XA5mq_orz-D_U4BBMREFLg:2066:13
+ProcessActivate/m_activatedStateChangeTimeout<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=9nxzuPB-ap2DfV77XJfjUCmirdp3bpLAH9BQmsWwF_nkhbpVVts_W-TxVcs-ZME7XA5mq_orz-D_U4BBMREFLg:2090:21
+ns.SetTimeout/KasperskyLab<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=9nxzuPB-ap2DfV77XJfjUCmirdp3bpLAH9BQmsWwF_nkhbpVVts_W-TxVcs-ZME7XA5mq_orz-D_U4BBMREFLg:323:21
+
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.avito.ru/dstatic/build/client/f.f620419292c6b4bd4b98.js, line 6: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652528711622	Marionette	INFO	Stopped listening on port 64187
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1652528825326	geckodriver	INFO	Listening on 127.0.0.1:50879
+1652528828386	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50880" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofiletgga51"
+1652528828579	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofiletgga51\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50880/devtools/browser/ca6bd056-ba4e-49cd-a101-692610958bfb
+1652528829566	Marionette	INFO	Listening on port 50885
+1652528829943	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Bx_0Z4FOARVCd56tbynrgg3c-mQGKg_vV-zTC1JoUrdhBbejRQRAAp3bCrmQ__PXOf4cQZ9gL4eKC4YH1fgPNQ, line 259: Script terminated by timeout at:
+ns.AddEventListener/<@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Bx_0Z4FOARVCd56tbynrgg3c-mQGKg_vV-zTC1JoUrdhBbejRQRAAp3bCrmQ__PXOf4cQZ9gL4eKC4YH1fgPNQ:259:1
+
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.9c44a1b509b28d54fd30.js, line 1: unreachable code after return statement
+1652528854348	Marionette	INFO	Stopped listening on port 50885
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1652528912900	geckodriver	INFO	Listening on 127.0.0.1:51010
+1652528915948	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51011" "-no-remote" "-profile" "C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofiletM0lTC"
+1652528916137	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\petru\\AppData\\Local\\Temp\\rust_mozprofiletM0lTC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51011/devtools/browser/dabb6268-780d-449a-8e6e-1b6cbeb79b70
+1652528916983	Marionette	INFO	Listening on port 51016
+1652528917488	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://my.etelecom.ru/media/js/app/controllers/view/PaymentHistory.js?0.7470854542483734, line 414: unreachable code after return statement
+JavaScript warning: https://my.etelecom.ru/media/js/app/controllers/view/Dashboard.js?0.9160212063585423, line 129: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://my.etelecom.ru"
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=b62QB1WdwH5sIuhVV4B4Q2d_tWeQC_Kkp_rx3DOGGpZuv0lzrWVAtjEfo1uRfgwI, line 2865: SecurityError: The operation is insecure.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://my.etelecom.ru"
+JavaScript warning: https://st.vk.com/dist/web/grip.96ebf12b07244c709483.js?a4227f0cc0fa4f1f6fa47d1a9f830c4e, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st.vk.com/dist/web/grip.96ebf12b07244c709483.js?a4227f0cc0fa4f1f6fa47d1a9f830c4e, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://my.etelecom.ru/media/js/app/controllers/view/PaymentHistory.js?0.49894769487451296, line 414: unreachable code after return statement
+JavaScript warning: https://my.etelecom.ru/media/js/app/controllers/view/Dashboard.js?0.6618602049321932, line 129: unreachable code after return statement
+JavaScript error: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=zZH4T3gQD-QnSSt32pyUx2nwEU2hdjSsmRnYaksBQ6KDA-PQjWmcJsXZmnVLvm0-, line 2865: SecurityError: The operation is insecure.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://my.etelecom.ru"
+JavaScript warning: https://apps.apple.com/assets/vendor-510326961a770dfa106e3b45b546311e.js, line 5424: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://apps.apple.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://apps.apple.com"
+1652529053715	Marionette	INFO	Stopped listening on port 51016
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]

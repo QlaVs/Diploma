@@ -96,6 +96,7 @@ class Reader:
                 # text = pytesseract.image_to_string(im, lang="rus")
 
                 try:
+                    iframe = 0
                     phishing = 0
                     sus = -1
 
@@ -111,6 +112,10 @@ class Reader:
                     if self.temp_url != curr_url or self.html_page != self.driver.page_source:
                         self.temp_url = curr_url
                         self.html_page = self.driver.page_source
+
+                        iframe_quantity = self.driver.find_elements_by_tag_name('iframe')
+                        if len(iframe_quantity) > 0:
+                            iframe = 1
 
                         # temp = re.findall('(?<=\.)\w+(?=\.)', curr_url)
                         temp = curr_url.split('.')
@@ -165,7 +170,7 @@ class Reader:
                             iqs_risk_score = 1
 
                         result = ML.check_strings(
-                            self.html_page, words, phishing, rank, sus, iqs_phishing, iqs_sus, iqs_risk_score)
+                            self.html_page, words, phishing, rank, sus, iframe, iqs_phishing, iqs_sus, iqs_risk_score)
 
                         if result == 1:
                             nf.notification(curr_url)

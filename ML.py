@@ -23,6 +23,9 @@ Xtrain, Xtest, ytrain, ytest = train_test_split(X, y, random_state=2)
 model = DecisionTreeClassifier()
 model.fit(Xtrain, ytrain)
 
+
+EXPERT_MODE = False
+
 # ypred = model.predict(Xtest)
 # print(metrics.classification_report(ypred, ytest))
 # print("\n\nAccuracy Score:", metrics.accuracy_score(ytest, ypred).round(2)*100, "%")
@@ -55,7 +58,7 @@ print("ML instance is ready")
 #         json.dump(data, js, indent=4, separators=(',', ': '))
 
 
-def check_strings(html_page, words, phishing, rank, sus, iqs_phishing, iqs_sus, iqs_risk_score):
+def check_strings(html_page, words, phishing, rank, sus, iframe, iqs_phishing, iqs_sus, iqs_risk_score):
     # url = "https://github.com/login"
     # req = requests.get(url)
     # html_page = req.text
@@ -69,7 +72,8 @@ def check_strings(html_page, words, phishing, rank, sus, iqs_phishing, iqs_sus, 
     ml_data["sus"] = sus
     ml_data["password"] = 0
     ml_data["login"] = 0
-    ml_data["diff"] = 0
+    # ml_data["diff"] = 0
+    ml_data["iframe"] = iframe
     ml_data["iqs_phishing"] = iqs_phishing
     ml_data["iqs_sus"] = iqs_sus
     ml_data["iqs_risk_score"] = iqs_risk_score
@@ -112,19 +116,21 @@ def check_strings(html_page, words, phishing, rank, sus, iqs_phishing, iqs_sus, 
             except:
                 pass
 
-        if lgn_form == 0 and pwd_form == 0 and ml_data["phishing_url"] != 1:
-            ml_data["phishing_url"] = -1
+        # if lgn_form == 0 and pwd_form == 0 and ml_data["phishing_url"] != 1:
+        #     ml_data["phishing_url"] = -1
+        #
+        # if ml_data["phishing_url"] != -1 and len(arr) > 1:
+        #     for i in range(len(arr) - 1):
+        #         try:
+        #             result = abs(arr[i + 1] - arr[i])
+        #             print(f"Difference between lines: {result}")
+        #             ml_data['diff'] = result
+        #
+        #         except:
+        #             pass
+        #         print(ml_data)
 
-        if ml_data["phishing_url"] != -1 and len(arr) > 1:
-            for i in range(len(arr) - 1):
-                try:
-                    result = abs(arr[i + 1] - arr[i])
-                    print(f"Difference between lines: {result}")
-                    ml_data['diff'] = result
 
-                except:
-                    pass
-                print(ml_data)
                 # writing()
 
         else:
@@ -140,84 +146,84 @@ def check_strings(html_page, words, phishing, rank, sus, iqs_phishing, iqs_sus, 
         result = model.predict(pd.DataFrame(ml_data, index=[0]))
         print(result)
 
-        with open("ml_dataset.csv", "r+", newline='') as f:
-            temp = list(ml_data.values())
-            # x = int(input("Bad or Good (1 or -1)?: "))
-            # result = x
-            skip = False
-            #
-            # temp.append(x)
-            # print(temp, '\n')
-            #
-            # # ln = ','.join(str(e) for e in temp)
-            # # print(ln)
-            # read = csv.reader(f)
-            # next(read, None)
-            # for line in read:
-            #     line = [int(v) for v in line]
-            #     if temp == line:
-            #         print(line)
-            #         print("Already in file")
-            #         skip = True
-            #         break
-            #
-            # if not skip:
-            #     print('Writing')
-            #     # f.write(','.join(str(e) for e in temp))
-            #     write = csv.writer(f)
-            #     write.writerow(temp)
+        if EXPERT_MODE:
+            with open("ml_dataset.csv", "r+", newline='') as f:
+                temp = list(ml_data.values())
+                # x = int(input("Bad or Good (1 or -1)?: "))
+                # result = x
+                skip = False
+                #
+                # temp.append(x)
+                # print(temp, '\n')
+                #
+                # # ln = ','.join(str(e) for e in temp)
+                # # print(ln)
+                # read = csv.reader(f)
+                # next(read, None)
+                # for line in read:
+                #     line = [int(v) for v in line]
+                #     if temp == line:
+                #         print(line)
+                #         print("Already in file")
+                #         skip = True
+                #         break
+                #
+                # if not skip:
+                #     print('Writing')
+                #     # f.write(','.join(str(e) for e in temp))
+                #     write = csv.writer(f)
+                #     write.writerow(temp)
 
-            time.sleep(0.1)
-            while True:
-                x = input("True prediction? (Y/N): ")
-                if x.lower() == "y":
-                    temp.append(int(result))
-                    read = csv.reader(f)
-                    next(read, None)
-                    for line in read:
-                        line = [int(v) for v in line]
-                        if temp == line:
-                            print(line)
-                            print("Already in file")
-                            skip = True
-                            break
+                # time.sleep(0.1)
 
-                    if not skip:
-                        print('Writing')
-                        # f.write(','.join(str(e) for e in temp))
-                        write = csv.writer(f)
-                        write.writerow(temp)
-                    break
-                elif x.lower() == "n":
-                    if result == 1:
-                        temp.append(-1)
+                while True:
+                    x = input("True prediction? (Y/N): ")
+                    if x.lower() == "y":
+                        temp.append(int(result))
+                        read = csv.reader(f)
+                        next(read, None)
+                        for line in read:
+                            line = [int(v) for v in line]
+                            if temp == line:
+                                print(line)
+                                print("Already in file")
+                                skip = True
+                                break
+
+                        if not skip:
+                            print('Writing')
+                            # f.write(','.join(str(e) for e in temp))
+                            write = csv.writer(f)
+                            write.writerow(temp)
+                        break
+                    elif x.lower() == "n":
+                        if result == 1:
+                            temp.append(-1)
+                        else:
+                            temp.append(1)
+                        read = csv.reader(f)
+                        next(read, None)
+                        for line in read:
+                            line = [int(v) for v in line]
+                            if temp == line:
+                                print(line)
+                                print("Already in file")
+                                skip = True
+                                break
+
+                        if not skip:
+                            print('Writing')
+                            # f.write(','.join(str(e) for e in temp))
+                            write = csv.writer(f)
+                            write.writerow(temp)
+                        break
                     else:
-                        temp.append(1)
-                    read = csv.reader(f)
-                    next(read, None)
-                    for line in read:
-                        line = [int(v) for v in line]
-                        if temp == line:
-                            print(line)
-                            print("Already in file")
-                            skip = True
-                            break
-
-                    if not skip:
-                        print('Writing')
-                        # f.write(','.join(str(e) for e in temp))
-                        write = csv.writer(f)
-                        write.writerow(temp)
-                    break
-                else:
-                    print("Incorrect input (Must be Y or N)")
+                        print("\n!!Incorrect input (Must be Y or N)!!")
 
             temp.clear()
 
         ml_data.fromkeys(ml_data, None)
 
         arr.clear()
-        #
-        # if result == 1:
-        #     return 1
+
         return result
