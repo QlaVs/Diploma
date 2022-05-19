@@ -24,22 +24,22 @@ model = DecisionTreeClassifier()
 model.fit(Xtrain, ytrain)
 
 
-EXPERT_MODE = False
+EXPERT_MODE = True
 
-# ypred = model.predict(Xtest)
-# print(metrics.classification_report(ypred, ytest))
-# print("\n\nAccuracy Score:", metrics.accuracy_score(ytest, ypred).round(2)*100, "%")
+ypred = model.predict(Xtest)
+print(metrics.classification_report(ypred, ytest))
+print("\n\nAccuracy Score:", metrics.accuracy_score(ytest, ypred).round(2)*100, "%")
+
+confusion_matrix_file = 'confusion_matrix.png'
+dot_file = 'tree.dot'
+
+mat = confusion_matrix(ytest, ypred)
+sns.heatmap(mat.T, square=True, annot=True, fmt='d', cbar=False)
+plt.xlabel('true label')
+plt.ylabel('predicted label')
+plt.savefig(confusion_matrix_file)
 #
-# confusion_matrix_file = 'confusion_matrix.png'
-# dot_file = 'tree.dot'
-#
-# mat = confusion_matrix(ytest, ypred)
-# sns.heatmap(mat.T, square=True, annot=True, fmt='d', cbar=False)
-# plt.xlabel('true label')
-# plt.ylabel('predicted label')
-# plt.savefig(confusion_matrix_file)
-# #
-# export_graphviz(model, out_file=dot_file, feature_names=X.columns.values)
+export_graphviz(model, out_file=dot_file, feature_names=X.columns.values)
 
 print("ML instance is ready")
 

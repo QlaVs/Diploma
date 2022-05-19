@@ -1,11 +1,13 @@
 {
   "wl": [
-    "about:blank",
+    "rutube.com",
     "google.com",
+    "ok.ru",
     "google.ru",
     "vk.com"
   ],
   "bl": [
-    "youtube.com"
+    "youtube.com",
+    "wikipedia.org"
   ]
 }
