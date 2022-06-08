@@ -10,7 +10,7 @@ import time
 import logging
 import threading
 from log_analyzer import Analyzer
-from read_screen import Reader, Notifier
+from read_screen import Reader
 from selenium import webdriver
 
 

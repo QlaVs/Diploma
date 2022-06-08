@@ -1,6 +1,6 @@
 MY DATA:
 
-    "phishing":
+    "phishing_url":
        -1 - no log form / can't grab log form
         0 - probably NOT phishing cite
         1 - probably phishing cite
@@ -28,9 +28,13 @@ MY DATA:
         0 - no log input / didn't grab log input
         1 - page contains log input
 
-    "diff":
-       0 - can't compare different between pass and log because: only one input / no input at all
-    *ANY* - approx number of html strings between log and pass input forms
+    "iframe":
+        0 - no iframe tag on page
+        1 - iframe tag on page
+
+    //"diff":
+    //   0 - can't compare different between pass and log because: only one input / no input at all
+    //*ANY* - approx number of html strings between log and pass input forms
 
 
 IQS DATA:

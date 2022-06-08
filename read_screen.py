@@ -2,7 +2,7 @@ import threading
 import time
 import traceback
 from urllib.parse import urlparse
-import requests
+import urllib.request
 import ML
 import json
 import logging
@@ -11,6 +11,16 @@ from win10toast import ToastNotifier
 # pytesseract.pytesseract.tesseract_cmd = 'C:\Program Files\Tesseract-OCR\\tesseract.exe'
 # mon = {'top': 0, 'left': 0, 'width': 1920, 'height': 1080}\
 
+headers = {
+    'Connection': 'keep-alive',
+    'Upgrade-Insecure-Requests': '1',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'DNT': '1',
+    'Host': 'ipqualityscore.com',
+    'Accept-Encoding': 'gzip, deflate, lzma, sdch',
+    'Accept-Language': 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+}
 
 with open('Words.JSON', encoding='utf-8') as wf:
     words = json.load(wf)
@@ -96,6 +106,7 @@ class Reader:
                 # text = pytesseract.image_to_string(im, lang="rus")
 
                 try:
+                    iframe = 0
                     phishing = 0
                     sus = -1
 
@@ -111,6 +122,10 @@ class Reader:
                     if self.temp_url != curr_url or self.html_page != self.driver.page_source:
                         self.temp_url = curr_url
                         self.html_page = self.driver.page_source
+
+                        iframe_quantity = self.driver.find_elements_by_tag_name('iframe')
+                        if len(iframe_quantity) > 0:
+                            iframe = 1
 
                         # temp = re.findall('(?<=\.)\w+(?=\.)', curr_url)
                         temp = curr_url.split('.')
@@ -130,11 +145,12 @@ class Reader:
                                 phishing = 1
                                 break
 
-                        rank_data = requests.get(
-                            f'https://openpagerank.com/api/v1.0/getPageRank?API-OPR'
-                            f'=kco0goc4cwwgcog0ok08ckscsw0kcck0wg4840wg&domains[]={curr_url}')
+                        with urllib.request.urlopen(
+                                f'https://openpagerank.com/api/v1.0/getPageRank?API-OPR'
+                                f'=kco0goc4cwwgcog0ok08ckscsw0kcck0wg4840wg&domains[]={curr_url}') as url:
+                            rank_data = json.loads(url.read().decode())
 
-                        r = rank_data.json()['response'][0]['page_rank_decimal']
+                        r = rank_data['response'][0]['page_rank_decimal']
 
                         if r <= 3.36:
                             rank = -1
@@ -143,10 +159,13 @@ class Reader:
                         else:
                             rank = 1
 
-                        rank_data = requests.get(
-                            f'https://ipqualityscore.com/api/json/url/y5ag8EOGiHiBm8t5jxzRuR4D86C7Jz1t/{curr_url}')
+                        with urllib.request.urlopen(
+                                f'https://ipqualityscore.com/api/json/url'
+                                f'?key=y5ag8EOGiHiBm8t5jxzRuR4D86C7Jz1t'
+                                f'&fast=true'
+                                f'&url={curr_url}') as url:
+                            r = json.loads(url.read().decode())
 
-                        r = rank_data.json()
                         if not r['phishing']:
                             iqs_phishing = 0
                         else:
@@ -165,7 +184,7 @@ class Reader:
                             iqs_risk_score = 1
 
                         result = ML.check_strings(
-                            self.html_page, words, phishing, rank, sus, iqs_phishing, iqs_sus, iqs_risk_score)
+                            self.html_page, words, phishing, rank, sus, iframe, iqs_phishing, iqs_sus, iqs_risk_score)
 
                         if result == 1:
                             nf.notification(curr_url)
